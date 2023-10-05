@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   sodipodi:docname="Logo Lullaby.svg"
+   sodipodi:docname="LullabyLogo.svg"
    inkscape:export-filename="Logo Lullaby.png"
    inkscape:export-xdpi="546.0152"
    inkscape:export-ydpi="546.0152"
@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="191.97949"
-     inkscape:cy="192.86337"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="43.487067"
+     inkscape:cy="241.47697"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -522,14 +522,17 @@
        id="rect84"
        width="59.582001"
        height="57.342678"
-       x="24.087616"
-       y="19.924944" />
+       x="25.02306"
+       y="88.586487" />
     <circle
        style="opacity:1;fill:#483f58;fill-opacity:1;stroke:none;stroke-width:0.403001;stroke-opacity:1"
        id="path29"
        cx="53.878616"
        cy="46.599342"
-       r="23.222334" />
+       r="23.222334"
+       inkscape:export-filename=".\path29.png"
+       inkscape:export-xdpi="546.0152"
+       inkscape:export-ydpi="546.0152" />
     <circle
        style="fill:url(#pattern37);fill-opacity:1;stroke:none;stroke-width:0.403001;stroke-opacity:1"
        id="path29-7"
