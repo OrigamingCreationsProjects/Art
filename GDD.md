@@ -1,5 +1,8 @@
-# Lullaby
+# LULLABY
 ## 1. VERSIÓN
+Version 1.1. Determinar las primeros capítulos del GDD y empezar a completarlos
+Versión 1.2. Cambiar capitulos posterior al dos y completar 
+Version 1.3: Completar apartados secundarios 
 
 ## 2. INTRODUCCIÓN
 El presente Game Desing Document (GDD) proporciona una visión integral de “Lullaby”. A lo largo del documento se van a ir desarrollando y explorando los detalles conceptuales que atañan al desarrollo, las características que lo definen. 
@@ -46,8 +49,20 @@ Aunque se ha preferido no recargar la escena de objetos, cada elemento colocado 
 ### Jugabilidad
 ### Flujo de juego 
 ### Personajes(s) del jugador
+Como protagonista, Lulla es el móvil que pone en marcha los sucesos del juego. El mundo es su sueño, los enemigos, sus peores pesadillas manifestadas por Morfeo y por lo tanto su viaje es el del jugador.
+En cuanto a Lulla como personaje, las características que destacan son su inocencia, su determinación y la tristeza.
+
+
 #### Métricas del jugador 
 #### Habilidades del juagdor 
+El jugador contará con las siguientes habilidades: 
+- Salto
+- Doble salto
+- Airdash
+- Ataques físicos a corta distancia
+- Salto de pared a pared
+- Deslizamiento por railes
+
 #### Combate 
 ### Personajes enemigos
 #### Jefes
@@ -65,7 +80,20 @@ Aparecen desde la primera escena, y guiarán a Lulla por este mundo de ficción.
 
 
 ## 4. INTERFACES
+La interfaz de juego debe ser sencilla y despejada para facilitar el mayor rango de visión posible para el jugador.  
+Esta sencillez se caracteriza por una barra de sueño situada en la esquina superior izquierda. 
+
+La información contextual, por ejemplo, qué botón pulsar para hablar con un personaje, puede situarse en el inferior de la pantalla centrada, o puede integrarse dentro del mundo 3D en forma de “bocadillos” cerca o encima del objeto interactivo.  
+
+Se ha omitido el botón de pausa debido a que el movimiento del ratón irá asociado al movimiento de la cámara, por lo que no será posible clicar ningún botón con ratón ni con los joysticks. Para esto se hará a través de la tecla ESC y los botones del mando adecuados. Sin embargo, en la interfaz para móvil sí se debería añadir un botón ya que no hay otra alternativa de pausar el juego 
+
 ###  Diagramas de flujo de interfaces
+### Sistema HUD
+#### Salud
+La salud se mide con una barra que se rellena con contenedores de sueño los cuales se pueden obtener al derrotar enemigos o destruir objetos. 
+Al perder toda la salud (sueño) el personaje despertará y por tanto se acabará la partida, teniendo que empezar desde el último punto de control. El sistema de puntos de control funciona de tal manera que cuando el jugador llega a uno, se guarda esa ubicación para que se regrese a la última más cercana cuando pierda o se caiga al vacío. 
+
+#### Modificadores de estado
 ### Pantalla de incio 
 ### Otras pantallas
 #### Pantalla de carga
@@ -78,9 +106,8 @@ Aparecen desde la primera escena, y guiarán a Lulla por este mundo de ficción.
 ### Título del Nivel
 ### Ficha
 
-## Sistema HUD
-### Salud
-### Modificadores de estado 
+
+
 ## Objetos 
 ### Recompensas
 ### Coleccionables
