@@ -14,13 +14,19 @@ Conforme se va avanzo en el juego, la historia lo hace en paralelo para que la n
 Asimismo, el avance la historia nos irá acompañando incluso cuando el personaje ha muerto, es decir, tendremos puntos de control alojados a lo largo del juego para mantener activos cada cambio sucedido con anterioridad.  
 
 ### Público general
-Es un juego orientado a un público joven de entre 12 y 25 años. Está enfocado de esta forma para aquellos que disfruten de los juegos de plataformas, combate y aventura. El límite se fija de acuerdo a las normas PEGI en 7 ya que `Lullaby’ cuenta con monstruos de aspecto animal y no humanoide. 
-Viene dado por el sistema de combate semi-realista para evitar comportamientos violentos no deseados en la vida real. 
+Es un juego orientado a un público joven de entre 12 y 25 años. Está enfocado de esta forma para aquellos que disfruten de los juegos de plataformas, combate y aventura. 
+El límite se fija de acuerdo a las normas PEGI en 7 por dos motivos fundamentales:
+- *Lullaby* cuenta con monstruos de aspecto animal y no humanoide que pueden asustar a los más pequeños.
+- El juego añade un sistema de combate semi-realista, por lo que para tratar de evitar comportamientos violentos en la vida real se busca una edad en la que sepan diferenciar realidad y ficción. 
+El usuario no necesita contar con habilidades específicas o haber jugado a otros juegos similares para poder jugar a este. En el propio juego se aprenden las habilidades motoras y mentales necesarias para completarlo.
 El jugador tendrá que hacer uso de sus habilidades aprovechando las mecánicas que brinda el juego como salto, doble salto, airdash, lucha con enemigos y mucho más, mientras presencia una emotiva historia que le dejará marcado.  
 
 ### Próposito de juego 
+El objetivo principal de este juego es entretener al jugador y ofrecerle un juego que reta sus habilidades motoras y psicológicas adquiridas con los videojuegos. 
+Como objetivo secundario el juego puede ser utilizado para enseñar algunas partes del pensamiento computacional a todos los jugadores, pero en especial a los niños. Para ello hay una serie de métricas que podrán ser monitorizadas por padres, profesores, psicólogos y otros profesionales relacionados con los infantes mientras los niños juegan. 
 
 #### Métricas de pensamiento computacional 
+A continuación, se detallan las métricas que se van a poder monitorizar externamente al juego y en qué parte del juego se encuentran los elementos que enseñan cada sección del pensamiento computacional. 
 
 ### Plataformas
 Lullaby estará disponible para WebGL siendo posible jugarlo desde pc con mando o teclado y ratón y desde móvil con controles táctiles.  
@@ -35,15 +41,34 @@ A pesar de la firmeza de Morfeo, Lulla se encamina en una desafiante búsqueda y
 La lucha por mantéese dormida y permanecer en ese mundo, se convierte en un desafío extraordinario por alcanzar su objetivo donde Lulla refleja la valentía y el autodescubrimiento. 
 
 ### Género 
-Se trata de un juego de plataforma acción-aventura. Al ser un género hibrido los dos que abarca se combinan entre sí. Al ser un videojuego de plataformas el énfasis se hace en la mecánica de mover al personaje a través de los escenarios o niveles llenos de superficies flotantes. Esto implica utilizar movimientos como escalar correr, evitar trampas o derrotar enemigos La presión es fundamental ya que el jugador debe sortear desafíos para avanzar.  Asimismo, se complementa con el de acción- aventura al focalizarse en el avance de una narrativa rica junto con la resolución de problemas y rompecabezas, donde el jugador asume el papel en un mundo de ficción. 
+Se trata de un juego de plataforma acción-aventura. Al ser un género hibrido los dos que abarca se combinan entre sí. 
+Por ser un videojuego de plataformas, la mecánica principal consiste en mover al personaje a través de los escenarios o niveles llenos de superficies y desniveles, haciendo uso de las habilidades de salto y dash, y las mecánicas derivadas de estas, como doble salto, escalar por paredes, agarrarse de cornisas, etc. 
+Asimismo, se complementa con el género de acción-aventura al añadir elementos de combate y enemigos que derrotar para poder avanzar, así como una narrativa que acompaña al jugador a medida que resuelve puzles y rompecabezas, habla con personajes y descubre secretos del mundo de fantasía en el que se desarrolla todo. 
 
 ### Estilo visual 
-En el estilo visual se ha enfocar en un videojuego en 3D. Como el juego está centrado en un mundo de fantasía se ha podido contar con una libertad artística y un estilo de visual muy amplio.  Al ser un mundo irreal se ha permitido al equipo de arte y diseño experimentar entre las cosas mundanas para colocarlas dentro de este mundo onírico. La posibilidad de lo imposible ha hecho que los artistas pudieran recrearse en la inherencia y lo irracional para cohesionar una historia fantástica. 
+#### Personajes y escenarios 
+El estilo visual se ha enfocar en un videojuego en 3D en específico low poly o de baja poligonización. La razón de esto es que el juego tiene que estar disponible para WebGL y debe poder jugarse en multitud de dispositivos, tanto ordenadores como móviles.
+Como herramienta se ha utilizado Miro para crear un tablero en el que adjuntar referencias de escenarios y personajes con el fin de encontrar una estética adecuada al tipo de juego, la narrativa, el público objetivo y el propósito del juego. Además, se ha añadido un apartado donde el equipo de diseño puede subir sus bocetos y proponer posibles combinaciones de estos para crear los modelos 3D. 
 
-El hilo conductor de la fantasia tomada como protagonista en el desarrollo de la narrativa ha hecho que se unifiquen la realidad y la creatividad. Se han empleado colores asociados a la magia y se ha elaborado una paleta de color cuyo peso es la gama morada. Se pretende crear una atmósfera etérea conjugándolo con una iluminación mágica que trasporte al jugador. 
+Los personajes siguen una estética cartoon, siendo entrañables y adorables, pero sin llegar a ser infantiles. 
 
-Se ha preferido optar por un estilo low poly dadas las circunstancias de que tiene que estar disponible para WebGL. Los escenarios se presentan al estilo visual 3D donde los modelos tienen una geometría simple y una estética sencilla, pero a la vez encantadora.  
-Aunque se ha preferido no recargar la escena de objetos, cada elemento colocado tiene un significado narrativo dentro del diseño del nivel.  
+Los escenarios tienen una geometría simple y una estética sencilla, pero a la vez encantadora.  Aunque se ha preferido no recargar la escena de objetos, cada elemento colocado tiene un significado narrativo dentro del diseño del nivel. 
+Los elementos del entorno son objetos cotidianos, pero se usan de una forma fuera de lo común. Así encontramos ejemplos como piruletas que actúan a modo de árboles. La razón detrás de esta decisión de diseño es que el juego está ambientado en un mundo de fantasía como es el Reino de los Sueños, por lo que se cuenta con mucha libertad artística y un rango de estilos visuales muy amplio.  
+
+Además, al tratarse de un mundo de irreal, el equipo de arte y diseño puede experimentar entre las cosas mundanas para distrsionarlas y colocarlas dentro de este mundo onírico. La posibilidad de lo imposible ha hecho que los artistas pudieran recrearse en la inherencia y lo irracional para cohesionar una historia fantástica. 
+
+El hilo conductor de la fantasia tomada como protagonista en el desarrollo de la narrativa ha hecho que se unifiquen la realidad y la creatividad. 
+
+#### Paleta de color 
+La paleta de colores está asociada a lo que comúnmente se relaciona con la magia y lo onírico, por lo que, por lo que, para mostrar persistencia, la mayor parte del peso lo conforman los colores morados y violetas. Con ello se pretende crear una atmósfera etérea conjugándolo con una iluminación mágica que trasporte al jugador. 
+
+- Olivine (AFC485). Un color verde claro, ligeramente desaturado, que se utiliza en los elementos del entorno para aportar frescura en la paleta y romper la monocromía de los morados. Se utiliza sobre todo para mantener vigente el mundo real y que no se sienta tan desligado a lo que los jugadores conocen. 
+- Powder Blue (9BB7D7). Un color azul claro pastel, de nuevo desaturado,que se encuentra en armonía con los tonos morados y verde y sirve de puente entre estos. Se utiliza en elementos del entorno para romper de nuevo la monocromía.
+- Thistle (CEBACF). Es el color más claro de la paleta. Es usado para elementos que necesitan enfatizar sutilmente sobre el resto, pero sin llamar demasiado la atención del usuario. Es el color predominante en el personaje jugable ya que es el color de la lana, representando la inocencia de Lulla. A su vez con ello conseguimos destacarla por encima del resto de elementos del escenario
+- Pomp and Power (8D5A97). Es el color predominante de la paleta, se encontrará en la mayor parte de los elementos del mundo dando ese toque de fantasía y magia
+-   
+Esta paleta de colores es la principal del juego. En cada nivel o zona del juego predominarán más unos colores u otros, además de no tener que utilizar los colores exactos de la paleta. Para ello se proporciona una herramienta que permite crear degradados entre los colores de la paleta para crear nuevos tonos que usar. 
+
 
 ## 3. MÉCANICAS DE JUEGO 
 ### Jugabilidad
