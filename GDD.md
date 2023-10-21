@@ -12,7 +12,7 @@ Se especificará el propósito y el aspecto visual que define la inmersión del 
 ### Concepto general 
 *Lullaby* es un videojuego de plataformas 3D que se desarrolla en “Alora”, el mundo de los sueños, donde los jugadores deben conseguir la nana perdida para seguir con sueño y mantenerse en este reino.  
 
-Conforme se va avanzo en el juego, la historia lo hace en paralelo para que la narrativa para enriquecer la experiencia del jugador. 
+Conforme se va avanzando en el juego, la historia lo hace en paralelo para que la narrativa para enriquecer la experiencia del jugador. 
 Asimismo, el avance la historia nos irá acompañando incluso cuando el personaje ha muerto, es decir, tendremos puntos de control alojados a lo largo del juego para mantener activos cada cambio sucedido con anterioridad.  
 
 ### Público general
@@ -28,6 +28,34 @@ El objetivo principal de este juego es entretener al jugador y ofrecerle un jueg
 Como objetivo secundario el juego puede ser utilizado para enseñar algunas partes del pensamiento computacional a todos los jugadores, pero en especial a los niños. Para ello hay una serie de métricas que podrán ser monitorizadas por padres, profesores, psicólogos y otros profesionales relacionados con los infantes mientras los niños juegan. 
 #### Métricas de pensamiento computacional 
 A continuación, se detallan las métricas que se van a poder monitorizar externamente al juego y en qué parte del juego se encuentran los elementos que enseñan cada sección del pensamiento computacional. 
+- Abstracción
+- Descomposición
+- Generalización
+#### Abstracción 
+Centrándose sobre todo en el reconocimiento de los elementos clave de un problema y el reconocimiento de patrones.  
+Estas destrezas se podrán medir principalmente en el combate contra el jefe final. En este combate el jefe final realizará 3 patrones de comportamiento en las diferentes fases del combate. 
+
+En la fase 1 el jefe se dividirá en 4 copias de sí mismo en un cierto orden, cada copia será de un color diferente por lo que se podrán distinguir entre sí. Estas copias deben ser golpeadas en el orden que se han dividido ya que, de no hacerlo, provocará daño al personaje. El jugador debe reconocer este patrón y llegar a la conclusión de que debe golpearlos en orden.  
+
+En la fase 2 el patrón de comportamiento cambia y el jefe final se aleja a una zona sin suelo.  La imposibilidad de que el jugador lo golpee físicamente hará que se abra una nueva forma de ataque a distancia. El villano lanzará bolas de energía que el jugador debe golpear (posiblemente en un orden) para conseguir hacerle daño. De esta manera el elemento clave será reconocer el orden y devolverlas ante el impedimento de no poder luchar cuerpo a cuerpo. 
+
+Además, los enemigos siguen patrones de movimiento que permiten al jugador identificar rutas, lo que facilita la opción de evitarlos o tomarlos por sorpresa.  
+La métrica principal que se utilizará para medir estas destrezas es el tiempo que pasa desde que se le plantea el problema al jugador hasta que detecta los elementos clave y reconoce el patrón para llegar a la solución. 
+Una métrica adicional que se podrá emplear es el número de veces que el jugador es derrotado antes de identificar el patrón y los elementos clave del problema. 
+#### Generalización 
+Para esta métrica nos hemos centrado sobre todo en resolver problemas basándose en soluciones anteriores y en la identificación de conexiones, similitudes e inducción.  
+
+A lo largo del juego se presentan diferentes puzles que requieren el uso de mecánicas iya introducidas previamente en el juego, como presionar botones, saltar, realizar un air dash o utilizar la mecánica de salto en la pared. La primera vez que el jugador deba realizar una de estas mecánicas, se le mostrará una ilustración en ciertos carteles ubicados en el mundo, explicándole cómo debe realizar la acción. 
+A medida que se avance en el juego, estas mecánicas seguirán siendo necesarias para la progresión, pero ya no se le indicará al jugador. En su lugar, deberá deducir por sí mismo la necesidad de estas a lo largo del juego reforzando de esta manera el pensamiento computacional. 
+
+La métrica principal para evaluar estas habilidades será el tiempo que el jugador requiere para abordar una situación familiar y resolverla utilizando las mecánicas o recursos ya aprendidos.
+Además, con ello también se mide el tiempo que necesita el jugador para identificar dentro de los problemas nuevos similitudes ya aprendidas, aunque la estructura sea distinta. Esto implica adaptar los conocimientos a la nueva situación del juego. 
+#### Descomposición 
+En esta métrica se focaliza en la descomposición de problemas en otros más pequeños.  
+Esta habilidad se puede medir en los distintos puzles que se plantean a lo largo del mundo. En cada uno de ellos, el jugador deberá identificar los recursos que puede emplear para resolver problemas pequeños que, en última instancia, conducen a una solución más grande 
+
+La métrica principal que se utilizará para medir estas destrezas es el tiempo que transcurre desde que se le plantea el problema al jugador hasta que detecta los elementos clave y aborda las tareas por separado hasta alcanzar la solución final.  
+Otra alternativa es el tiempo que le toma resolver cada pequeño problema desde que se le ha planteado el problema global. 
 
 ### Plataformas
 Lullaby estará disponible para WebGL siendo posible jugarlo desde pc con mando o teclado y ratón y desde móvil con controles táctiles.  
@@ -75,25 +103,28 @@ Esta paleta de colores es la principal del juego. En cada nivel o zona del juego
 A continuación, se muestran algunos ejemplos de paletas degradadas entre dos colores principales de la paleta. 
 #### Isotipo y logotipo
 El isotipo del juego está inspirado en el imaginario social que existe alrededor de la idea de dormir y de soñar. Es por ello que todos los elementos que se han incorporado a él están relacionados con ello. 
+La razón detrás de estos temas elegidos para el isotipo es representar qué está haciendo Lulla en el mundo real mientras explora el Reino de los Sueños
+
 - Luna. Un icono estrechamente relacionado con la noche siempre ha sido el uso de la luna, en especial la creciente y la menguante. De la misma forma, este símbolo también se asocia a la acción de dormir y de soñar. La forma de la luna a su vez recuerda a una cuna o un nido, que es donde duermen los infantes y las crías de algunos animales.
-- Móvil de estrellas. Los móviles que se colocan en las cunas de los bebés y los niños se usan, entre otras cosas, para que se relajen y duerman tranquilamente. Es por ello que se ha aprovechado la forma de las estrellas, muy relacionadas con la noche, los sueños y frecuentemente asociadas a la luna, como el objeto que cuelga en este móvil. Además, se aprovecha así la forma de la luna para hacer que cuelguen las estrellas de ahí.
+- Móvil de estrellas. Los móviles que se colocan en las cunas de los bebés y los niños se usan, entre otras cosas, para que se relajen y duerman tranquilamente. Es por ello que se ha aprovechado la forma de las estrellas, muy relacionadas con la noche, como el objeto que cuelga en este móvil. Además, se aprovecha así la forma de la luna para hacer que cuelguen las estrellas de ahí.
 - Manta. Para simular a la protagonista del juego dormida se utiliza una manta colgando de la luna, consiguiendo transmitir que Lulla se encuentra soñando.
 - Cielo estrellado. De forma general, los sueños y la acción de dormir se relacionan con un cielo nocturno, muchas veces lleno de estrellas.
 - Colores. Utilizando la paleta de color del juego y algunas paletas de degradados se han relacionado los colores “oníricos” y “de fantasía” que se usan en el juego con los colores para “dormir” y de “tranquilidad”. Además, se mantiene una relación entre los colores con el parecido a la realidad, la luna de un color más claro y el cielo que simula la noche de un color más oscuro.
 
 El logotipo, por su parte, utiliza como base una tipografía de uso libre y 100% gratuita llamada “Spicy Chips” y está formado por la palabra “Lullaby”, que es el título del juego. 
-El logotipo cuenta con una modificación en la letra “b” simulando ser una nota de música. Para mantener la coherencia la corchea se ha volteado horizontalmente, perdiendo así cualquier connotación musical.
+
+El logotipo cuenta con una modificación en la letra “b” simulando ser una corchea musical. Para que este elemento siga actuado como una letra ”b”, la corchea se ha volteado horizontalmente, a pesar de que no existe una nota musical válida en esa dirección. 
 Esta decisión de diseño se ha tomado porque la música tiene un sentido narrativo y relaciona el título del juego, cuya traducción al español es nana o canción de cuna, con la parte musical y con el objetivo que tiene la protagonista dentro del juego.
 
-Se mantiene una relación de colores entre el isotipo y el logotipo para que se pueden usar junto o separado indistintamente. 
+Se mantiene una relación de colores entre el isotipo y el logotipo para que se pueden usar junto comjo imagotipo o separado indistintamente. 
 #### Interfaces y pantallas
 Las interfaces y las distintas pantallas también siguen la paleta de colores que se ha presentado. Sin embargo, en las pantallas e interfaces se usa el 2D para los distintos elementos como botones, indicadores, cuadros de diálogo, etc. 
-De la misma forma, las interfaces no se centran tanto en simular un mundo fantástico, sino que utilizan elementos relacionados con la trama y el tema general de dormir y soñar, como son la luna, las estrellas o el día y la noche 
-
+De la misma forma, las interfaces no se centran tanto en simular un mundo fantástico, sino en utilizan elementos relacionados con la trama y el tema general de dormir y soñar, como son la luna, las estrellas o el día y la noche. 
 
 ## 3. NARRATIVA
 ### Personajes
 #### Lulla
+
 Lulla es el centro de la trama del juego. Se trata de una protagonista caracterizada por su inocencia, su determinación y la tristeza que la mueve a querer soñar permanecer en ese mundo de fantasía. 
 - Inocencia: se trata de una niña inocente, nacida y criada con el amor de una madre cariñosa y una vida apacible. El diseño de Lulla busca transmitir una apariencia inocente, tierna y amable, utilizando formas circulares en su cuerpo, ojos grandes y colores claros, así como unas animaciones de caminar, saltar y atacar risueñas y despreocupadas.
 - Determinación. A pesar de ser una niña y tener una apariencia tierna, Lulla lucha contra sus pesadillas, avanzando sin detenerse en su objetivo.
