@@ -1,4 +1,7 @@
 # LULLABY
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Logos/LullabyLogoCircle.png" width = "auto" height = "150">
+</p>
 ## 1. VERSIÓN
 Version 1.1. Determinar las primeros capítulos del GDD y empezar a completarlos
 Versión 1.2. Cambiar capitulos posterior al dos y completar 
@@ -104,7 +107,9 @@ A continuación, se muestran algunos ejemplos de paletas degradadas entre dos co
 #### Isotipo y logotipo
 El isotipo del juego está inspirado en el imaginario social que existe alrededor de la idea de dormir y de soñar. Es por ello que todos los elementos que se han incorporado a él están relacionados con ello. 
 La razón detrás de estos temas elegidos para el isotipo es representar qué está haciendo Lulla en el mundo real mientras explora el Reino de los Sueños
-
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Logos/LullabyLogoCircle.png" width = "auto" height = "150">
+</p>
 - Luna. Un icono estrechamente relacionado con la noche siempre ha sido el uso de la luna, en especial la creciente y la menguante. De la misma forma, este símbolo también se asocia a la acción de dormir y de soñar. La forma de la luna a su vez recuerda a una cuna o un nido, que es donde duermen los infantes y las crías de algunos animales.
 - Móvil de estrellas. Los móviles que se colocan en las cunas de los bebés y los niños se usan, entre otras cosas, para que se relajen y duerman tranquilamente. Es por ello que se ha aprovechado la forma de las estrellas, muy relacionadas con la noche, como el objeto que cuelga en este móvil. Además, se aprovecha así la forma de la luna para hacer que cuelguen las estrellas de ahí.
 - Manta. Para simular a la protagonista del juego dormida se utiliza una manta colgando de la luna, consiguiendo transmitir que Lulla se encuentra soñando.
@@ -189,6 +194,15 @@ Eos vaga por el mundo de los sueños levitando, esperando órdenes de Morfeo. Un
 ### StoryBoard
 
 ### Escenas y cinemáticas
+El juego tendrá dos tipos de escenas no jugables: viñetas con dibujos 2D y pequeñas cinemáticas 3D dentro del mismo gameplay.  
+Una vez explicado el diseño artístico de las escenas no jugables, se desarrollará su contenido y propósito en el juego. 
+- Cinemática inicial: 
+La cinemática se encarga de presentar brevemente a Lulla y poner en contexto al jugador, ya que este necesita saber que está en el mundo de los sueños. Además, da algunas pinceladas de información sobre el desarrollo de la trama y prepara el giro argumental más importante, puesto que en una de las viñetas aparece la silueta de la madre de Lulla.  
+Seguidamente, se darán unas explicará la información brevemente relativa  sobre viñeta:
+- Primera conversación con George y Byron: 
+Esta es la primera interacción de Lulla con los NPC aliados, y ocurre nada más superar los primeros obstáculos de la primera zona. En estas primeras instancias de juego, George y Byron se han ubicado de manera planeada para indicar al jugador el camino a seguir.  
+Narrativamente, los dos aliados de Lulla cumplen una función similar a su contraparte de ritmo de juego: recibir a Lulla y guiarla en sus primeros pasos por el mundo de los sueños, ya que todo lo soñado se termina olvidando al despertar.  
+A continuación, el diálogo completo de esta escena: 
 
 
 ## 4. GAMEPLAY
@@ -248,11 +262,23 @@ Características:
 #### Controles
 El juego cuenta con 3 tipos de controles diferentes, entre ellos se encuentran teclado y ratón, móvil y gamepad (PlayStation, Nintendo, Xbox o cualquiera genérico). Además, los indicadores contextuales del juego se adaptan en función del tipo de control que se está usando. 
 ##### PlayStation
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/PLAY_ControlsComplete.png" width = "auto" height = "150">
+</p>
 ##### XBOX
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/XBOX_ControlsComplete.png" width = "auto" height = "150">
+</p>
 ##### Dispositivos móviles
 En dispositivos móviles los controles estarán superpuestos en la interfaz, con un joystick para el movimiento, 4 botones para las acciones principales, un botón para la pausa en la esquina superior derecha y para mover la cámara basta con deslizar el dedo en la mitad derecha de la pantalla. 
 ##### Switch
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/SWITCH_ControlsComplete.png" width = "auto" height = "150">
+</p>
 ##### PC
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/PC_ControlsComplete.png" width = "auto" height = "150">
+</p>
 #### Cámaras
 La cámara utilizada en el juego durante la jugabilidad es una cámara en 3ª persona con movimiento libre. 
 Esta cámara cuenta con una función que hace que se acerque al jugador cuando encuentra un obstáculo sólido que no debe traspasar, por ejemplo, una pared o el suelo. 
@@ -263,11 +289,13 @@ Para las cinemáticas se cuenta con diferentes cámaras colocadas estratégicame
 ## 5. INTERFACES
 La interfaz de juego debe ser sencilla y despejada para facilitar el mayor rango de visión posible para el jugador.  
 
-### Intrfaz de juego
+### Interfaz de juego
 Esta sencillez se caracteriza por una barra de sueño situada en la esquina superior izquierda. 
 La interfaz de juego debe ser sencilla y despejada para facilitar el mayor rango de visión posible para el jugador.  
 Por ello, el jugador solo dispondrá de la barra de sueño (o vida) en la esquina superior izquierda. Esta barra tiene una animación simulando el líquido de una lámpara de lava, con los colores morados y azules de la paleta, y cuenta con un reborde de un color que lo resalte del escenario 3D. También tendrá un icono que será el mismo de los elementos 3D que se sitúan por el escenario y que al recogerlos recargan esta barra. 
-
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/HUD/HUDSketch2.jpg" width = "auto" height = "150">
+</p>
 La información contextual que aparece para interactuar con los elementos de la escena puede situarse en el inferior de la pantalla centrada, o puede integrarse dentro del mundo 3D en forma de “bocadillos” cerca o encima del objeto interactivo. 
 La opción más atractiva visualmente y que mejor encaja con la estética que se quiere conseguir es la segunda, además de aumentar la cohesión entre el 2D y el 3D del juego. Es por ello que cuando el jugador se acerca a un elemento interactivo aparece un pequeño “bark”  o burbuja encima del elemento con un icono del botón a pulsar para interactuar con él. 
 Como se detectan los controles que se están usando, cuando se juega con teclado y ratón o con mando se omite el botón de pausa debido a que el movimiento del ratón y del joystick izquierdo irá asociado al movimiento de la cámara, por lo que no será posible clicar ningún botón con ratón ni con los joysticks. 
