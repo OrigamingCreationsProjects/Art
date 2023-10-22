@@ -228,36 +228,92 @@ Aparecen desde la primera escena, y guiarán a Lulla por este mundo de ficción.
 
 ## 5. INTERFACES
 La interfaz de juego debe ser sencilla y despejada para facilitar el mayor rango de visión posible para el jugador.  
+
+### Intrfaz de juego
 Esta sencillez se caracteriza por una barra de sueño situada en la esquina superior izquierda. 
+La interfaz de juego debe ser sencilla y despejada para facilitar el mayor rango de visión posible para el jugador.  
+Por ello, el jugador solo dispondrá de la barra de sueño (o vida) en la esquina superior izquierda. Esta barra tiene una animación simulando el líquido de una lámpara de lava, con los colores morados y azules de la paleta, y cuenta con un reborde de un color que lo resalte del escenario 3D. También tendrá un icono que será el mismo de los elementos 3D que se sitúan por el escenario y que al recogerlos recargan esta barra. 
 
-La información contextual, por ejemplo, qué botón pulsar para hablar con un personaje, puede situarse en el inferior de la pantalla centrada, o puede integrarse dentro del mundo 3D en forma de “bocadillos” cerca o encima del objeto interactivo.  
+La información contextual que aparece para interactuar con los elementos de la escena puede situarse en el inferior de la pantalla centrada, o puede integrarse dentro del mundo 3D en forma de “bocadillos” cerca o encima del objeto interactivo. 
+La opción más atractiva visualmente y que mejor encaja con la estética que se quiere conseguir es la segunda, además de aumentar la cohesión entre el 2D y el 3D del juego. Es por ello que cuando el jugador se acerca a un elemento interactivo aparece un pequeño “bark”  o burbuja encima del elemento con un icono del botón a pulsar para interactuar con él. 
+Como se detectan los controles que se están usando, cuando se juega con teclado y ratón o con mando se omite el botón de pausa debido a que el movimiento del ratón y del joystick izquierdo irá asociado al movimiento de la cámara, por lo que no será posible clicar ningún botón con ratón ni con los joysticks. 
+Para pausar cuando se usen estas entradas se hará a través de la tecla ESC y los botones del mando adecuados.  
+Sin embargo, en la interfaz para móvil sí se encuentra el botón, ya que no hay otra alternativa para poder pausar el juego. 
+#### Interfaz de juego en dispositivos móviles 
+Si el usuario está jugando al juego desde un dispositivo móvil se superpone a la interfaz del juego base los siguientes elementos: 
+- Joystick de movimiento. Se sitúa en la parte inferior izquierda de la pantalla y controla el movimiento del personaje.
+- Cruz de botones A/B/X/Y. Se sitúan en la parte inferior derecha de la pantalla y tienen las mismas acciones asociadas que los botones de un mando físico.
+- Botón de pausa. Se sitúa en la parte superior derecha y permite al usuario pausar el juego.
 
-Se ha omitido el botón de pausa debido a que el movimiento del ratón irá asociado al movimiento de la cámara, por lo que no será posible clicar ningún botón con ratón ni con los joysticks. Para esto se hará a través de la tecla ESC y los botones del mando adecuados. Sin embargo, en la interfaz para móvil sí se debería añadir un botón ya que no hay otra alternativa de pausar el juego 
+### Diálogos
+Los diálogos siguen el estilo de los del juego Animal Crossing, situando a Lulla en un lado de la pantalla y al NPC en el otro lado. Para ello cuando se interactúe con un personaje y se abra la interfaz de diálogo, previamente habrá un movimiento de cámara para situar a los personajes en esta posición. 
+La interfaz de diálogo consiste en una nube donde aparece la conversación que está teniendo lugar. Sobre esta nube se sitúa una pequeña etiqueta con el nombre del personaje que está hablando en la parte superior izquierda. A su vez, en la parte inferior derecha se encuentra el botón o la tecla asignada a continuar con el diálogo. 
+
+### Tutoriales
+Los tutoriales son in-game y aparecen al acercarse a la parte delantera de un objeto designado única y exclusivamente para los tutoriales llamado cartel. 
+Cuando el jugador entra en la zona designada, aparece sobre el cartel una pequeña ventana integrada en el mundo 3D que muestra el tutorial a aprender. 
+La ventana tiene forma de nube y los tutoriales están dibujados como si fueran bocetos y en ellos se muestra el botón a pulsar para realizar esa acción a aprender. En la parte superior de la ventana se sitúa el título del tutorial. 
+Para salir del tutorial el jugador debe alejarse y salir del rango del cartel, y esta burbuja se cierra. De esta forma no se interrumpe el movimiento del jugador ni se vuelve intrusivo para él. 
 
 ###  Diagramas de flujo de interfaces
-### Sistema HUD
-#### Salud
-La salud se mide con una barra que se rellena con contenedores de sueño los cuales se pueden obtener al derrotar enemigos o destruir objetos. 
-Al perder toda la salud (sueño) el personaje despertará y por tanto se acabará la partida, teniendo que empezar desde el último punto de control. El sistema de puntos de control funciona de tal manera que cuando el jugador llega a uno, se guarda esa ubicación para que se regrese a la última más cercana cuando pierda o se caiga al vacío. 
+En el siguiente diagrama podemos observar cómo interaccionan las diferentes interfaces entre sí y cómo se pasa de una a otra. 
 
-#### Modificadores de estado
 ### Pantalla de incio 
-### Otras pantallas
-#### Pantalla de carga
-#### Pantalla de pausa
-#### Patalla de controles
-#### Pantalla de usuario 
+La pantalla de inicio es la pantalla principal del juego desde la que el usuario va a poder acceder a otras pantallas y va a poder iniciar una partida. 
+Es por ello que debe ser una pantalla que capture la esencia del juego, pero sin desvelar la trama y los secretos del mismo. 
+Es por ello que se han barajado varias posibles opciones de pantalla de inicio, todas con su propuesta de disposición, de botones y de gráficos de fondo. En ambos casos, el logo y el título permanecen inalterados, ya que es una parte importante de la pantalla de inicio y debe ocupar gran parte de la pantalla y estar centrado en ella. 
+El diseño final de la pantalla de inicio tiene a Lulla dormida plácidamente, con un cielo estrellado sobre ella. La luna es el logo del juego y al seleccionar un botón de la lista de opciones, este se decora con una estrella a cada lado y se subraya. 
+La pantalla de inicio cuenta con los siguientes botones: 
+- Jugar. Al pulsarlo comienza una partida del juego.
+- Opciones. Permite acceder a la configuración, donde podrán editarse ajustes de imagen y sonido.
+- Controles. A través de él se accede a la pantalla donde se muestran los controles para todas las entradas que acepta el juego.
+- Contacto. Abre una página en el navegador con el Beacons del equipo de desarrollo.
+- Salir. Cierra el juego en la versión local.
+  
+### Pantalla de carga
+Esta pantalla aparece cuando se acede a una nueva partida, informando al jugador de que se están cargando los recursos del juego. 
+Para proporcionar información constante al jugador de que el juego sigue cargando y no se ha quedado colgado hay una animación que se repite en bucle. De esta forma también conseguimos que la pantalla no sea estática y no aburra al jugador.
+El estilo final de la pantalla será un fondo de un cielo nocturno con una gran luna llena y unas nubes que la acompañan. En la parte inferior de la pantalla aparecerá el texto “Cargando...” y la animación de las estrellas girando. 
+
+### Pantalla de pausa
+Esta pantalla es accesible al pausar el juego, ya sea a través de la tecla asignada al teclado y al mando o a través del botón de pausa en dispositivos táctiles. 
+La pausa es una pantalla que se superpone al juego, por lo que se verá en todo momento el estado en el que se ha quedado el jugador al pausar. Está titulada con un texto “Pausa” que indica que estás parado. 
+Se superpone la barra de sueño descrita en la interfaz de juego para que el usuario sepa en todo momento la “vida” de la que dispone. 
+De la misma forma, encontramos una lista de botones con los que el usuario puede interactuar. El estilo visual de estos sigue el descrito para los botones de la pantalla de inicio. 
+- Continuar. Des-pausa el juego.
+- Opciones. Accede a la pantalla de configuración.
+- Controles. Accede a la pantalla de controles.
+- Salir. Permite al usuario volver a la pantalla de inicio. Se le informará antes de salir de que con esta acción perderá todo lo que ha jugado hasta el momento y se pedirá la confirmación. 
+
+La estética que esta pantalla trata de simular es la de que el juego pausado es un reflejo en la superficie de la luna que está en el cielo nocturno y que está ligeramente tapada por una nube. 
+
+### Patalla de controles
+### Pantalla de usuario 
 ### Créditos
 
 ## 6. NIVELES
-### Título del Nivel
-### Ficha
-
-
-
-## Objetos 
-### Recompensas
-### Coleccionables
+### Diseño de niveles
+Con el fin de proporcionar un análisis y una descripción detallada del diseño de niveles se analizarán en primer lugar los elementos generales del mundo. Se especificarán desde los tipos de plataformas y elementos dañinos para el jugador, hasta las combinaciones entre amabas para generar puzles y así aumentar la dificultad a lo largo del juego. Además, se determinará cómo superar dichas adversidades.  
+Antes de comenzar con ello, se describirán los niveles y la separación del juego.  
+Habrá dos niveles tal y como los conocemos, de aproximadamente 20 minutos de duración cada uno. El primer nivel se divide en dos partes, siendo la primera “el tutorial” a nivel de mecánicas de movimiento básicas, y la segunda para afianzarlas e introducir la mecánica de lucha.  Este enfoque se implementa con el propósito de brindar al jugador la sensación de progreso y evitar la monotonía al ofrecer elementos que ya conoce. Al mismo tiempo, se busca que los entusiastas de las plataformas no se aburran o se sientas restringidos.  
+Se ha decidido dividir en mitades los niveles para que el jugador pueda ver los cambios de una manera clara, pero a su vez para que la jugabilidad no se interrumpa de forma abrupta. Cada vez que termine una mitad se introducirá un elemento nuevo, marcando así la diferencia y el nuevo nivel de dificultad entre una parte y otra. El segundo nivel también se dividirá en dos partes: la primera incluirá la introducción de un nuevo enemigo más complejo, y la segunda constará de la pelea final contra el jefe. 
+Elementos de los niveles: 
+- Bloques de salto básico: Es un bloque de altura determinada para que el jugador salte una única vez. Habrá zonas amplias diseñadas para permitir al jugador la posibilidad de explorar el mundo a pesar de tener un camino principal establecido. De esta manera, se proporcionan rutas alternativas para que el jugador no se sienta limitado y pueda investigar o experimentar cierta sensación de libertad en el mundo En esta imagen se intenta representar lo dicho anteriormente; el jugador puede ente plataformas con distinto nivel de altura o puede optar por el camino de altura inferior para llegar a la siguiente plataforma.
+- Bloques y columnas de doble salto: Los bloques y las columnas de doble salto son elementos del mundo que se presentarán para introducir el concepto del doble salto, que adquirirá una mayor complejidad en etapas posteriores del juego. Al igual que en el apartado anterior, se ofrecerán múltiples opciones de camino dentro del recorrido que el jugador debe seguir. En la imagen proporcionada, se ilustra lo mencionado, permitiendo al jugador saltar entre las columnas o explorar la parte trasera de la imagen para intentar abordar las columnas desde una perspectiva diferente.
+- Plataformas móviles: Son plataformas situadas en el aire que esbozarán diferentes movimientos, vertical (en el eje y en ambas direcciones), horizontal (en los ejes x, y z) creando diferentes patrones que se definirán a continuación.
+    - Movimiento circular:  En secuencias de tres plataformas, la plataforma central permanecerá estática, mientras que las dos plataformas adyacentes realizarán un movimiento circular rotativo. En futuras etapas del juego, se describirán las modificaciones que aumentarán la complejidad de esta mecánica al introducir otros elementos.
+- Botones: Se incorporarán botones en ciertas áreas del juego para activar plataformas móviles que facilitarán la progresión a través de secciones que de otra manera serían intransitables. La imagen que se muestra ejemplifica una situación como la descrita anteriormente. La zona resaltada en rojo representa un área de peligro para el jugador. Como se puede apreciar en la imagen, al presionar el botón, la plataforma se desplazará hacia la ubicación del jugador, permitiéndole cruzar esa zona. Una vez que la plataforma móvil llegue al extremo opuesto, realizará un recorrido de regreso.
+- Pinchos:  Los pinchos serán un elemento peligroso en el entorno del juego y reducirán la vida del jugador al entrar en contacto con ellos. Se han diseñado con el propósito de evitar que, si el jugador comete un error y cae en un obstáculo, no sufra una derrota instantánea, especialmente en secciones donde caer al vacío puede ser una amenaza constante. Esto se hace para prevenir la frustración del jugador al minimizar las pausas en el juego y mantener un ritmo fluido en la jugabilidad. Además, los pinchos servirán para marcar el camino a seguir, lo cual es esencial para la orientación del jugador. Estos elementos se combinarán con paredes, plataformas y otros elementos en etapas posteriores del juego. A continuación, se mostrará un prototipo de los pinchos.
+- Aros: Los aros son plataformas que constan de paredes y un techo de tamaño reducido. Su propósito principal en el diseño es enseñar al jugador a utilizar la mecánica del dash y a perfeccionar su precisión en su ejecución. A continuación, se presentará un prototipo de estos aros, y se planifican variaciones más desafiantes en etapas posteriores del juego.
+- Doble pared: Las "dobles paredes" consisten en dos paredes cercanas y una plataforma en la parte superior. Para acceder a la plataforma superior, se requiere el uso de esta mecánica. Por lo general, en la parte inferior de las dobles paredes, habrá elementos peligrosos como pinchos u otros obstáculos dañinos. 
+#### Concepto de nivel 
+### Esquema de progresión del juego 
+### Objetos 
+Puede haber diferentes objetos que se tendrán que coger y colocar para resolver diferentes puzles. 
+#### Recompensas
+Al vencer a un enemigo o romper algunos objetos destructibles se dará vida al jugador.  
+#### Coleccionables
+De momento no se introducirán coleccionables, pero se han barajado algunas opciones 
 
 
 ## 7. ARTE
@@ -275,6 +331,7 @@ Utilizando el material producto del arte conceptual, se comienzan a definir los 
 También se generan aquí las texturas finales que se aplican a los diferentes modelos 3D, los diferentes elementos 2D que se utilizan en las pantallas e interfaces y las ilustraciones que se usan para la portada del juego y publicidad del mismo. 
 
 ### Arte 3D
+A partir de los turn arounds realizados y siguiendo el concepto previamente establecido, se procede a la creación de los modelos de los personajes. Dependiendo del nivel de detalle deseado, se desarrolla un modelo de alta poligonización esculpido, el cual posteriormente se somete a la creación de su topología, o bien se lleva a cabo una modelación directa. 
 Elementos del mundo:
 - Montañas: A pesar de tener un aspecto onírico y una paleta de colores que no es el real, el mundo de plataformas es montañoso, inspirado en juegos como el Super Mario 64, o el Ori de la Nintendo Switch.
 - Árboles y vegetación: Este aspecto puede ser el más cambiante del mundo, habrá desde árboles con apariencia de piruleta que cuando caiga la noche serán simplemente los palos desgastados, hasta setas de proporciones enormes, y árboles con hojas moradas.
@@ -345,7 +402,32 @@ El videojuego cuenta con un gran número de efectos de sonido puesto que en el e
 - AchievementSound: Sonido que se reproduce al conseguir completar un puzle o encontrar algo importante. Parecido a los de ‘The legend of Zelda’ al completar un enigma. 
 #### Inspiraciones
 Las principales inspiraciones para la música y sonidos del juego han sido Hollow Knight, Super Mario Galaxy, Final Fantasy XV, Final Fantasy X, Ori and the Will of the Wisps, The Legend of Zelda: Phantom Hourglass and Tears of the Kingdom, Skyrim, Lara Croft: Legend y el Profesor Layton. 
+
+
 ## 8. MODELO DE NEGOCIO 
+### Mapa de empatía
+####¿Qué piensa y siente? 
+Piensa en los videojuegos como un ocio y algo que disfruta. Le gusta jugar a ellos en su tiempo libre y le encanta probar juegos creados por pequeños estudios. 
+####¿Qué oye? 
+Ve muchas redes sociales y sigue a los estudios de videojuegos que le gustan, pendiente de nuevos títulos y de recomendaciones de nuevos estudios emergentes. También escucha las recomendaciones de sus amigos y de los diferentes creadores de contenido de las plataformas de streaming. 
+####¿Qué ve? 
+Su entorno cercano también disfruta de los videojuegos y se recomiendan títulos entre ellos. También quedan para jugar y se prestan videojuegos. Ve anuncios de videojuegos en el móvil y a gente cercana y desconocidos disfrutar y hablar de los nuevos lanzamientos. 
+####¿Qué dice y hace? 
+Es una persona muy abierta en cuanto a hablar de sus gustos. Le hace feliz hablar con sus amigos sobre nuevos videojuegos que ha visto por redes sociales, y atraer a nuevos jugadores de su círculo de amigos y familiares. Entra en las plataformas digitales de juegos para ver ofertas y nuevos títulos, así como se acerca a tiendas físicas a ver novedades. 
+#### Esfuerzos / Miedos
+Tiene miedo de invertir demasiado dinero en un juego sin saber si le va a gustar. Trata de estar al día con los gameplays y trailers de los juegos que le atraen, pero no se decide a comprarlos fácilmente. 
+#### Resultados / Beneficios 
+Adquiriría un juego de un pequeño estudio y apoyaría a desarrolladores independientes. Compraría un juego con personalidad y creado con cariño. Descubriría un nuevo estudio de videojuegos al que seguir y apoyar.
+
+### Monetización 
+Buy to Play: Pago único. Se debe adquirir el juego para poder jugarlo. 
+
+### Marketing 
+1- Autopromoción: Se utilizarían las redes sociales oficiales del estudio para publicitar los productos 
+2- Word of Mouth (de boca a boca): que se use como método de marketing indirecto. Sería una forma de promoción el juego sin que el propio estudio controle la manera en que se habla del juego.  
+### Modelo Canvas
+
+
 ## 9. EQUIPO E INTEGRANTES
 El equipo está formado por seis integrantes y una persona externa asociada al proyecto encargada de la música y los efectos de sonido. 
 Cada integrante interno cuenta con varios roles dentro del proyecto y se encarga de una parte del juego. 
