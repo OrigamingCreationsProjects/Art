@@ -126,7 +126,7 @@ La razón detrás de estos temas elegidos para el isotipo es representar qué es
 
 El logotipo, por su parte, utiliza como base una tipografía de uso libre y 100% gratuita llamada “Spicy Chips” y está formado por la palabra “Lullaby”, que es el título del juego. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Logos/LullabyTittle.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Logos/LullabyTittle.png" width = "auto" height = "125">
 </p>
 
 El logotipo cuenta con una modificación en la letra “b” simulando ser una corchea musical. Para que este elemento siga actuado como una letra ”b”, la corchea se ha volteado horizontalmente, a pesar de que no existe una nota musical válida en esa dirección. 
@@ -236,7 +236,7 @@ Como protagonista, Lulla es el móvil que pone en marcha los sucesos del juego. 
 En cuanto a Lulla como personaje, las características que destacan son su inocencia, su determinación y la tristeza.
 #### Métricas del jugador 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/PlayerMetricsTable.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/PlayerMetricsTable.png" width = "auto" height = "450">
 </p>
 
 #### Habilidades del juagdor 
@@ -257,7 +257,7 @@ Habrá tres enemigos, dos “genéricos” y un boss, como se ha mencionado ante
 - Ovejas Dolly: Clones de la oveja Dolly, cuya vida y comportamiento es más complejo que la de sus compañeros Fobos. El objetivo de estos enemigos es hacer los combates más interesantes y delimitar áreas donde pueda haber coleccionables o zonas explorables. Podrían aparecer también en zonas de plataformas, pero de forma más inusual.  
 Todos los valores son orientativos y aproximados, después de realizar cálculos y establecer el máximo de enemigos de cada tipo a la vez y el daño del jugador por ataque se establecerán los valores finales.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/EnemiesTable.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/EnemiesTable.png" width = "auto" height = "150">
 </p>
 
 #### Jefes
@@ -540,9 +540,7 @@ Como en el juego hay secciones muy diferentes entre ellas (plataformas, puzle, d
 La nana es el tema principal del juego la cual es tranquila. A su vez, también transmite la atmósfera fantástica y onírica del juego. El late Motiv de la nana se repite en otros temas musicales del juego, dando así una armonía a todos los temas y una personalidad.  Se quiere mantener una sincronización y que al escucharse la música se reconozca esa base común en cada uno de los temas. 
 
 Toda la música y efectos de sonido son de creación propia. En ‘Lullaby’ la música desempeña un papel crucial, ya que el objetivo principal del juego es conseguir la nana (Lullaby en inglés) perdida. Es por ello que, durante el desarrollo, se le concede un peso extra a todo el apartado musical, en especial la nana. 
-Toda la música está diseñada para transmitir ese sentimiento onírico y fantástico del mundo a la vez que se mantiene el ritmo de un videojuego de plataformas
-Como en el juego hay secciones muy diferentes entre ellas (plataformas, puzle, diálogos, cinemáticas con carga narrativa etc.) es muy difícil crear un solo tipo de tema que encaje para todas las situaciones, ya que además la música debe adaptarse adecuadamente. Por esto se han creado diferentes secciones o tipos de temas musicales para el juego: 
-- 
+
 #### Efectos de sonido
 El videojuego cuenta con un gran número de efectos de sonido puesto que en el equipo se les da gran importancia para mejorar el game feel. Cuando un sonido acompaña a una acción, esta se intensifica y se comunica de menjor manera con el jugador. Por ejemplo, los sonidos de pisadas al andar, un grito al caerse al vacío, sonidos al hablar en diálogos (lo cual también añade más personalidad a los personajes) o sonidos al recoger algunos objetos. Todo esto refuerza la inmersión y transmiten de manera más exacta y efectiva la acción que se está realizando. 
 - OnHoverButtonSound: al pasar el ratón por encima de un botón.
