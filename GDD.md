@@ -2,6 +2,7 @@
 <p align="center">
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Logos/LullabyLogoCircle.png" width = "auto" height = "150">
 </p>
+
 ## 1. VERSIÓN
 Version 1.1. Determinar las primeros capítulos del GDD y empezar a completarlos
 Versión 1.2. Cambiar capitulos posterior al dos y completar 
@@ -92,6 +93,9 @@ Además, al tratarse de un mundo de irreal, el equipo de arte y diseño puede ex
 El hilo conductor de la fantasia tomada como protagonista en el desarrollo de la narrativa ha hecho que se unifiquen la realidad y la creatividad. 
 #### Paleta de color 
 La paleta de colores está asociada a lo que comúnmente se relaciona con la magia y lo onírico, por lo que, por lo que, para mostrar persistencia, la mayor parte del peso lo conforman los colores morados y violetas. Con ello se pretende crear una atmósfera etérea conjugándolo con una iluminación mágica que trasporte al jugador. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/GeneralColorPalette.png" width = "auto" height = "250">
+</p>
 
 - Olivine (AFC485). Un color verde claro, ligeramente desaturado, que se utiliza en los elementos del entorno para aportar frescura en la paleta y romper la monocromía de los morados. Se utiliza sobre todo para mantener vigente el mundo real y que no se sienta tan desligado a lo que los jugadores conocen. 
 - Powder Blue (9BB7D7). Un color azul claro pastel, de nuevo desaturado,que se encuentra en armonía con los tonos morados y verde y sirve de puente entre estos. Se utiliza en elementos del entorno para romper de nuevo la monocromía.
@@ -103,7 +107,11 @@ La paleta de colores está asociada a lo que comúnmente se relaciona con la mag
 
 Esta paleta de colores es la principal del juego. En cada nivel o zona del juego predominarán más unos colores u otros, además de no tener que utilizar los colores exactos de la paleta. Para ello se proporciona una herramienta que permite crear degradados entre los colores de la paleta para crear nuevos tonos que usar. 
 
-A continuación, se muestran algunos ejemplos de paletas degradadas entre dos colores principales de la paleta. 
+A continuación, se muestran algunos ejemplos de paletas degradadas entre dos colores principales de la paleta.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/GradientColorPalette.png" width = "auto" height = "250">
+</p>
+
 #### Isotipo y logotipo
 El isotipo del juego está inspirado en el imaginario social que existe alrededor de la idea de dormir y de soñar. Es por ello que todos los elementos que se han incorporado a él están relacionados con ello. 
 La razón detrás de estos temas elegidos para el isotipo es representar qué está haciendo Lulla en el mundo real mientras explora el Reino de los Sueños
@@ -117,6 +125,9 @@ La razón detrás de estos temas elegidos para el isotipo es representar qué es
 - Colores. Utilizando la paleta de color del juego y algunas paletas de degradados se han relacionado los colores “oníricos” y “de fantasía” que se usan en el juego con los colores para “dormir” y de “tranquilidad”. Además, se mantiene una relación entre los colores con el parecido a la realidad, la luna de un color más claro y el cielo que simula la noche de un color más oscuro.
 
 El logotipo, por su parte, utiliza como base una tipografía de uso libre y 100% gratuita llamada “Spicy Chips” y está formado por la palabra “Lullaby”, que es el título del juego. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Logos/LullabyTittle.png" width = "auto" height = "250">
+</p>
 
 El logotipo cuenta con una modificación en la letra “b” simulando ser una corchea musical. Para que este elemento siga actuado como una letra ”b”, la corchea se ha volteado horizontalmente, a pesar de que no existe una nota musical válida en esa dirección. 
 Esta decisión de diseño se ha tomado porque la música tiene un sentido narrativo y relaciona el título del juego, cuya traducción al español es nana o canción de cuna, con la parte musical y con el objetivo que tiene la protagonista dentro del juego.
@@ -223,9 +234,11 @@ De momento no se introducirán modificadores de estado, pero se han estado baraj
 ### Personajes(s) del jugador
 Como protagonista, Lulla es el móvil que pone en marcha los sucesos del juego. El mundo es su sueño, los enemigos, sus peores pesadillas manifestadas por Morfeo y por lo tanto su viaje es el del jugador.
 En cuanto a Lulla como personaje, las características que destacan son su inocencia, su determinación y la tristeza.
-
-
 #### Métricas del jugador 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/PlayerMetricsTable.png" width = "auto" height = "250">
+</p>
+
 #### Habilidades del juagdor 
 El jugador contará con las siguientes habilidades: 
 - Salto
@@ -243,6 +256,10 @@ Habrá tres enemigos, dos “genéricos” y un boss, como se ha mencionado ante
 - Fobos: Son unas criaturas parecidas a un charco viscoso. Son pesadillas sin formar y aparecerán a partir de la mitad del primer nivel. Son un enemigo estilo ‘Goomba’ de Mario Bros. Su función es complicar las zonas de plataformas y enseñar al jugador sus mecánicas de combate sin que haya demasiada dificultad.
 - Ovejas Dolly: Clones de la oveja Dolly, cuya vida y comportamiento es más complejo que la de sus compañeros Fobos. El objetivo de estos enemigos es hacer los combates más interesantes y delimitar áreas donde pueda haber coleccionables o zonas explorables. Podrían aparecer también en zonas de plataformas, pero de forma más inusual.  
 Todos los valores son orientativos y aproximados, después de realizar cálculos y establecer el máximo de enemigos de cada tipo a la vez y el daño del jugador por ataque se establecerán los valores finales.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/EnemiesTable.png" width = "auto" height = "250">
+</p>
+
 #### Jefes
 La oveja fantasma será el jefe final del juego y se trata de una oveja híbrida, tiene la parte inferior fantasmal. Posee 3 patrones de movimiento para acabar con el jugador: 
 - En el primer patrón, el jefe se divide en múltiples copias de sí mismo, cada una de un color diferente, las cuales se dirigen hacia el jugador. Para infligir daño al jefe, el jugador debe atacar estas copias en el mismo orden en el que se han dividido. Cada vez que se ataca con éxito una copia en el orden correcto, esta se desvanece en un remolino de humo. Sin embargo, si el jugador comete un error, su personaje sufrirá daño y el proceso de multiplicación se repetirá. El objetivo es golpear a las 4 copias en el orden correcto para avanzar al patrón 2. 
@@ -336,7 +353,9 @@ Para salir del tutorial el jugador debe alejarse y salir del rango del cartel, y
 
 ###  Diagramas de flujo de interfaces
 En el siguiente diagrama podemos observar cómo interaccionan las diferentes interfaces entre sí y cómo se pasa de una a otra. 
-
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/InterfaceFlowDiagram.png" width = "auto" height = "250">
+</p>
 
 ### Pantalla de inicio 
 La pantalla de inicio es la pantalla principal del juego desde la que el usuario va a poder acceder a otras pantallas y va a poder iniciar una partida. 
@@ -426,7 +445,9 @@ Para avanzar, el usuario debe escoger el idioma de su preferencia y el juego se 
 
 ### Diagrama de flujo entre pantallas
 En el siguiente diagrama podemos observar cómo interaccionan las diferentes Pantallas entre sí y cómo se pasa de una a otra. 
-
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/FlowOfScreen.png" width = "auto" height = "250">
+</p>
 
 ## 6. NIVELES
 ### Diseño de niveles
@@ -565,7 +586,9 @@ Buy to Play: Pago único. Se debe adquirir el juego para poder jugarlo.
 1- Autopromoción: Se utilizarían las redes sociales oficiales del estudio para publicitar los productos 
 2- Word of Mouth (de boca a boca): que se use como método de marketing indirecto. Sería una forma de promoción el juego sin que el propio estudio controle la manera en que se habla del juego.  
 ### Modelo Canvas
-
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/ModelCanvas.png" width = "auto" height = "250">
+</p>
 
 ## 9. EQUIPO E INTEGRANTES
 El equipo está formado por seis integrantes y una persona externa asociada al proyecto encargada de la música y los efectos de sonido. 
@@ -599,8 +622,3 @@ Encargada de modelar, riggear y animar los enemigos del juego. Modeladora de los
 - 3D Art Assistant.  
 Encargado de ayudar con la creación de arte 3D y de aconsejar y guiar en los procedimientos de arte 3D. Persona asociada al proyecto a tiempo parcial. 
 
-
-## Esquema de progresión del juego 
-## Jefes
-## NPC
-## Escenas y cinemáticas
