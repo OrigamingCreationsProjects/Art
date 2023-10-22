@@ -193,6 +193,17 @@ Eos vaga por el mundo de los sueños levitando, esperando órdenes de Morfeo. Un
 
 ## 4. GAMEPLAY
 ### Jugabilidad
+La jugabilidad es frenética, con mecánicas de juegos de plataformas centradas en el movimiento y físicas tales como plataformas que se desplazan o giran y saltos con obstáculos a evitar. Esto se combina muy bien con un sistema de combate basado en golpeos simples y reducción de vida para dar al jugador más sensación de poder y presentar diferentes peligros. Por último, también se cuenta con puzles combinando las mecánicas del juego que exigen al jugador que utilice su ingenio para poder resolverlos y avanzar en el nivel. 
+
+### Sistemas HUD
+#### Salud
+La salud se mide con una barra que se rellena con contenedores de sueño los cuales se pueden obtener al derrotar enemigos o destruir objetos. 
+Al perder toda la salud (sueño) el personaje despertará y por tanto se acabará la partida, teniendo que empezar desde el último punto de control. El sistema de puntos de control funciona de tal manera que cuando el jugador llega a uno, se guarda esa ubicación para que se regrese a la última más cercana cuando pierda o se caiga al vacío. 
+#### Econocmia de salud
+Para establecer la economía de salud se ha establecido el número máximo de golpes que el personaje puede aguantar del enemigo más débil sin recargar la salud. Se logra así establecer la dificultad de combate más sencilla comenzando por los enemigos más pequeños, y pudiendo hacerla incremental con aquellos más dificiles. De esta manera se aumenta la cantidad de golpes necesarios o puntos de vida para derrotarlos, y se lográ, a su vez, un equilibrio adecuado.  
+Por ejemplo, si queremos que un personaje aguante 20 golpes de los Fobos antes de ser derrotado, y cada Fobo hace 5 de daño, la vida total de Lulla debe ser 20 x 5 = 100 puntos de vida 
+#### Modificadores de estado 
+De momento no se introducirán modificadores de estado, pero se han estado barajando opciones posibles para este apartado. 
 
 ### Flujo de juego 
 ### Personajes(s) del jugador
@@ -210,20 +221,43 @@ El jugador contará con las siguientes habilidades:
 - Salto de pared a pared
 - Deslizamiento por railes
 #### Combate 
+El combate se basa en un sistema melee a corta distancia como los The Legend of Zelda. También se presentan peleas con jefes que tienen ataques a distancia y cuentan con patrones de ataque para desafiar al jugador. 
+La protagonista golpea con una almohada que usa de arma dentro del mundo del juego
 
 ### Personajes enemigos
+Habrá tres enemigos, dos “genéricos” y un boss, como se ha mencionado anteriormente (la oveja fantasma). Cada uno tendrá unas características de daño y vida variables, una mecánica de ataque distinta. 
+- Fobos: Son unas criaturas parecidas a un charco viscoso. Son pesadillas sin formar y aparecerán a partir de la mitad del primer nivel. Son un enemigo estilo ‘Goomba’ de Mario Bros. Su función es complicar las zonas de plataformas y enseñar al jugador sus mecánicas de combate sin que haya demasiada dificultad.
+- Ovejas Dolly: Clones de la oveja Dolly, cuya vida y comportamiento es más complejo que la de sus compañeros Fobos. El objetivo de estos enemigos es hacer los combates más interesantes y delimitar áreas donde pueda haber coleccionables o zonas explorables. Podrían aparecer también en zonas de plataformas, pero de forma más inusual.  
+Todos los valores son orientativos y aproximados, después de realizar cálculos y establecer el máximo de enemigos de cada tipo a la vez y el daño del jugador por ataque se establecerán los valores finales.
 #### Jefes
+La oveja fantasma será el jefe final del juego y se trata de una oveja híbrida, tiene la parte inferior fantasmal. Posee 3 patrones de movimiento para acabar con el jugador: 
+- En el primer patrón, el jefe se divide en múltiples copias de sí mismo, cada una de un color diferente, las cuales se dirigen hacia el jugador. Para infligir daño al jefe, el jugador debe atacar estas copias en el mismo orden en el que se han dividido. Cada vez que se ataca con éxito una copia en el orden correcto, esta se desvanece en un remolino de humo. Sin embargo, si el jugador comete un error, su personaje sufrirá daño y el proceso de multiplicación se repetirá. El objetivo es golpear a las 4 copias en el orden correcto para avanzar al patrón 2. 
+- En el segundo patrón el jefe se desplaza a una zona sin plataformas, fuera del alcance del jugador. El jefe empezará a arrojar fuegos fatuos o bolas de energía en dirección al jugador, quien debe golpearlas en el momento adecuado para causarle daño. El jugador debe realizar este proceso aproximadamente cinco veces para que el jefe avance al tercer patrón. En caso de alguna esfera impacte al jugador, le quitará un porcentaje de vida (aún está por determinar, pero oscilará entre el 10%-20%)
+- En el tercer patrón el jefe se alejará a una zona sin suelo y se dividirá en 4 otra vez. En este caso cada copia lanzará en línea recta una esfera de energía de su color y el personaje debe devolverlas en el orden en que se han lanzado o en el que se han multiplicado (aún por decidir, aunque lo suyo sería hacer que fuera lo mismo, es decir, que se lancen las esferas en el orden en el que se han dividido). Al hacer esto de manera correcta una vez se habrá vencido por fin al jefe final. 
 #### NPCs
 Hay múltiples NPCs a lo largo del videojuego, desde los enemigos, a personajes aliados que servirán para poder desarrollar y ayudar al jugador en la trama de una forma dinámica.  
 ##### Aliados
 Los principales NPCs del juego son George y Byron, un cerdo y una rana respectivamente. Estos se encuentran dentro del mundo de los sueños y serán un elemento clave para el desarrollo de la trama.  
 
 Aparecen desde la primera escena, y guiarán a Lulla por este mundo de ficción. Hay un elemento que les identifica, que es un charco de barro. Se colocarán a lo largo del mundo con el propósito de que el jugador pueda identificar cuándo habrá un diálogo u cinemática que enriquecerá la trama.  
-
+Características:  
+- George: Es un cerdo de granja, de color rosado, sonriente y torpe a la hora de hablar. 
+- Byron: Elocuente, más sensato que George, y trata de ser una figura que haga feliz a Lulla en todo momento
+  
 ### Movimientos y fisicas
 #### Controles
+El juego cuenta con 3 tipos de controles diferentes, entre ellos se encuentran teclado y ratón, móvil y gamepad (PlayStation, Nintendo, Xbox o cualquiera genérico). Además, los indicadores contextuales del juego se adaptan en función del tipo de control que se está usando. 
+##### PlayStation
+##### XBOX
+##### Dispositivos móviles
+En dispositivos móviles los controles estarán superpuestos en la interfaz, con un joystick para el movimiento, 4 botones para las acciones principales, un botón para la pausa en la esquina superior derecha y para mover la cámara basta con deslizar el dedo en la mitad derecha de la pantalla. 
+##### Switch
+##### PC
 #### Cámaras
-
+La cámara utilizada en el juego durante la jugabilidad es una cámara en 3ª persona con movimiento libre. 
+Esta cámara cuenta con una función que hace que se acerque al jugador cuando encuentra un obstáculo sólido que no debe traspasar, por ejemplo, una pared o el suelo. 
+Cuando el jugador entra en un diálogo, la cámara se coloca dinámicamente en un punto intermedio entre el jugador y el personaje con el que está conversando. Cuando se acaba el diálogo, la cámara se vuelve a colocar automáticamente detrás del jugador. 
+Para las cinemáticas se cuenta con diferentes cámaras colocadas estratégicamente para cada secuencia, y las cuales cuentan con movimientos de cámara como Dollys y Tracks, con planos bien medidos aprovechando el control sobre las cámaras que el equipo tiene en cinemáticas. 
 
 
 ## 5. INTERFACES
@@ -288,8 +322,40 @@ De la misma forma, encontramos una lista de botones con los que el usuario puede
 La estética que esta pantalla trata de simular es la de que el juego pausado es un reflejo en la superficie de la luna que está en el cielo nocturno y que está ligeramente tapada por una nube. 
 
 ### Patalla de controles
+Esta pantalla sirve para que el usuario configure su experiencia de juego. 
+Las características que el jugador puede personalizar son las siguientes.
+- Volumen general. Slider para controlar el volumen general del juego.
+- Volumen de SFX. Slider para controlar el volumen de los efectos de sonido de forma independiente al resto de sonidos.
+- Volumen de música. Slider para controlar el volumen de la música de forma independiente al resto de sonidos.
+- Calidad de gráficos. Desplegable para ajustar la calidad de los gráficos del juego.
+- Idioma (solo si se accede desde el menú principal). Botones para seleccionar el idioma del juego.
+- Activar/Desactivar controles de móvil. Una casilla de verificación para activar y desactivar la interfaz de los controles para dispositivos móviles.
+La pantalla sigue la estética descrita anteriormente, con un fondo haciendo referencia al cielo y las opciones sobre una nube con forma rectangular.
+
+### Pantalla de controles
+Esta pantalla muestra los diferentes mapeos de controles dependiendo del dispositivo de entrada que el usuario quiera usar.  
+Para cada control se muestra un diagrama del mismo junto con las acciones asignadas a cada accionador. 
+Dentro de la pantalla de controles el usuario puede navegar por las diferentes pestañas creadas para cada posible dispositivo de entrada. En total hay cinco pestañas: 
+- PC. En ella se muestran las teclas y los botones del ratón asociados a cada acción posible del juego.
+- XBox. En ella se muestra el mapeo de controles para un mando de Xbox o compatible.
+- PlayStation. En ella se muestra el mapeo de controles para un mando de PlayStation o compatible.
+- Switch. En ella se muestra el mapeo de controles para un mando de Switch o compatible.
+- Móvil. En ella se muestra la interfaz para controlar el juego en dispositivos móviles y las acciones asociadas del juego. 
+La estética de esta pantalla sigue la línea de un cielo como fondo y nubes como los botones para cambiar entre pestañas. Además, para marcar la pestaña seleccionada, la nube de ese control está aumentada, desplazada hacia abajo y decorada con estrellas y una luna.
+
 ### Pantalla de usuario 
-### Créditos
+Esta pantalla aparece nada más el usuario presiona la opción de jugar en la pantalla principal y permite asociar un nombre de usuario o nickname al jugador. 
+Esta pantalla consigue que, a la hora de recoger datos para las métricas de pensamiento computacional, estos aparezcan asociados a un nombre de usuario. 
+Además, le recuerda al usuario que si está usando un móvil puede activar los controles táctiles. 
+Una vez el jugador ha introducido un nombre y ha personalizado los controles, comienza el juego pulsando la tecla que aparece al lado de “continuar” en la esquina inferior derecha. 
+
+### Pantalla de selección de idioma
+Esta pantalla aparece antes que cualquier otra cuando se inicia el juego. En ella aparecen botones con forma de banderas representando los diferentes idiomas en los que está el juego. 
+Para avanzar, el usuario debe escoger el idioma de su preferencia y el juego se traducirá automáticamente a este. 
+
+### Diagrama de flujo entre pantallas
+En el siguiente diagrama podemos observar cómo interaccionan las diferentes Pantallas entre sí y cómo se pasa de una a otra. 
+
 
 ## 6. NIVELES
 ### Diseño de niveles
@@ -307,7 +373,9 @@ Elementos de los niveles:
 - Aros: Los aros son plataformas que constan de paredes y un techo de tamaño reducido. Su propósito principal en el diseño es enseñar al jugador a utilizar la mecánica del dash y a perfeccionar su precisión en su ejecución. A continuación, se presentará un prototipo de estos aros, y se planifican variaciones más desafiantes en etapas posteriores del juego.
 - Doble pared: Las "dobles paredes" consisten en dos paredes cercanas y una plataforma en la parte superior. Para acceder a la plataforma superior, se requiere el uso de esta mecánica. Por lo general, en la parte inferior de las dobles paredes, habrá elementos peligrosos como pinchos u otros obstáculos dañinos. 
 #### Concepto de nivel 
+
 ### Esquema de progresión del juego 
+
 ### Objetos 
 Puede haber diferentes objetos que se tendrán que coger y colocar para resolver diferentes puzles. 
 #### Recompensas
