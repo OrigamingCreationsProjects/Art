@@ -199,10 +199,82 @@ Es el arma más poderosa de Morfeo, bautizada como Eos, la diosa del amanecer pa
 Su forma varía dependiendo del miedo del huésped, y en este caso es una oveja fantasma, que representa su miedo a la muerte de sus seres queridos. Sus poderes varían, y su objetivo es inequívoco: luchar contra Lula.  
 Eos vaga por el mundo de los sueños levitando, esperando órdenes de Morfeo. Unicamente obedece las órdenes de Morfeo, no tiene una voluntad propia, ni un espíritu libre, no es un ente con la capacidad de razonar o comprender, tiene una función que debe cumplir a cualquier coste. 
 
-
 ### Guión 
-
-### StoryBoard
+OSCURIDAD PLENA
+El narrador comienza a narrar mientras se ve una página de un libro con 5 viñetas. 
+Narrador:
+Esta es la historia de Lula
+Se enfoca la primera viñeta en un primer plano
+Narrador:
+Lula, era una niña normal, feliz y enérgica como las demás ovejas de la zona
+Se enfoca la segunda viñeta
+Narrador:
+Correteaba por los parques y establos todos los días sin cesar mientras descubría cómo funcionaba el mundo que le rodeaba.
+Se enfoca la tercera viñeta
+Narrador:
+Hasta que un día, esa energía, se fue por donde vino... De la nada
+Se enfoca la cuarta viñeta
+Narrador:
+No pudo seguir soñando durante un tiempo...
+Se enfoca la quinta viñeta
+Narrador:
+Hasta que lo consiguió
+CREDITOS INICIALES 
+Lula abre los ojos y despierta en el mundo de los sueños. Mira a su alrededor y se encuentra en una cama en un terreno de hierba morada, flotando encima de la nada, hasta que ve un charco que le resulta familiar pero no sabe de qué exactamente. En el charco se pueden distinguir dos figuras, un cerdo, y encima del cerdo una rana. 
+GEORGE (el cerdo) con entusiasmo
+Holaaa Lulaaaa, ¡cuánto tiempo sin verte! No te veo desde lo de...
+Byron interrumpe 
+BYRON
+¡Calla tocino!
+Lula desconcertada, no responde. 
+BYRON (la rana) dirigiéndose a George 
+Deja a la chica en paz que está desorientada. 
+BYRON (dirigiéndose a Lula)
+Me alegro tanto de verte... Pero bueno basta de charlas, ¡ve a pasártelo bien!
+GEORGE sonriente
+Pero recuerda coger la almohada de donde la dejaste
+BYRON
+¡Justo después del campo de amapolas! 
+COMIENZA EL NIVEL 1.1 EL TUTORIAL. Y al terminar sucede la siguiente secuencia en una explanada.
+GEORGE
+Vaya vaya, ¡que rápida eres! Ya has llegado hasta aquí.
+BYRON 
+Uy, pero qué ven mis ojos... Deberías tener cuidado con los FOBOS.
+GEORGE con aspecto más preocupado
+Esas pesadillas sin forma son peligrosas, igual deberías ir volviendo... 
+LULA
+Cogeré la nana de mi madre y me iré te lo prometo.
+BYRON 
+Bueno... Tienes tu almohada para zumbarles, recuerda pasarlo bien y volver pronto.
+CONTINUA EL NIVEL 1.2: EL ATAQUE DE LOS FOBOS
+BYRON
+¡Requetecorcholis! Sí que has llegado lejos sin despertarte
+GEORGE
+A Morfeo no le gustan estas cosas.
+BYRON
+Creo que por una vez George tiene razón, esto se está poniendo peligroso
+A PARTIR DE ESTE PUNTO EMPIEZA LA NOCHE, LOS ÁRBOLES CAMBIAN Y LA AMBIENTACIÓN SE OSCURECE
+BYRON
+Tendrás que preocuparte por cosas más tenebrosas que los fobos de aquí en adelante.
+GEORGE
+Ten cuidado Lulla.
+COMIENZA EL NIVEL 2.1 LA NOCHE DE LAS DOLLYS 
+GEORGE confuso
+Oye Byron, ¿esa no es Lulla? 
+BYRON asombrado y enfadado al mismo tiempo 
+¡¿Pero qué haces todavía aquí!? 
+GEORGE
+Oh no esto es malo Byron, Morfeo mandará a Eos a por Lula.
+BYRON
+Bueno... Ya no hay nada que podamos hacer para convencerte... Lo que buscas está al otro lado del puente.
+GEORGE
+No debería decir esto, pero... ¡Mucha suerte!
+COMIENZA EL NIVEL 2.2: CON AMOR, MAMÁ
+MERYL 
+Ya puedes dormir tranquila hija mía. 
+LULLA triste
+Mamá desde que te fuiste nada es igual, te echo de menos, pero ya podré vivir tranquila conservando tu recuerdo en lo más profundo de mi corazón. Te quiero
+FIN
 
 ### Escenas y cinemáticas
 El juego tendrá dos tipos de escenas no jugables: viñetas con dibujos 2D y pequeñas cinemáticas 3D dentro del mismo gameplay.  
@@ -213,7 +285,6 @@ Seguidamente, se darán unas explicará la información brevemente relativa  sob
 - Primera conversación con George y Byron: 
 Esta es la primera interacción de Lulla con los NPC aliados, y ocurre nada más superar los primeros obstáculos de la primera zona. En estas primeras instancias de juego, George y Byron se han ubicado de manera planeada para indicar al jugador el camino a seguir.  
 Narrativamente, los dos aliados de Lulla cumplen una función similar a su contraparte de ritmo de juego: recibir a Lulla y guiarla en sus primeros pasos por el mundo de los sueños, ya que todo lo soñado se termina olvidando al despertar.  
-A continuación, el diálogo completo de esta escena: 
 
 
 ## 4. GAMEPLAY
@@ -464,9 +535,6 @@ Elementos de los niveles:
 - Pinchos:  Los pinchos serán un elemento peligroso en el entorno del juego y reducirán la vida del jugador al entrar en contacto con ellos. Se han diseñado con el propósito de evitar que, si el jugador comete un error y cae en un obstáculo, no sufra una derrota instantánea, especialmente en secciones donde caer al vacío puede ser una amenaza constante. Esto se hace para prevenir la frustración del jugador al minimizar las pausas en el juego y mantener un ritmo fluido en la jugabilidad. Además, los pinchos servirán para marcar el camino a seguir, lo cual es esencial para la orientación del jugador. Estos elementos se combinarán con paredes, plataformas y otros elementos en etapas posteriores del juego. A continuación, se mostrará un prototipo de los pinchos.
 - Aros: Los aros son plataformas que constan de paredes y un techo de tamaño reducido. Su propósito principal en el diseño es enseñar al jugador a utilizar la mecánica del dash y a perfeccionar su precisión en su ejecución. A continuación, se presentará un prototipo de estos aros, y se planifican variaciones más desafiantes en etapas posteriores del juego.
 - Doble pared: Las "dobles paredes" consisten en dos paredes cercanas y una plataforma en la parte superior. Para acceder a la plataforma superior, se requiere el uso de esta mecánica. Por lo general, en la parte inferior de las dobles paredes, habrá elementos peligrosos como pinchos u otros obstáculos dañinos. 
-#### Concepto de nivel 
-
-### Esquema de progresión del juego 
 
 ### Objetos 
 Puede haber diferentes objetos que se tendrán que coger y colocar para resolver diferentes puzles. 
@@ -524,9 +592,11 @@ Los diferentes efectos visuales pueden ser lograrse con diferentes técnicas, co
 - VFX de sueño. Partículas que se encuentran alrededor de los objetos que se pueden recoger para recargar la barra de sueño de Lulla.
 - VFX de desvanecimiento. Acompaña al shader de mismo nombre y lo conforman las partículas en las que dicho shader disuelve el objeto.
 
- 
 #### Iluminación 
+La iluminación seguirá el enfoque que se ha ido desarrollando a lo largo de todo el proceso artístico; fantasía. Se completará la sensación para con el jugador complementando el mundo con un ambiente mágico. A través del Universal Render Pipeline (URP), se personalizará la iluminación del juego de una manera eficiente para conseguir el resultado esperado. 
 #### Postproceso 
+En consecuencia, al apartado anterior, con URP se pueden aplicar efectos de posprocesamiento, que realzarán la calidad visual y se terminará de emparejar la atmósfera del mundo. Los sistemas de iluminación global, sombras sueves y efectos de luz volumétrica proporcionarán al juego la estética envolvente. Además, URP es escalable y se adapta a diferentes plataformas, lo que permite trabajar más cómodamente y facilita llevar el final del juego visual a un alto nivel de detalle.
+
 ### Música y sonido
 #### Temas musicales 
 Toda la música y efectos de sonido son de creación propia. En ‘Lullaby’ la música desempeña un papel crucial, ya que el objetivo principal del juego es conseguir la nana (Lullaby en inglés) perdida. Es por ello que, durante el desarrollo, se le concede un peso extra a todo el apartado musical, en especial la nana. 
