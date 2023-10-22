@@ -263,22 +263,27 @@ Características:
 El juego cuenta con 3 tipos de controles diferentes, entre ellos se encuentran teclado y ratón, móvil y gamepad (PlayStation, Nintendo, Xbox o cualquiera genérico). Además, los indicadores contextuales del juego se adaptan en función del tipo de control que se está usando. 
 ##### PlayStation
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/PLAY_ControlsComplete.png" width = "auto" height = "150">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/PLAY_ControlsComplete.png" width = "auto" height = "250">
 </p>
+
 ##### XBOX
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/XBOX_ControlsComplete.png" width = "auto" height = "150">
-</p>
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/XBOX_ControlsComplete.png" width = "auto" height = "250">
+<2/p>
+
 ##### Dispositivos móviles
 En dispositivos móviles los controles estarán superpuestos en la interfaz, con un joystick para el movimiento, 4 botones para las acciones principales, un botón para la pausa en la esquina superior derecha y para mover la cámara basta con deslizar el dedo en la mitad derecha de la pantalla. 
 ##### Switch
+
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/SWITCH_ControlsComplete.png" width = "auto" height = "150">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/SWITCH_ControlsComplete.png" width = "auto" height = "250">
 </p>
 ##### PC
+
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/PC_ControlsComplete.png" width = "auto" height = "150">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/PC_ControlsComplete.png" width = "auto" height = "250">
 </p>
+
 #### Cámaras
 La cámara utilizada en el juego durante la jugabilidad es una cámara en 3ª persona con movimiento libre. 
 Esta cámara cuenta con una función que hace que se acerque al jugador cuando encuentra un obstáculo sólido que no debe traspasar, por ejemplo, una pared o el suelo. 
@@ -294,36 +299,53 @@ Esta sencillez se caracteriza por una barra de sueño situada en la esquina supe
 La interfaz de juego debe ser sencilla y despejada para facilitar el mayor rango de visión posible para el jugador.  
 Por ello, el jugador solo dispondrá de la barra de sueño (o vida) en la esquina superior izquierda. Esta barra tiene una animación simulando el líquido de una lámpara de lava, con los colores morados y azules de la paleta, y cuenta con un reborde de un color que lo resalte del escenario 3D. También tendrá un icono que será el mismo de los elementos 3D que se sitúan por el escenario y que al recogerlos recargan esta barra. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/HUD/HUDSketch2.jpg" width = "auto" height = "150">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/HUD/HUDSketch2.jpg" width = "auto" height = "250">
 </p>
 La información contextual que aparece para interactuar con los elementos de la escena puede situarse en el inferior de la pantalla centrada, o puede integrarse dentro del mundo 3D en forma de “bocadillos” cerca o encima del objeto interactivo. 
 La opción más atractiva visualmente y que mejor encaja con la estética que se quiere conseguir es la segunda, además de aumentar la cohesión entre el 2D y el 3D del juego. Es por ello que cuando el jugador se acerca a un elemento interactivo aparece un pequeño “bark”  o burbuja encima del elemento con un icono del botón a pulsar para interactuar con él. 
 Como se detectan los controles que se están usando, cuando se juega con teclado y ratón o con mando se omite el botón de pausa debido a que el movimiento del ratón y del joystick izquierdo irá asociado al movimiento de la cámara, por lo que no será posible clicar ningún botón con ratón ni con los joysticks. 
 Para pausar cuando se usen estas entradas se hará a través de la tecla ESC y los botones del mando adecuados.  
 Sin embargo, en la interfaz para móvil sí se encuentra el botón, ya que no hay otra alternativa para poder pausar el juego. 
+
 #### Interfaz de juego en dispositivos móviles 
 Si el usuario está jugando al juego desde un dispositivo móvil se superpone a la interfaz del juego base los siguientes elementos: 
 - Joystick de movimiento. Se sitúa en la parte inferior izquierda de la pantalla y controla el movimiento del personaje.
 - Cruz de botones A/B/X/Y. Se sitúan en la parte inferior derecha de la pantalla y tienen las mismas acciones asociadas que los botones de un mando físico.
 - Botón de pausa. Se sitúa en la parte superior derecha y permite al usuario pausar el juego.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/HUD/HUDSketch3.jpg" width = "auto" height = "250">
+</p>
 
 ### Diálogos
 Los diálogos siguen el estilo de los del juego Animal Crossing, situando a Lulla en un lado de la pantalla y al NPC en el otro lado. Para ello cuando se interactúe con un personaje y se abra la interfaz de diálogo, previamente habrá un movimiento de cámara para situar a los personajes en esta posición. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Dialogs/DialogInterfaceSketch1.jpg" width = "auto" height = "250">
+</p>
+
 La interfaz de diálogo consiste en una nube donde aparece la conversación que está teniendo lugar. Sobre esta nube se sitúa una pequeña etiqueta con el nombre del personaje que está hablando en la parte superior izquierda. A su vez, en la parte inferior derecha se encuentra el botón o la tecla asignada a continuar con el diálogo. 
 
 ### Tutoriales
 Los tutoriales son in-game y aparecen al acercarse a la parte delantera de un objeto designado única y exclusivamente para los tutoriales llamado cartel. 
 Cuando el jugador entra en la zona designada, aparece sobre el cartel una pequeña ventana integrada en el mundo 3D que muestra el tutorial a aprender. 
-La ventana tiene forma de nube y los tutoriales están dibujados como si fueran bocetos y en ellos se muestra el botón a pulsar para realizar esa acción a aprender. En la parte superior de la ventana se sitúa el título del tutorial. 
+La ventana tiene forma de nube y los tutoriales están dibujados como si fueran bocetos y en ellos se muestra el botón a pulsar para realizar esa acción a aprender. En la parte superior de la ventana se sitúa el título del tutorial.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Tutorials/TutorialInterfaceSketch2.jpg" width = "auto" height = "250">
+</p>
+
 Para salir del tutorial el jugador debe alejarse y salir del rango del cartel, y esta burbuja se cierra. De esta forma no se interrumpe el movimiento del jugador ni se vuelve intrusivo para él. 
 
 ###  Diagramas de flujo de interfaces
 En el siguiente diagrama podemos observar cómo interaccionan las diferentes interfaces entre sí y cómo se pasa de una a otra. 
 
-### Pantalla de incio 
+
+### Pantalla de inicio 
 La pantalla de inicio es la pantalla principal del juego desde la que el usuario va a poder acceder a otras pantallas y va a poder iniciar una partida. 
 Es por ello que debe ser una pantalla que capture la esencia del juego, pero sin desvelar la trama y los secretos del mismo. 
 Es por ello que se han barajado varias posibles opciones de pantalla de inicio, todas con su propuesta de disposición, de botones y de gráficos de fondo. En ambos casos, el logo y el título permanecen inalterados, ya que es una parte importante de la pantalla de inicio y debe ocupar gran parte de la pantalla y estar centrado en ella. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Main%20Screen/MainScreenSketch2.jpg" width = "auto" height = "250">
+</p>
+
 El diseño final de la pantalla de inicio tiene a Lulla dormida plácidamente, con un cielo estrellado sobre ella. La luna es el logo del juego y al seleccionar un botón de la lista de opciones, este se decora con una estrella a cada lado y se subraya. 
 La pantalla de inicio cuenta con los siguientes botones: 
 - Jugar. Al pulsarlo comienza una partida del juego.
@@ -335,6 +357,10 @@ La pantalla de inicio cuenta con los siguientes botones:
 ### Pantalla de carga
 Esta pantalla aparece cuando se acede a una nueva partida, informando al jugador de que se están cargando los recursos del juego. 
 Para proporcionar información constante al jugador de que el juego sigue cargando y no se ha quedado colgado hay una animación que se repite en bucle. De esta forma también conseguimos que la pantalla no sea estática y no aburra al jugador.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Loading/LoadingScreenSketch3.jpg" width = "auto" height = "250">
+</p>
+
 El estilo final de la pantalla será un fondo de un cielo nocturno con una gran luna llena y unas nubes que la acompañan. En la parte inferior de la pantalla aparecerá el texto “Cargando...” y la animación de las estrellas girando. 
 
 ### Pantalla de pausa
@@ -342,14 +368,17 @@ Esta pantalla es accesible al pausar el juego, ya sea a través de la tecla asig
 La pausa es una pantalla que se superpone al juego, por lo que se verá en todo momento el estado en el que se ha quedado el jugador al pausar. Está titulada con un texto “Pausa” que indica que estás parado. 
 Se superpone la barra de sueño descrita en la interfaz de juego para que el usuario sepa en todo momento la “vida” de la que dispone. 
 De la misma forma, encontramos una lista de botones con los que el usuario puede interactuar. El estilo visual de estos sigue el descrito para los botones de la pantalla de inicio. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Pause/PauseScreenSketch2.jpg" width = "auto" height = "250">
+</p>
+
 - Continuar. Des-pausa el juego.
 - Opciones. Accede a la pantalla de configuración.
 - Controles. Accede a la pantalla de controles.
 - Salir. Permite al usuario volver a la pantalla de inicio. Se le informará antes de salir de que con esta acción perderá todo lo que ha jugado hasta el momento y se pedirá la confirmación. 
-
 La estética que esta pantalla trata de simular es la de que el juego pausado es un reflejo en la superficie de la luna que está en el cielo nocturno y que está ligeramente tapada por una nube. 
 
-### Patalla de controles
+### Patalla de opciones
 Esta pantalla sirve para que el usuario configure su experiencia de juego. 
 Las características que el jugador puede personalizar son las siguientes.
 - Volumen general. Slider para controlar el volumen general del juego.
@@ -358,11 +387,19 @@ Las características que el jugador puede personalizar son las siguientes.
 - Calidad de gráficos. Desplegable para ajustar la calidad de los gráficos del juego.
 - Idioma (solo si se accede desde el menú principal). Botones para seleccionar el idioma del juego.
 - Activar/Desactivar controles de móvil. Una casilla de verificación para activar y desactivar la interfaz de los controles para dispositivos móviles.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Options/OptionsScreenSketch3.jpg" width = "auto" height = "250">
+</p>
+
 La pantalla sigue la estética descrita anteriormente, con un fondo haciendo referencia al cielo y las opciones sobre una nube con forma rectangular.
 
 ### Pantalla de controles
 Esta pantalla muestra los diferentes mapeos de controles dependiendo del dispositivo de entrada que el usuario quiera usar.  
 Para cada control se muestra un diagrama del mismo junto con las acciones asignadas a cada accionador. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/ControlsScreenSketch1.jpg" width = "auto" height = "250">
+</p>
+
 Dentro de la pantalla de controles el usuario puede navegar por las diferentes pestañas creadas para cada posible dispositivo de entrada. En total hay cinco pestañas: 
 - PC. En ella se muestran las teclas y los botones del ratón asociados a cada acción posible del juego.
 - XBox. En ella se muestra el mapeo de controles para un mando de Xbox o compatible.
@@ -376,10 +413,16 @@ Esta pantalla aparece nada más el usuario presiona la opción de jugar en la pa
 Esta pantalla consigue que, a la hora de recoger datos para las métricas de pensamiento computacional, estos aparezcan asociados a un nombre de usuario. 
 Además, le recuerda al usuario que si está usando un móvil puede activar los controles táctiles. 
 Una vez el jugador ha introducido un nombre y ha personalizado los controles, comienza el juego pulsando la tecla que aparece al lado de “continuar” en la esquina inferior derecha. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Nikname/NiknameScreenSketch3.jpg" width = "auto" height = "250">
+</p>
 
 ### Pantalla de selección de idioma
 Esta pantalla aparece antes que cualquier otra cuando se inicia el juego. En ella aparecen botones con forma de banderas representando los diferentes idiomas en los que está el juego. 
 Para avanzar, el usuario debe escoger el idioma de su preferencia y el juego se traducirá automáticamente a este. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Language/LanguageScreenSketch1.jpg" width = "auto" height = "250">
+</p>
 
 ### Diagrama de flujo entre pantallas
 En el siguiente diagrama podemos observar cómo interaccionan las diferentes Pantallas entre sí y cómo se pasa de una a otra. 
