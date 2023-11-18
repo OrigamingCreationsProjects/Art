@@ -94,7 +94,7 @@ El hilo conductor de la fantasia tomada como protagonista en el desarrollo de la
 #### Paleta de color 
 La paleta de colores está asociada a lo que comúnmente se relaciona con la magia y lo onírico, por lo que, por lo que, para mostrar persistencia, la mayor parte del peso lo conforman los colores morados y violetas. Con ello se pretende crear una atmósfera etérea conjugándolo con una iluminación mágica que trasporte al jugador. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/GeneralColorPalette.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/GeneralColorPalette.png" width = "auto" height = "250">
 </p>
 
 - Olivine (AFC485). Un color verde claro, ligeramente desaturado, que se utiliza en los elementos del entorno para aportar frescura en la paleta y romper la monocromía de los morados. Se utiliza sobre todo para mantener vigente el mundo real y que no se sienta tan desligado a lo que los jugadores conocen. 
@@ -109,7 +109,7 @@ Esta paleta de colores es la principal del juego. En cada nivel o zona del juego
 
 A continuación, se muestran algunos ejemplos de paletas degradadas entre dos colores principales de la paleta.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/GradientColorPalette.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/GradientColorPalette.png" width = "auto" height = "250">
 </p>
 
 #### Isotipo y logotipo
@@ -307,7 +307,7 @@ Como protagonista, Lulla es el móvil que pone en marcha los sucesos del juego. 
 En cuanto a Lulla como personaje, las características que destacan son su inocencia, su determinación y la tristeza.
 #### Métricas del jugador 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/PlayerMetricsTable.png" width = "auto" height = "450">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/PlayerMetricsTable.png" width = "auto" height = "450">
 </p>
 
 #### Habilidades del juagdor 
@@ -328,7 +328,7 @@ Habrá tres enemigos, dos “genéricos” y un boss, como se ha mencionado ante
 - Ovejas Dolly: Clones de la oveja Dolly, cuya vida y comportamiento es más complejo que la de sus compañeros Fobos. El objetivo de estos enemigos es hacer los combates más interesantes y delimitar áreas donde pueda haber coleccionables o zonas explorables. Podrían aparecer también en zonas de plataformas, pero de forma más inusual.  
 Todos los valores son orientativos y aproximados, después de realizar cálculos y establecer el máximo de enemigos de cada tipo a la vez y el daño del jugador por ataque se establecerán los valores finales.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/EnemiesTable.png" width = "auto" height = "150">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/EnemiesTable.png" width = "auto" height = "150">
 </p>
 
 #### Jefes
@@ -351,25 +351,28 @@ Características:
 El juego cuenta con 3 tipos de controles diferentes, entre ellos se encuentran teclado y ratón, móvil y gamepad (PlayStation, Nintendo, Xbox o cualquiera genérico). Además, los indicadores contextuales del juego se adaptan en función del tipo de control que se está usando. 
 ##### PlayStation
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/PLAY_ControlsComplete.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/PS_controls.png" width = "auto" height = "250">
 </p>
 
 ##### XBOX
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/XBOX_ControlsComplete.png" width = "auto" height = "250">
-<2/p>
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/XBox_controls.png" width = "auto" height = "250">
+</p>
 
 ##### Dispositivos móviles
 En dispositivos móviles los controles estarán superpuestos en la interfaz, con un joystick para el movimiento, 4 botones para las acciones principales, un botón para la pausa en la esquina superior derecha y para mover la cámara basta con deslizar el dedo en la mitad derecha de la pantalla. 
-##### Switch
-
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/SWITCH_ControlsComplete.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/movile_controls.png" width = "auto" height = "250">
 </p>
-##### PC
 
+##### Switch
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/PC_ControlsComplete.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/Switch_controls.png" width = "auto" height = "250">
+</p>
+
+##### PC
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/PC_controls.png" width = "auto" height = "250">
 </p>
 
 #### Cámaras
@@ -425,7 +428,7 @@ Para salir del tutorial el jugador debe alejarse y salir del rango del cartel, y
 ###  Diagramas de flujo de interfaces
 En el siguiente diagrama podemos observar cómo interaccionan las diferentes interfaces entre sí y cómo se pasa de una a otra. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/InterfaceFlowDiagram.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/FlowOfScreen.png" width = "auto" height = "250">
 </p>
 
 ### Pantalla de inicio 
@@ -443,7 +446,12 @@ La pantalla de inicio cuenta con los siguientes botones:
 - Controles. A través de él se accede a la pantalla donde se muestran los controles para todas las entradas que acepta el juego.
 - Contacto. Abre una página en el navegador con el Beacons del equipo de desarrollo.
 - Salir. Cierra el juego en la versión local.
-  
+Después de contar con un boceto inicial, durante la creación de la pantalla definitiva de barajaron varias opciones y se reorganizaron los elementos. Se situaron las opciones de la interfaz en el centro para lograr una disposición más coherente y visualmente más equilibrada. 
+Resultado de pantalla: 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Main%20Screen/Main_menu.png" width = "auto" height = "250">
+</p>
+
 ### Pantalla de carga
 Esta pantalla aparece cuando se acede a una nueva partida, informando al jugador de que se están cargando los recursos del juego. 
 Para proporcionar información constante al jugador de que el juego sigue cargando y no se ha quedado colgado hay una animación que se repite en bucle. De esta forma también conseguimos que la pantalla no sea estática y no aburra al jugador.
@@ -452,6 +460,10 @@ Para proporcionar información constante al jugador de que el juego sigue cargan
 </p>
 
 El estilo final de la pantalla será un fondo de un cielo nocturno con una gran luna llena y unas nubes que la acompañan. En la parte inferior de la pantalla aparecerá el texto “Cargando...” y la animación de las estrellas girando. 
+Resultado de pantalla: 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Loading/00_Example.png" width = "auto" height = "250">
+</p>
 
 ### Pantalla de pausa
 Esta pantalla es accesible al pausar el juego, ya sea a través de la tecla asignada al teclado y al mando o a través del botón de pausa en dispositivos táctiles. 
@@ -467,6 +479,10 @@ De la misma forma, encontramos una lista de botones con los que el usuario puede
 - Controles. Accede a la pantalla de controles.
 - Salir. Permite al usuario volver a la pantalla de inicio. Se le informará antes de salir de que con esta acción perderá todo lo que ha jugado hasta el momento y se pedirá la confirmación. 
 La estética que esta pantalla trata de simular es la de que el juego pausado es un reflejo en la superficie de la luna que está en el cielo nocturno y que está ligeramente tapada por una nube. 
+Resultado de pantalla:
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Pause/00_Example.png" width = "auto" height = "250">
+</p>
 
 ### Patalla de opciones
 Esta pantalla sirve para que el usuario configure su experiencia de juego. 
@@ -497,6 +513,10 @@ Dentro de la pantalla de controles el usuario puede navegar por las diferentes p
 - Switch. En ella se muestra el mapeo de controles para un mando de Switch o compatible.
 - Móvil. En ella se muestra la interfaz para controlar el juego en dispositivos móviles y las acciones asociadas del juego. 
 La estética de esta pantalla sigue la línea de un cielo como fondo y nubes como los botones para cambiar entre pestañas. Además, para marcar la pestaña seleccionada, la nube de ese control está aumentada, desplazada hacia abajo y decorada con estrellas y una luna.
+Resultado de pantalla:
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/Interface_controls.png" width = "auto" height = "250">
+</p>
 
 ### Pantalla de usuario 
 Esta pantalla aparece nada más el usuario presiona la opción de jugar en la pantalla principal y permite asociar un nombre de usuario o nickname al jugador. 
@@ -517,52 +537,73 @@ Para avanzar, el usuario debe escoger el idioma de su preferencia y el juego se 
 ### Diagrama de flujo entre pantallas
 En el siguiente diagrama podemos observar cómo interaccionan las diferentes Pantallas entre sí y cómo se pasa de una a otra. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/FlowOfScreen.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/FlowOfScreen.png" width = "auto" height = "250">
 </p>
 
 ## 6. NIVELES
 ### Diseño de niveles
 Con el fin de proporcionar un análisis y una descripción detallada del diseño de niveles se analizarán en primer lugar los elementos generales del mundo. Se especificarán desde los tipos de plataformas y elementos dañinos para el jugador, hasta las combinaciones entre amabas para generar puzles y así aumentar la dificultad a lo largo del juego. Además, se determinará cómo superar dichas adversidades.  
 Antes de comenzar con ello, se describirán los niveles y la separación del juego.  
+
 Habrá dos niveles tal y como los conocemos, de aproximadamente 20 minutos de duración cada uno. El primer nivel se divide en dos partes, siendo la primera “el tutorial” a nivel de mecánicas de movimiento básicas, y la segunda para afianzarlas e introducir la mecánica de lucha.  Este enfoque se implementa con el propósito de brindar al jugador la sensación de progreso y evitar la monotonía al ofrecer elementos que ya conoce. Al mismo tiempo, se busca que los entusiastas de las plataformas no se aburran o se sientas restringidos.  
 Se ha decidido dividir en mitades los niveles para que el jugador pueda ver los cambios de una manera clara, pero a su vez para que la jugabilidad no se interrumpa de forma abrupta. Cada vez que termine una mitad se introducirá un elemento nuevo, marcando así la diferencia y el nuevo nivel de dificultad entre una parte y otra. El segundo nivel también se dividirá en dos partes: la primera incluirá la introducción de un nuevo enemigo más complejo, y la segunda constará de la pelea final contra el jefe. 
+
 Elementos de los niveles: 
 - Bloques de salto básico: Es un bloque de altura determinada para que el jugador salte una única vez. Habrá zonas amplias diseñadas para permitir al jugador la posibilidad de explorar el mundo a pesar de tener un camino principal establecido. De esta manera, se proporcionan rutas alternativas para que el jugador no se sienta limitado y pueda investigar o experimentar cierta sensación de libertad en el mundo En esta imagen se intenta representar lo dicho anteriormente; el jugador puede ente plataformas con distinto nivel de altura o puede optar por el camino de altura inferior para llegar a la siguiente plataforma.
+  
 - Bloques y columnas de doble salto: Los bloques y las columnas de doble salto son elementos del mundo que se presentarán para introducir el concepto del doble salto, que adquirirá una mayor complejidad en etapas posteriores del juego. Al igual que en el apartado anterior, se ofrecerán múltiples opciones de camino dentro del recorrido que el jugador debe seguir. En la imagen proporcionada, se ilustra lo mencionado, permitiendo al jugador saltar entre las columnas o explorar la parte trasera de la imagen para intentar abordar las columnas desde una perspectiva diferente.
 - Plataformas móviles: Son plataformas situadas en el aire que esbozarán diferentes movimientos, vertical (en el eje y en ambas direcciones), horizontal (en los ejes x, y z) creando diferentes patrones que se definirán a continuación.
     - Movimiento circular:  En secuencias de tres plataformas, la plataforma central permanecerá estática, mientras que las dos plataformas adyacentes realizarán un movimiento circular rotativo. En futuras etapas del juego, se describirán las modificaciones que aumentarán la complejidad de esta mecánica al introducir otros elementos.
+  
 - Botones: Se incorporarán botones en ciertas áreas del juego para activar plataformas móviles que facilitarán la progresión a través de secciones que de otra manera serían intransitables. La imagen que se muestra ejemplifica una situación como la descrita anteriormente. La zona resaltada en rojo representa un área de peligro para el jugador. Como se puede apreciar en la imagen, al presionar el botón, la plataforma se desplazará hacia la ubicación del jugador, permitiéndole cruzar esa zona. Una vez que la plataforma móvil llegue al extremo opuesto, realizará un recorrido de regreso.
-- Pinchos:  Los pinchos serán un elemento peligroso en el entorno del juego y reducirán la vida del jugador al entrar en contacto con ellos. Se han diseñado con el propósito de evitar que, si el jugador comete un error y cae en un obstáculo, no sufra una derrota instantánea, especialmente en secciones donde caer al vacío puede ser una amenaza constante. Esto se hace para prevenir la frustración del jugador al minimizar las pausas en el juego y mantener un ritmo fluido en la jugabilidad. Además, los pinchos servirán para marcar el camino a seguir, lo cual es esencial para la orientación del jugador. Estos elementos se combinarán con paredes, plataformas y otros elementos en etapas posteriores del juego. A continuación, se mostrará un prototipo de los pinchos.
-- Aros: Los aros son plataformas que constan de paredes y un techo de tamaño reducido. Su propósito principal en el diseño es enseñar al jugador a utilizar la mecánica del dash y a perfeccionar su precisión en su ejecución. A continuación, se presentará un prototipo de estos aros, y se planifican variaciones más desafiantes en etapas posteriores del juego.
-- Doble pared: Las "dobles paredes" consisten en dos paredes cercanas y una plataforma en la parte superior. Para acceder a la plataforma superior, se requiere el uso de esta mecánica. Por lo general, en la parte inferior de las dobles paredes, habrá elementos peligrosos como pinchos u otros obstáculos dañinos. 
 
-### Objetos 
-Puede haber diferentes objetos que se tendrán que coger y colocar para resolver diferentes puzles. 
-#### Recompensas
-Al vencer a un enemigo o romper algunos objetos destructibles se dará vida al jugador.  
-#### Coleccionables
-De momento no se introducirán coleccionables, pero se han barajado algunas opciones 
+- Pinchos:  Los pinchos serán un elemento peligroso en el entorno del juego y reducirán la vida del jugador al entrar en contacto con ellos. Se han diseñado con el propósito de evitar que, si el jugador comete un error y cae en un obstáculo, no sufra una derrota instantánea, especialmente en secciones donde caer al vacío puede ser una amenaza constante. Esto se hace para prevenir la frustración del jugador al minimizar las pausas en el juego y mantener un ritmo fluido en la jugabilidad. Además, los pinchos servirán para marcar el camino a seguir, lo cual es esencial para la orientación del jugador. Estos elementos se combinarán con paredes, plataformas y otros elementos en etapas posteriores del juego. A continuación, se mostrará un prototipo de los pinchos.
+  
+- Aros: Los aros son plataformas que constan de paredes y un techo de tamaño reducido. Su propósito principal en el diseño es enseñar al jugador a utilizar la mecánica del dash y a perfeccionar su precisión en su ejecución. A continuación, se presentará un prototipo de estos aros, y se planifican variaciones más desafiantes en etapas posteriores del juego.
+  
+- Doble pared: Las "dobles paredes" consisten en dos paredes cercanas y una plataforma en la parte superior. Para acceder a la plataforma superior, se requiere el uso de esta mecánica. Por lo general, en la parte inferior de las dobles paredes, habrá elementos peligrosos como pinchos u otros obstáculos dañinos.
+  
+#### Concepto de nivel 
+
+
+### Esquema de progresión del juego 
+
+
+### Ficha de niveles:
 
 
 ## 7. ARTE
-### Arte concpetual 
+### Arte conceptual 
 Partiendo del estilo visual concretado al inicio del desarrollo, el arte conceptual se centra en la creación de bocetos de personajes y escenarios en los que se describe visualmente cómo debe ser el producto final. 
 Para ello, se crean pequeñas ilustraciones de los escenarios y de los elementos, aunque no sea la versión final del arte y esté sujeta a cambios posteriores. Esto dependerá principalmente de los artistas 3D y de la disposición final que se haga del entorno y sus elementos.  
 
 Es la idea artística inicial de la que se parte en la que se guía el modelado, el texturizado, el arte técnico, la iluminación y el postproceso, y donde se combinan para generar las distintas emociones y sensaciones que el juego busca transmitir al jugador. 
 
 En cuento a los personajes y enemigos, el proceso consiste en que las formas de estos, los colores y las texturas cuadren con la narrativa y la personalidad de cada uno de ellos a la perfección, capturando su esencia y plasmándola a través de lo que el jugador ve en la pantalla. 
+#### Elementos principales de mundo
+Los elementos del mundo se han diseñado siguiendo una base cuadrada para optimizar el rendimiento del juego. Es por ello que se ha hecho una hoja de elementos principales del mundo: las plataformas principales, los pilares, los checkpoints, las puertas, los pinchos, etc. La manera de dar personalidad al entorno ha sido mediante las texturas, ya que la impasibilidad de realizar objetos de geometría compleja limitaba mucho la libertad artística.
+
 
 ### Arte 2D 
 Utilizando el material producto del arte conceptual, se comienzan a definir los turn arounds de los personajes y de los enemigos, así como de los objetos del mundo. 
 
 También se generan aquí las texturas finales que se aplican a los diferentes modelos 3D, los diferentes elementos 2D que se utilizan en las pantallas e interfaces y las ilustraciones que se usan para la portada del juego y publicidad del mismo. 
+#### Texturas 
+Se han creado texturas tileables para todos los objetos planos que prescinden del desplegado de UV, asegurando que puedan escalarse en el motor de Unity para adecuarla correctamente.  
+Se comenzó con la implementación de colores de las plataformas principales ya que, partiendo de los pesos de color establecidos en la paleta, se eligieron aquellos tonos que predominarían en el entorno, estableciendo la base cromática.
+
+Una vez establecido los colores del entorno, se desarrollaron las texturas de los elementos con variaciones de colores.  
+##### Plataforma principal
+Partiendo del número 13 y 30 se han creado las siguientes texturas para el suelo y la pared: 
+##### Pilares
+Partiendo del número 20 se ha creado la siguiente textura: 
+
 
 ### Arte 3D
 A partir de los turn arounds realizados y siguiendo el concepto previamente establecido, se procede a la creación de los modelos de los personajes. Dependiendo del nivel de detalle deseado, se desarrolla un modelo de alta poligonización esculpido, el cual posteriormente se somete a la creación de su topología, o bien se lleva a cabo una modelación directa. 
 Elementos del mundo:
 - Montañas: A pesar de tener un aspecto onírico y una paleta de colores que no es el real, el mundo de plataformas es montañoso, inspirado en juegos como el Super Mario 64, o el Ori de la Nintendo Switch.
-- Árboles y vegetación: Este aspecto puede ser el más cambiante del mundo, habrá desde árboles con apariencia de piruleta que cuando caiga la noche serán simplemente los palos desgastados, hasta setas de proporciones enormes, y árboles con hojas moradas.
+- Árboles y vegetación: Este aspecto puede ser el más cambiante del mundo, habrá desde árboles con apariencia de piruleta que cuando caiga la noche serán simplemente los palos desgastados, hasta setas de proporciones enormes, y árboles con hojas moradas. Una de las decisiones que se tomaron para la Beta fue desligar la vegatación tradicional del mundo real y crear elementos de decoración como sustitución. 
 - Relación con animales: Lula, al haber sido criada en una zona campestre, ha tenido relación con distintos animales, por lo que, habrá elementos de estos, como nenúfares a modo de plataformas.
   
 ### Arte técnico
@@ -655,7 +696,7 @@ Buy to Play: Pago único. Se debe adquirir el juego para poder jugarlo.
 2- Word of Mouth (de boca a boca): que se use como método de marketing indirecto. Sería una forma de promoción el juego sin que el propio estudio controle la manera en que se habla del juego.  
 ### Modelo Canvas
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/ModelCanvas.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/ModelCanvas.png" width = "auto" height = "250">
 </p>
 
 ## 9. EQUIPO E INTEGRANTES
