@@ -357,7 +357,7 @@ El juego cuenta con 3 tipos de controles diferentes, entre ellos se encuentran t
 ##### XBOX
 <p align="center">
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/XBox_controls.png" width = "auto" height = "250">
-<2/p>
+</p>
 
 ##### Dispositivos móviles
 En dispositivos móviles los controles estarán superpuestos en la interfaz, con un joystick para el movimiento, 4 botones para las acciones principales, un botón para la pausa en la esquina superior derecha y para mover la cámara basta con deslizar el dedo en la mitad derecha de la pantalla. 
@@ -367,7 +367,7 @@ En dispositivos móviles los controles estarán superpuestos en la interfaz, con
 
 ##### Switch
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/SWITCH_ControlsComplete.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/Switch_controls.png" width = "auto" height = "250">
 </p>
 
 ##### PC
@@ -428,7 +428,7 @@ Para salir del tutorial el jugador debe alejarse y salir del rango del cartel, y
 ###  Diagramas de flujo de interfaces
 En el siguiente diagrama podemos observar cómo interaccionan las diferentes interfaces entre sí y cómo se pasa de una a otra. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/InterfaceFlowDiagram.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/FlowOfScreen.png" width = "auto" height = "250">
 </p>
 
 ### Pantalla de inicio 
