@@ -94,7 +94,7 @@ El hilo conductor de la fantasia tomada como protagonista en el desarrollo de la
 #### Paleta de color 
 La paleta de colores está asociada a lo que comúnmente se relaciona con la magia y lo onírico, por lo que, por lo que, para mostrar persistencia, la mayor parte del peso lo conforman los colores morados y violetas. Con ello se pretende crear una atmósfera etérea conjugándolo con una iluminación mágica que trasporte al jugador. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/GeneralColorPalette.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/GeneralColorPalette.png" width = "auto" height = "250">
 </p>
 
 - Olivine (AFC485). Un color verde claro, ligeramente desaturado, que se utiliza en los elementos del entorno para aportar frescura en la paleta y romper la monocromía de los morados. Se utiliza sobre todo para mantener vigente el mundo real y que no se sienta tan desligado a lo que los jugadores conocen. 
@@ -109,7 +109,7 @@ Esta paleta de colores es la principal del juego. En cada nivel o zona del juego
 
 A continuación, se muestran algunos ejemplos de paletas degradadas entre dos colores principales de la paleta.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/GradientColorPalette.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/GradientColorPalette.png" width = "auto" height = "250">
 </p>
 
 #### Isotipo y logotipo
@@ -307,7 +307,7 @@ Como protagonista, Lulla es el móvil que pone en marcha los sucesos del juego. 
 En cuanto a Lulla como personaje, las características que destacan son su inocencia, su determinación y la tristeza.
 #### Métricas del jugador 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/PlayerMetricsTable.png" width = "auto" height = "450">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/PlayerMetricsTable.png" width = "auto" height = "450">
 </p>
 
 #### Habilidades del juagdor 
@@ -328,7 +328,7 @@ Habrá tres enemigos, dos “genéricos” y un boss, como se ha mencionado ante
 - Ovejas Dolly: Clones de la oveja Dolly, cuya vida y comportamiento es más complejo que la de sus compañeros Fobos. El objetivo de estos enemigos es hacer los combates más interesantes y delimitar áreas donde pueda haber coleccionables o zonas explorables. Podrían aparecer también en zonas de plataformas, pero de forma más inusual.  
 Todos los valores son orientativos y aproximados, después de realizar cálculos y establecer el máximo de enemigos de cada tipo a la vez y el daño del jugador por ataque se establecerán los valores finales.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/EnemiesTable.png" width = "auto" height = "150">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/EnemiesTable.png" width = "auto" height = "150">
 </p>
 
 #### Jefes
@@ -351,25 +351,28 @@ Características:
 El juego cuenta con 3 tipos de controles diferentes, entre ellos se encuentran teclado y ratón, móvil y gamepad (PlayStation, Nintendo, Xbox o cualquiera genérico). Además, los indicadores contextuales del juego se adaptan en función del tipo de control que se está usando. 
 ##### PlayStation
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/PLAY_ControlsComplete.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/PS_controls.png" width = "auto" height = "250">
 </p>
 
 ##### XBOX
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/XBOX_ControlsComplete.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/XBox_controls.png" width = "auto" height = "250">
 <2/p>
 
 ##### Dispositivos móviles
 En dispositivos móviles los controles estarán superpuestos en la interfaz, con un joystick para el movimiento, 4 botones para las acciones principales, un botón para la pausa en la esquina superior derecha y para mover la cámara basta con deslizar el dedo en la mitad derecha de la pantalla. 
-##### Switch
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/movile_controls.png" width = "auto" height = "250">
+</p>
 
+##### Switch
 <p align="center">
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/SWITCH_ControlsComplete.png" width = "auto" height = "250">
 </p>
-##### PC
 
+##### PC
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/PC_ControlsComplete.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/PC_controls.png" width = "auto" height = "250">
 </p>
 
 #### Cámaras
@@ -445,7 +448,9 @@ La pantalla de inicio cuenta con los siguientes botones:
 - Salir. Cierra el juego en la versión local.
 Después de contar con un boceto inicial, durante la creación de la pantalla definitiva de barajaron varias opciones y se reorganizaron los elementos. Se situaron las opciones de la interfaz en el centro para lograr una disposición más coherente y visualmente más equilibrada. 
 Resultado de pantalla: 
-
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Main%20Screen/Main_menu.png" width = "auto" height = "250">
+</p>
 
 ### Pantalla de carga
 Esta pantalla aparece cuando se acede a una nueva partida, informando al jugador de que se están cargando los recursos del juego. 
@@ -456,6 +461,9 @@ Para proporcionar información constante al jugador de que el juego sigue cargan
 
 El estilo final de la pantalla será un fondo de un cielo nocturno con una gran luna llena y unas nubes que la acompañan. En la parte inferior de la pantalla aparecerá el texto “Cargando...” y la animación de las estrellas girando. 
 Resultado de pantalla: 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Loading/00_Example.png" width = "auto" height = "250">
+</p>
 
 ### Pantalla de pausa
 Esta pantalla es accesible al pausar el juego, ya sea a través de la tecla asignada al teclado y al mando o a través del botón de pausa en dispositivos táctiles. 
@@ -472,6 +480,9 @@ De la misma forma, encontramos una lista de botones con los que el usuario puede
 - Salir. Permite al usuario volver a la pantalla de inicio. Se le informará antes de salir de que con esta acción perderá todo lo que ha jugado hasta el momento y se pedirá la confirmación. 
 La estética que esta pantalla trata de simular es la de que el juego pausado es un reflejo en la superficie de la luna que está en el cielo nocturno y que está ligeramente tapada por una nube. 
 Resultado de pantalla:
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Pause/00_Example.png" width = "auto" height = "250">
+</p>
 
 ### Patalla de opciones
 Esta pantalla sirve para que el usuario configure su experiencia de juego. 
@@ -503,7 +514,9 @@ Dentro de la pantalla de controles el usuario puede navegar por las diferentes p
 - Móvil. En ella se muestra la interfaz para controlar el juego en dispositivos móviles y las acciones asociadas del juego. 
 La estética de esta pantalla sigue la línea de un cielo como fondo y nubes como los botones para cambiar entre pestañas. Además, para marcar la pestaña seleccionada, la nube de ese control está aumentada, desplazada hacia abajo y decorada con estrellas y una luna.
 Resultado de pantalla:
-
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/Interface_controls.png" width = "auto" height = "250">
+</p>
 
 ### Pantalla de usuario 
 Esta pantalla aparece nada más el usuario presiona la opción de jugar en la pantalla principal y permite asociar un nombre de usuario o nickname al jugador. 
@@ -524,7 +537,7 @@ Para avanzar, el usuario debe escoger el idioma de su preferencia y el juego se 
 ### Diagrama de flujo entre pantallas
 En el siguiente diagrama podemos observar cómo interaccionan las diferentes Pantallas entre sí y cómo se pasa de una a otra. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/FlowOfScreen.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/FlowOfScreen.png" width = "auto" height = "250">
 </p>
 
 ## 6. NIVELES
@@ -551,7 +564,11 @@ Elementos de los niveles:
 - Doble pared: Las "dobles paredes" consisten en dos paredes cercanas y una plataforma en la parte superior. Para acceder a la plataforma superior, se requiere el uso de esta mecánica. Por lo general, en la parte inferior de las dobles paredes, habrá elementos peligrosos como pinchos u otros obstáculos dañinos.
   
 #### Concepto de nivel 
+
+
 ### Esquema de progresión del juego 
+
+
 ### Ficha de niveles:
 
 
@@ -679,7 +696,7 @@ Buy to Play: Pago único. Se debe adquirir el juego para poder jugarlo.
 2- Word of Mouth (de boca a boca): que se use como método de marketing indirecto. Sería una forma de promoción el juego sin que el propio estudio controle la manera en que se habla del juego.  
 ### Modelo Canvas
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/ModelCanvas.png" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/ModelCanvas.png" width = "auto" height = "250">
 </p>
 
 ## 9. EQUIPO E INTEGRANTES
