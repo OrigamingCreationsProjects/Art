@@ -550,19 +550,66 @@ Se ha decidido dividir en mitades los niveles para que el jugador pueda ver los 
 
 Elementos de los niveles: 
 - Bloques de salto básico: Es un bloque de altura determinada para que el jugador salte una única vez. Habrá zonas amplias diseñadas para permitir al jugador la posibilidad de explorar el mundo a pesar de tener un camino principal establecido. De esta manera, se proporcionan rutas alternativas para que el jugador no se sienta limitado y pueda investigar o experimentar cierta sensación de libertad en el mundo En esta imagen se intenta representar lo dicho anteriormente; el jugador puede ente plataformas con distinto nivel de altura o puede optar por el camino de altura inferior para llegar a la siguiente plataforma.
-  
+  <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/basic_jumping_platform.jpg" width = "auto" height = "250">
+</p>
+
 - Bloques y columnas de doble salto: Los bloques y las columnas de doble salto son elementos del mundo que se presentarán para introducir el concepto del doble salto, que adquirirá una mayor complejidad en etapas posteriores del juego. Al igual que en el apartado anterior, se ofrecerán múltiples opciones de camino dentro del recorrido que el jugador debe seguir. En la imagen proporcionada, se ilustra lo mencionado, permitiendo al jugador saltar entre las columnas o explorar la parte trasera de la imagen para intentar abordar las columnas desde una perspectiva diferente.
-- Plataformas móviles: Son plataformas situadas en el aire que esbozarán diferentes movimientos, vertical (en el eje y en ambas direcciones), horizontal (en los ejes x, y z) creando diferentes patrones que se definirán a continuación.
-    - Movimiento circular:  En secuencias de tres plataformas, la plataforma central permanecerá estática, mientras que las dos plataformas adyacentes realizarán un movimiento circular rotativo. En futuras etapas del juego, se describirán las modificaciones que aumentarán la complejidad de esta mecánica al introducir otros elementos.
-  
-- Botones: Se incorporarán botones en ciertas áreas del juego para activar plataformas móviles que facilitarán la progresión a través de secciones que de otra manera serían intransitables. La imagen que se muestra ejemplifica una situación como la descrita anteriormente. La zona resaltada en rojo representa un área de peligro para el jugador. Como se puede apreciar en la imagen, al presionar el botón, la plataforma se desplazará hacia la ubicación del jugador, permitiéndole cruzar esa zona. Una vez que la plataforma móvil llegue al extremo opuesto, realizará un recorrido de regreso.
+  <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Double_jump_blocks_and_columns.jpg" width = "auto" height = "250">
+</p>
+
+- Plataformas móviles: Son plataformas situadas en el aire que ejecutarán diferentes movimientos, incluyendo desplazamientos verticales en el eje y en ambas direcciones, así como movimientos horizontales en los ejes x, y, z. Estos darán lugar a la creación de diversos patrones, los cuales serán definidos en detalle a continuación.
+    - Movimiento lateral:  En secuencias de múltiples plataformas, las plataformas se moverán únicamente sobre el eje x o el eje z, son para secuencias sencillas pero que aportan dinamismo a la experiencia del jugador y construcción del mundo.
+    - Movimiento vertical: En secuencia o por solitario, plataformas con la misma apariencia que las anteriores describen un movimiento sobre el eje y. Servirán para desplazamientos más sencillos y son zonas sin patrones, ya que, añade una complejidad mayor al juego, lo que puede generar en los jugadores menos experimentados frustración.
+    - Movimiento complejo: Hay plataformas que no describirán un movimiento en un único eje, para poder desplazarse a otras zonas y aportar variedad al juego, se describen distintos movimientos, como por ejemplo en L. Con este sistema de waypoints nos permite explorar patrones de movimiento que contribuyen a la jugabilidad y al movimiento. 
+  <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/platform_lateral_movement.jpg" width = "auto" height = "200">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/platform_vertical_movement.jpg" width = "auto" height = "200">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/complex_movement.jpg" width = "auto" height = "200">
+</p>
+
+- Plataformas caíbles: Plataformas que se caen si el jugador está encima durante un tiempo determinado. El tiempo variará dependiendo del nivel en el que se esté.
+ <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Dropable_platforms.jpg" width = "auto" height = "250">
+</p>
+
+- Botones: Se incorporarán botones en ciertas áreas del juego para activar plataformas móviles que facilitarán la progresión a través de secciones que de otra manera serían intransitables. La imagen que se muestra ejemplifica una situación como la descrita anteriormente. La zona resaltada en rojo representa un área de peligro para el jugador. Como se puede apreciar en la imagen, al presionar el botón, la plataforma se desplazará hacia la ubicación del jugador, permitiéndole cruzar esa zona. Una vez que la plataforma móvil llegue al extremo opuesto, realizará un recorrido de regreso. Aunque, más adelante en la progresión del juego pueden tener solo un sentido de movimiento.
+ <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/buttons.jpg" width = "auto" height = "250">
+</p>
 
 - Pinchos:  Los pinchos serán un elemento peligroso en el entorno del juego y reducirán la vida del jugador al entrar en contacto con ellos. Se han diseñado con el propósito de evitar que, si el jugador comete un error y cae en un obstáculo, no sufra una derrota instantánea, especialmente en secciones donde caer al vacío puede ser una amenaza constante. Esto se hace para prevenir la frustración del jugador al minimizar las pausas en el juego y mantener un ritmo fluido en la jugabilidad. Además, los pinchos servirán para marcar el camino a seguir, lo cual es esencial para la orientación del jugador. Estos elementos se combinarán con paredes, plataformas y otros elementos en etapas posteriores del juego. A continuación, se mostrará un prototipo de los pinchos.
-  
-- Aros: Los aros son plataformas que constan de paredes y un techo de tamaño reducido. Su propósito principal en el diseño es enseñar al jugador a utilizar la mecánica del dash y a perfeccionar su precisión en su ejecución. A continuación, se presentará un prototipo de estos aros, y se planifican variaciones más desafiantes en etapas posteriores del juego.
-  
+ <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/spikes.jpg" width = "auto" height = "250">
+</p>
+
 - Doble pared: Las "dobles paredes" consisten en dos paredes cercanas y una plataforma en la parte superior. Para acceder a la plataforma superior, se requiere el uso de esta mecánica. Por lo general, en la parte inferior de las dobles paredes, habrá elementos peligrosos como pinchos u otros obstáculos dañinos.
-  
+ <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/double_wall.jpg" width = "auto" height = "250">
+</p>
+
+- Mermelada(muelles): Son unos cilindros con textura de mermelada, que lo que hacen es hacer un efecto trampolín al dejarte caer, pero al estar en el punto más alto se tiene la oportunidad de tener salto doble y mantener esa altura.
+ <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/spring_platforms.jpg" width = "auto" height = "250">
+</p>
+
+- Chekpoints: Cada ciertos obstáculos o enfrentamientos, se pondrán chekpoints para agilizar la experiencia del jugador. Aquí un ejemplo:
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/checkpoints_elements.jpg" width = "auto" height = "250">
+</p>
+
+- Raíles: Son el método de desplazamiento más rápido dentro del mundo, con el cual, el jugador se desliza. Se intercalarán con obstáculos que tenga que saltar y esquivar. Además, existen desvíos en el mundo para obtener vida adicional, o en un futuro posibles coleccionables. Xon el fin de que el jugador no tenga que repetir zonas, se proporcionará un raíl que le lleve de vuelta al camino principal.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/rails_elements.jpg" width = "auto" height = "250">
+</p>
+
+- Elementos decorativos: Habrá dados, y bastones de caramelo a modo de decoración en el mundo. Además, se utilizará como guía para que el jugador sepa por dónde dirigirse en caso de que se vea algo perdido.  Puede haber agrupaciones de estos o encontrártelos de forma individual como se mostrará a continuación. Los elementos del mundo son fantásticos y ayudan a decorar las escenas, otorgando la personalidad que se busca al juego. Algun ejemplo de ello es la imagen que se muestra a continuación.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
+</p>
+
+
 #### Concepto de nivel 
 
 
