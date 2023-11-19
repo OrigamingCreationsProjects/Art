@@ -5,14 +5,23 @@
 
 ## 1. VERSIÓN
 Version 1.1. Determinar las primeros capítulos del GDD y empezar a completarlos
+
 Versión 1.2. Cambiar capitulos posterior al dos y completar 
+
 Version 1.3: Completar apartados secundarios 
+
 Version 1.3.1: Añadir apartado de guión y storyboard
+
 Version 1.3.2: Añadir apartado de arte 2D y 3D con concept art y vfx, iluminación y postproceso respectivamente
+
 Version 1.4. Añadir imágenes de los apartado 
+
 Versión 2.1.1: Cambiar imágenes de controles
+
 Versión 2.1.2: añadir arte final de las interfaces
+
 Versión 2.2: Completar el apartado de elementos de nivel
+
 Versiión 2.3.1: Añadir las imágenes del apartado de 2D
 
 
@@ -724,7 +733,7 @@ Las siguientes que aparecen corresponden a las expresiones faciales:
 A partir de los turn arounds realizados y siguiendo el concepto previamente establecido, se procede a la creación de los modelos de los personajes. Dependiendo del nivel de detalle deseado, se desarrolla un modelo de alta poligonización esculpido, el cual posteriormente se somete a la creación de su topología, o bien se lleva a cabo una modelación directa. 
 Elementos del mundo:
 - Montañas: A pesar de tener un aspecto onírico y una paleta de colores que no es el real, el mundo de plataformas es montañoso, inspirado en juegos como el Super Mario 64, o el Ori de la Nintendo Switch.
-- Árboles y vegetación: Este aspecto puede ser el más cambiante del mundo, habrá desde árboles con apariencia de piruleta que cuando caiga la noche serán simplemente los palos desgastados, hasta setas de proporciones enormes, y árboles con hojas moradas. Una de las decisiones que se tomaron para la Beta fue desligar la vegatación tradicional del mundo real y crear elementos de decoración como sustitución. 
+- Árboles y vegetación: Este aspecto puede ser el más cambiante del mundo, habrá desde árboles con apariencia de piruleta que cuando caiga la noche serán simplemente los palos desgastados, hasta setas de proporciones enormes, y árboles con hojas moradas. Una de las decisiones que se tomaron para la Beta fue desligar la vegetación tradicional del mundo real y crear elementos de decoración como sustitución. 
 - Relación con animales: Lula, al haber sido criada en una zona campestre, ha tenido relación con distintos animales, por lo que, habrá elementos de estos, como nenúfares a modo de plataformas.
   
 ### Arte técnico
