@@ -7,6 +7,13 @@
 Version 1.1. Determinar las primeros capítulos del GDD y empezar a completarlos
 Versión 1.2. Cambiar capitulos posterior al dos y completar 
 Version 1.3: Completar apartados secundarios 
+Version 1.3.1: Añadir apartado de guión y storyboard
+Version 1.3.2: Añadir apartado de arte 2D y 3D con concept art y vfx, iluminación y postproceso respectivamente
+Version 1.4. Añadir imágenes de los apartado 
+Versión 2.1.1: Cambiar imágenes de controles
+Versión 2.1.2: añadir arte final de las interfaces
+Versión 2.2: Completar el apartado de elementos de nivel
+Versiión 2.3.1: Añadir las imágenes del apartado de 2D
 
 
 ## 2. INTRODUCCIÓN
@@ -564,9 +571,9 @@ Elementos de los niveles:
     - Movimiento vertical: En secuencia o por solitario, plataformas con la misma apariencia que las anteriores describen un movimiento sobre el eje y. Servirán para desplazamientos más sencillos y son zonas sin patrones, ya que, añade una complejidad mayor al juego, lo que puede generar en los jugadores menos experimentados frustración.
     - Movimiento complejo: Hay plataformas que no describirán un movimiento en un único eje, para poder desplazarse a otras zonas y aportar variedad al juego, se describen distintos movimientos, como por ejemplo en L. Con este sistema de waypoints nos permite explorar patrones de movimiento que contribuyen a la jugabilidad y al movimiento. 
   <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/platform_lateral_movement.jpg" width = "auto" height = "200">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/platform_vertical_movement.jpg" width = "auto" height = "200">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/complex_movement.jpg" width = "auto" height = "200">
+    <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/platform_lateral_movement.jpg" width = "auto" height = "200">
+    <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/platform_vertical_movement.jpg" width = "auto" height = "200">
+    <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/complex_movement.jpg" width = "auto" height = "200">
 </p>
 
 - Plataformas caíbles: Plataformas que se caen si el jugador está encima durante un tiempo determinado. El tiempo variará dependiendo del nivel en el que se esté.
@@ -629,22 +636,89 @@ Es la idea artística inicial de la que se parte en la que se guía el modelado,
 En cuento a los personajes y enemigos, el proceso consiste en que las formas de estos, los colores y las texturas cuadren con la narrativa y la personalidad de cada uno de ellos a la perfección, capturando su esencia y plasmándola a través de lo que el jugador ve en la pantalla. 
 #### Elementos principales de mundo
 Los elementos del mundo se han diseñado siguiendo una base cuadrada para optimizar el rendimiento del juego. Es por ello que se ha hecho una hoja de elementos principales del mundo: las plataformas principales, los pilares, los checkpoints, las puertas, los pinchos, etc. La manera de dar personalidad al entorno ha sido mediante las texturas, ya que la impasibilidad de realizar objetos de geometría compleja limitaba mucho la libertad artística.
-
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Environments/Elements/Element_world_coconcept.jpeg" width = "auto" height = "250">
+</p>
+#### Elemento de vida
+El desarrollo del objeto de vida se ha llevado a cabo con un enfoque narrativo, dotándolo de significado en lugar de basarse únicamente en consideraciones estéticas. Se crearon dos variantes con una correlación entre ellos, y se fueron evaluando ajustando hasta crear la opción 3, que se estableció como la definitiva. Este proceso se llevó a cabo para mantener la singularidad. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Environments/Elements/Element_life.jpeg" width = "auto" height = "250">
+</p>
 
 ### Arte 2D 
 Utilizando el material producto del arte conceptual, se comienzan a definir los turn arounds de los personajes y de los enemigos, así como de los objetos del mundo. 
-
 También se generan aquí las texturas finales que se aplican a los diferentes modelos 3D, los diferentes elementos 2D que se utilizan en las pantallas e interfaces y las ilustraciones que se usan para la portada del juego y publicidad del mismo. 
 #### Texturas 
 Se han creado texturas tileables para todos los objetos planos que prescinden del desplegado de UV, asegurando que puedan escalarse en el motor de Unity para adecuarla correctamente.  
 Se comenzó con la implementación de colores de las plataformas principales ya que, partiendo de los pesos de color establecidos en la paleta, se eligieron aquellos tonos que predominarían en el entorno, estableciendo la base cromática.
-
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Environments/Elements/Cocept_colors.jpeg" width = "auto" height = "250">
+</p>
 Una vez establecido los colores del entorno, se desarrollaron las texturas de los elementos con variaciones de colores.  
+
 ##### Plataforma principal
-Partiendo del número 13 y 30 se han creado las siguientes texturas para el suelo y la pared: 
+Partiendo del número 13 y 30 se han creado las siguientes texturas para el suelo y la pared:
+ <p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Platform/main_platform_floor_asymmetrical_texture_satuated.jpg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Platform/main_platform_floor_asymmetrical_texture_satuated_2.jpg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Platform/Plafform_wall_texture_asymmetrical_2.jpg" width = "auto" height = "200">
+</p>
+
 ##### Pilares
 Partiendo del número 20 se ha creado la siguiente textura: 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Pillar/wall_pillar.jpg" width = "auto" height = "200">
+</p>
 
+##### Puerta  
+Al tener que respetar un peso de colores en el juego, los elementos principales que no son plataformas se han diseñado para resaltar las zonas del juego. Como las puertas deben ser un elemento que debe llamar la atención al jugador y debe destacar entre los muros, se han desarrollado con colores complementarios al morado. 
+
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Door/door_texture_1.jpg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Door/door_texture_2.jpg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Door/door_texture_3.jpg" width = "auto" height = "200">
+</p>
+
+##### Dados 
+Los dados son una plataforma importante en la jugabilidad. Para ello se han combinado dos colores secundarios de la paleta (el azul y el amarillo) con la misma finalidad que el objeto anterior, llamar la atención del jugador. 
+En este caso, se han sacado las UVs del modelo 3D para crear la textura.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Dice/DadoUv_cube.png" width = "auto" height = "200">
+</p>
+
+##### Railes  
+La idea de los raíles era hacer una textura que recordase a un bastón de caramelo. Como el color rojo se ha reservado para ‘peligro’, se han hecho varias opciones de color. Con ambos se ha mantenido el contraste de color y se ha empleado el morado (con base azul y base roja respectivamente). 
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Rails/rail_texture.jpg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Rails/rail_texture_2.jpg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Rails/rail_texture_3.jpg" width = "auto" height = "200">
+</p>
+##### Pinchos 
+Para los pinchos se ha creado una textura de cono de helado usando las UVs del modelo 3D. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Spikes/spikes_texture.jpg" width = "auto" height = "200">
+</p>
+##### Botón  
+Para los botones, el diseño original era representarlos mediane una geometría de botón. Sin embargo, debido a las restricciones de polígonos y con el objetivo de optimizar el rendimiento del juego, se ha optado por emplear una textura que simula los agujeros como el reborde de un botón. 
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Button/button_texture.jpg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Button/DefbuttonTextureAmpliation.png" width = "auto" height = "200">
+</p>
+
+##### Lulla 
+Para crear las texturas de Lulla, se extrajeron las coordenadas UV del personaje y se procedió a pintar sobre ellas. Para conseguir una mayor expresividad del personaje, se diseñadores expresiones faciales específicas para Lulla. 
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Lulla's%20Face/Body%26Cap_WithEyes.png" width = "auto" height = "200">
+</p>
+Las siguientes que aparecen corresponden a las expresiones faciales:
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Lulla's%20Face/EyeLids_Angry.png" width = "auto" height = "100">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Lulla's%20Face/EyeLids_Happy.png" width = "auto" height = "100">
+</p>
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Lulla's%20Face/EyeLids_Neutral.png" width = "auto" height = "100">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Lulla's%20Face/EyeLids_Sad.png" width = "auto" height = "100">
+</p>
 
 ### Arte 3D
 A partir de los turn arounds realizados y siguiendo el concepto previamente establecido, se procede a la creación de los modelos de los personajes. Dependiendo del nivel de detalle deseado, se desarrolla un modelo de alta poligonización esculpido, el cual posteriormente se somete a la creación de su topología, o bien se lleva a cabo una modelación directa. 
