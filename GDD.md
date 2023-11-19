@@ -15,6 +15,7 @@ Versión 2.1.2: añadir arte final de las interfaces
 Versión 2.2: Completar el apartado de elementos de nivel
 Versiión 2.3.1: Añadir las imágenes del apartado de 2D
 Versiión 2.4: Añadir la seccion de ruta de niveles y completar el nivel 1 con imagenes
+Versiión 2.4.1: Añadir la seccion de ruta de niveles y completar el nivel 2 con imagenes
 
 ## 2. INTRODUCCIÓN
 El presente Game Desing Document (GDD) proporciona una visión integral de “Lullaby”. A lo largo del documento se van a ir desarrollando y explorando los detalles conceptuales que atañan al desarrollo, las características que lo definen. 
@@ -656,7 +657,22 @@ Al concluir la pelea el jugador deberá realizar una serie de saltos sobre plata
 Finalmente, después de esta zona intensa de plataformas, el jugador deberá enfrentar a más fobos para conseguir así acceso al botón que abre el camino a seguir.
 
 Isla 5: En esta sección del nivel, es imprescindible activar tres botones para obtener acceso al que se desplazará hacia la siguiente zona marcada en amarillo. Cada uno de los islotes presenta una prueba específica, y al presionar un botón, se eliminará un anillo de protección asociado al botón principal.
+<p align="center">
+<img src = "" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/isla5_1.jpg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/isla5_2.jpg" width = "auto" height = "200">
+</p>
 
+#### Nivel 2
+Para el nivel 2 se han respetado las distancias mencionadas para el primer nivel, a excepción de zonas más complejas para seguir con la curva de progresión. Estas zonas se detallarán más adelante; inicialmente, se describirá el recorrido del nivel mediante imágenes ilustradas. Las flechas amarillas señalan la ruta principal que debería seguir el jugador, y en caso de bifurcaciones, se especificarán en otro color.
+- Parte 1: El jugador se encuentra con varios enfrentamientos y plataformas por delante, siguiendo un esquema curvo. Más adelante, se ramifica en tres partes el camino posible; en los extremos, se ubican enemigos en esas plataformas. Aunque, a nivel de habilidad, estas opciones sean más accesibles, tienen un valor añadido. Una vez superada esta sección, se activa un botón para avanzar a la siguiente etapa.
+- <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/level2_part1.jpg" width = "auto" height = "250">
+</p>
+-	Parte 2: Avanzando por este camino, el jugador se encuentra con la necesidad de pulsar dos botones para continuar. Esto le permitirá acceder a la zona del puzle, similar al primer nivel, que implica moverse por diferentes secciones para accionar un botón y regresar al punto de origen. Los caminos de ida en estas secciones están señalizados con el color rojo, mientras que el verde indica el camino de vuelta.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/level2_part2.jpg" width = "auto" height = "250">
+</p>
 
 ## 7. ARTE
 ### Arte conceptual 
