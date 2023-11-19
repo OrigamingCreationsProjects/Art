@@ -19,6 +19,10 @@ Versiión 2.4: Añadir la seccion de ruta de niveles
 Versiión 2.4.1: Añadir la seccion de ruta de niveles y completar el nivel 1 con imagenes
 Versiión 2.4.2: Añadir la seccion de ruta de niveles y completar el nivel 2 con imagenes
 Versioón 2.4.3. Añadir y completar apartados de arte 3D con animaciones y modelos 
+Versioón 2.4.4. Maquetar modelo de negocio
+Versioón 2.5: Ficha de niveles
+Versioón 2.5.1. Añadir secciones y completarlas
+Versioón 2.5.2: Incluir imágenes
 
 ## 2. INTRODUCCIÓN
 El presente Game Desing Document (GDD) proporciona una visión integral de “Lullaby”. A lo largo del documento se van a ir desarrollando y explorando los detalles conceptuales que atañan al desarrollo, las características que lo definen. 
@@ -677,6 +681,73 @@ Para el nivel 2 se han respetado las distancias mencionadas para el primer nivel
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/level2_part2.jpg" width = "auto" height = "250">
 </p>
 
+### Ficha de niveles
+#### Título: Campo de amapolas (Tutorial)
+##### Ficha
+Encuentro: El jugador se materializa en el mundo de los sueños, ubicado en una explanada sobre una cama, desde donde se le proporciona orientación. El propósito principal de este nivel es que el jugador se familiarice con el entorno, los elementos del mundo y las mecánicas fundamentales, convirtiéndose así en una especie de tutorial introductorio. 
+Objetivos: El objetivo de este primer nivel para el jugador es conseguir la almohada que se ha dejado aquí anteriormente (lo que narrativamente implica que ya ha estado aquí pero no se acuerda). El progreso de este nivel se verá representado en obstáculos y plataformas de distintos tipos. Habrá los siguientes elementos:
+- Columnas rocosas: Serán unas columnas por las cuales el jugador deberá saltar por su parte superior.
+-	Paredes: Son una zona en la que el jugador deberá saltar de pared en pared para llegar a la cima.
+-	Nubes: Son unas plataformas que se caen si el jugador permanece mucho tiempo. 
+-	Pinchos: Los pinchos infringen daño si se chocan lateralmente o si se cae encima de ellos. Visualmente se asemejan a unos conos de helado. 
+Enemigos: En esta primera fase, no se presentarán enemigos con los que el jugador deba enfrentarse directamente. No obstante, se introducirán los "fobos". Dado que el jugador no dispone de un arma, la única opción será evadirlos, destacando la necesidad de adquirir algún medio de defensa. Esto preparará la introducción de la almohada, mostrando al jugador su utilidad como herramienta de defensa.
+Personajes: Aparecen George y Byron al principio del nivel y al final
+##### Objetos 
+Al concluir el nivel, el jugador adquiere la almohada, que posteriormente se utilizará como arma en niveles subsiguientes.
+##### Recompensas 
+Al atravesar ciertas áreas con obstáculos, al jugador se le otorgará vida al recoger un ítem específico.
+##### coleccionables
+Hasta el momento, no se han introducido coleccionables, aunque se han considerado algunas opciones para su posible implementación en el futuro.
+
+#### Título: el ataque de los fobos (Nivel 1)
+##### Ficha
+Encuentro: Inmediatamente después de completar el tutorial, el jugador se enfrenta a una pelea para aprender la mecánica de combate. Durante un diálogo con George y Byron, se establece que el mundo de los sueños es un lugar donde se debe permanecer por períodos cortos, o de lo contrario, las pesadillas intentarán "despertar" al jugador. La protagonista responde que busca algo y debe continuar buscando, por lo que desea permanecer en ese mundo. Por lo tanto, el objetivo es seguir avanzando.
+Objetivos: Para superar el nivel, el jugador debe enfrentarse a enemigos básicos, superar nuevos obstáculos y resolver los primeros puzles. Los enemigos mueren con un solo golpe. Las nuevas plataformas y obstáculos incluyen:
+-	Raíles: Superficies cilíndricas que permiten al jugador avanzar más rápido por el mundo, con obstáculos relacionados.
+-	Botones: Al pulsar botones, se activarán mecanismos que moverán plataformas, columnas u otros elementos que obstaculizan al jugador.
+-	Zonas de combate obligatorio: No se puede avanzar a la siguiente plataforma hasta que se haya completado el combate.
+Enemigos:
+-	Fobos: Masa viscosa que se dirige hacia el jugador y ataca cuerpo a cuerpo. Puede resistir un golpe y su función principal es entorpecer las secuencias de obstáculos.
+-	Neo Fobos: Similar a los anteriores, pero estos pueden disparar bolas de fuego fatuo a distancia.
+Personajes: George y Byron: Elementos narrativos clave que vuelven a aparecer.
+##### Objetos
+La inclusión de diversos objetos que el jugador debe recoger y colocar para resolver distintos puzles añade una capa adicional de complejidad e interactividad al juego. Esto proporciona oportunidades para desafíos estratégicos y creativos, incentivando la exploración y el pensamiento lógico en la resolución de los rompecabezas.
+##### Recompensas 
+La implementación de la mecánica donde vencer a un enemigo o destruir objetos destructibles proporciona vida al jugador es una decisión que refuerza la conexión entre la acción del jugador y su recompensa. Esto crea un incentivo adicional para la interacción activa con el entorno y los elementos hostiles del juego, contribuyendo así a la dinámica y estrategia del gameplay. 
+##### Coleccionables  
+De momento no se introducirán coleccionables, pero se han barajado algunas opciones.
+
+#### Título: Las ovejas Dolly (Nivel 2)
+##### Ficha
+Encuentro: Este nivel marca la continuación después de establecer las bases del juego, con George y Byron revelando una clave del mundo ficticio: "los muertos con asuntos pendientes pueden manifestarse en este mundo". Esto introduce un nuevo enemigo, la oveja Dolly. Al igual que en el nivel anterior, Lula persiste en su búsqueda de algo que le falta.
+Objetivos: El jugador enfrentará combates con enemigos más formidables mientras supera obstáculos conocidos, pero de mayor complejidad. La novedad en el mundo se centra en la introducción de la mecánica de coger un cubo. Este objeto se utiliza para colocarlo en botones y resolver puzles, o incluso lanzarlo para golpear a los fobos. Además, se añaden elementos nuevos al entorno.
+-	Mermelada (muelles): Estos elementos se utilizan para añadir dinamismo al salto y evitar que la mecánica resulte monótona.
+-	Cubo móvil: Dados que hay botones que deben mantenerse pulsados, el jugador necesita manipular estos cubos móviles estratégicamente para completar los puzles.
+Enemigos:
+-	Fobos: Se mencionaron en el nivel anterior, siendo una masa viscosa que se dirige hacia el jugador y ataca cuerpo a cuerpo.
+-	Neo Fobos: También mencionados previamente, son similares a los Fobos, pero pueden disparar bolas de fuego fatuo a distancia.
+-	Dolly: Nombradas en referencia a la primera oveja clonada, estas son enemigos cuerpo a cuerpo más resistentes que los Fobos. Su nombre refleja su naturaleza de clones, y presentan un desafío adicional en el combate.
+##### Objetos
+La incorporación de pequeños cubos integrados en el mundo, con la utilidad previamente mencionada, aporta una dimensión adicional a la jugabilidad al requerir que los jugadores interactúen con su entorno para resolver puzles y superar obstáculos. Esto fomenta la exploración y la creatividad en la resolución de desafíos dentro del juego.
+##### Recompensas 
+La mecánica de otorgar vida al jugador al vencer a un enemigo o destruir objetos destructibles es una estrategia efectiva para equilibrar el desafío del juego. Esto recompensa la acción proactiva del jugador y promueve la participación en combates y la exploración del entorno, añadiendo un elemento estratégico al manejo de la salud en el juego.
+##### Coleccionables  
+La decisión de no introducir coleccionables por el momento, aunque se hayan considerado algunas opciones, permite mantener el enfoque del juego en otros aspectos de la experiencia. La flexibilidad para explorar la inclusión de coleccionables más adelante brinda la posibilidad de ajustar y mejorar la jugabilidad a medida que se desarrolla el proyecto.
+
+#### Título: Para siempre (Final)
+##### Ficha
+Encuentro: Este es el último nivel, la arena del jefe final, donde el jugador se enfrentará y alcanzará el objetivo final. Se espera que el jugador supere las distintas mecánicas del jefe para vencerlo y así completar el nivel.
+Objetivos: El progreso en este nivel se mide por el cambio en el patrón de lucha del jefe, que evoluciona a medida que el jugador avanza.
+Enemigos: Eos, el jefe final, es el único enemigo y obstáculo en este nivel.
+Personajes: George y Byron, Eos (el jefe final), y la madre de Lulla, Meryl. La presencia de estos personajes en el nivel final agrega un componente narrativo importante al desenlace del juego.
+##### Objetos
+La inclusión de objetos que restauran un poco de salud durante el combate en este nivel final añade una capa estratégica adicional. Proporciona al jugador la oportunidad de tomar decisiones tácticas sobre cuándo y cómo utilizar estos objetos para maximizar sus posibilidades de derrotar al jefe final. Esto agrega un elemento estratégico y de gestión de recursos al enfrentamiento.
+##### Recompensas 
+La mecánica de proporcionar vida al jugador al vencer a un enemigo o destruir objetos destructibles sigue presente en este nivel final. Esta decisión continúa reforzando la importancia de la acción proactiva del jugador, al tiempo que garantiza que el enfrentamiento con el jefe final sea desafiante pero equilibrado en términos de gestión de la salud.
+##### Coleccionables  
+La elección de no introducir coleccionables por el momento, aunque se hayan considerado algunas opciones, permite mantener la simplicidad o centrarse en otros aspectos del diseño del juego. Esta decisión también brinda flexibilidad para ajustar la experiencia del jugador según sea necesario durante el desarrollo del juego.
+
+
 ## 7. ARTE
 ### Arte conceptual 
 Partiendo del estilo visual concretado al inicio del desarrollo, el arte conceptual se centra en la creación de bocetos de personajes y escenarios en los que se describe visualmente cómo debe ser el producto final. 
@@ -904,13 +975,13 @@ Las principales inspiraciones para la música y sonidos del juego han sido Hollo
 
 ## 8. MODELO DE NEGOCIO 
 ### Mapa de empatía
-####¿Qué piensa y siente? 
+#### ¿Qué piensa y siente? 
 Piensa en los videojuegos como un ocio y algo que disfruta. Le gusta jugar a ellos en su tiempo libre y le encanta probar juegos creados por pequeños estudios. 
-####¿Qué oye? 
+#### ¿Qué oye? 
 Ve muchas redes sociales y sigue a los estudios de videojuegos que le gustan, pendiente de nuevos títulos y de recomendaciones de nuevos estudios emergentes. También escucha las recomendaciones de sus amigos y de los diferentes creadores de contenido de las plataformas de streaming. 
-####¿Qué ve? 
+#### ¿Qué ve? 
 Su entorno cercano también disfruta de los videojuegos y se recomiendan títulos entre ellos. También quedan para jugar y se prestan videojuegos. Ve anuncios de videojuegos en el móvil y a gente cercana y desconocidos disfrutar y hablar de los nuevos lanzamientos. 
-####¿Qué dice y hace? 
+#### ¿Qué dice y hace? 
 Es una persona muy abierta en cuanto a hablar de sus gustos. Le hace feliz hablar con sus amigos sobre nuevos videojuegos que ha visto por redes sociales, y atraer a nuevos jugadores de su círculo de amigos y familiares. Entra en las plataformas digitales de juegos para ver ofertas y nuevos títulos, así como se acerca a tiendas físicas a ver novedades. 
 #### Esfuerzos / Miedos
 Tiene miedo de invertir demasiado dinero en un juego sin saber si le va a gustar. Trata de estar al día con los gameplays y trailers de los juegos que le atraen, pero no se decide a comprarlos fácilmente. 
