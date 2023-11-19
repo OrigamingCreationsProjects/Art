@@ -5,25 +5,16 @@
 
 ## 1. VERSIÓN
 Version 1.1. Determinar las primeros capítulos del GDD y empezar a completarlos
-
 Versión 1.2. Cambiar capitulos posterior al dos y completar 
-
 Version 1.3: Completar apartados secundarios 
-
 Version 1.3.1: Añadir apartado de guión y storyboard
-
 Version 1.3.2: Añadir apartado de arte 2D y 3D con concept art y vfx, iluminación y postproceso respectivamente
-
 Version 1.4. Añadir imágenes de los apartado 
-
 Versión 2.1.1: Cambiar imágenes de controles
-
 Versión 2.1.2: añadir arte final de las interfaces
-
 Versión 2.2: Completar el apartado de elementos de nivel
-
 Versiión 2.3.1: Añadir las imágenes del apartado de 2D
-
+Versiión 2.4: Añadir la seccion de ruta de niveles y completar el nivel 1 con imagenes
 
 ## 2. INTRODUCCIÓN
 El presente Game Desing Document (GDD) proporciona una visión integral de “Lullaby”. A lo largo del documento se van a ir desarrollando y explorando los detalles conceptuales que atañan al desarrollo, las características que lo definen. 
@@ -625,14 +616,46 @@ Elementos de los niveles:
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
 </p>
 
-
 #### Concepto de nivel 
-
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
+</p>
 
 ### Esquema de progresión del juego 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
+</p>
 
+### Ficha de niveles
+#### Nivel 1
+Isla 1: Al ser el comienzo del juego, las pruebas de esta isla son las más sencillas. Primero unos escalones enseñan al jugador a utilizar el salto normal. A continuación, se debe saltar de columna haciendo uso del salto doble, que también se enseña en esta zona. Finalmente, se llega a un punto de guardado y a las plataformas móviles que te llevarán a la siguiente parte del tutorial y a la siguiente zona del mundo.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla_1.jpeg" width = "auto" height = "250">
+</p>
 
-### Ficha de niveles:
+Isla 2: El primer reto de esta isla son las 3 plataformas móviles sobre las que se debe saltar para llegar. Después el jugador encuentra por primera vez a George y Byron con los que podrá iniciar diálogos. Posteriormente, desciende desde la parte superior de la isla realizando saltos sobre pilares, y finalmente se introduce la mecánica del salto pared. 
+La segunda mitad de la isla también presenta retos, ya que para ascender es necesario realizar múltiples saltos sobre pilares y saltos en pared hasta llegar arriba.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla2_1.jpeg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla2_2.jpeg" width = "auto" height = "200">
+</p>
+
+Isla 3: Esta isla se focaliza en la mecánica del dash, demandando que el jugador realice uno incluso para llegar a esta zona de la isla. Además, para poder atravesarla, se deben ejecutar una serie de saltos con dash de un pilar a otro. En caso de caída, el jugador deberá evadir a los enemigos en la parte inferior y regresar subiendo la rampa.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla3.jpeg" width = "auto" height = "250">
+</p>
+
+Isla 4: Esta isla es más grande que las anteriores, y en consecuencia, también tiene más retos. El jugador empieza esta isla con el encuentro nuevamente de George y Byron, quienes proporcionan al jugador una almohada para introducir la mecánica de combate. Inmediatamente después, se presenta un combate obligatorio con los fobos, incitando al jugador a experimentar directamente la mecánica de combate.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla4_1.jpeg" width = "auto" height = "250">
+</p>
+Al concluir la pelea el jugador deberá realizar una serie de saltos sobre plataformas móviles, así como saltos en pared, para ascender al siguiente nivel de altura de la isla. En esta nueva área, se presenta un obstáculo con pinchos, un elemento que se utilizará de ahora en adelante. Para superarlo el jugador deberá descubrir la ruta más optima para de saltos, tanto para evitar los pinchos como para lidiar con las plataformas móviles. 
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla4_2.jpeg" width = "auto" height = "250">
+</p>
+Finalmente, después de esta zona intensa de plataformas, el jugador deberá enfrentar a más fobos para conseguir así acceso al botón que abre el camino a seguir.
+
+Isla 5: En esta sección del nivel, es imprescindible activar tres botones para obtener acceso al que se desplazará hacia la siguiente zona marcada en amarillo. Cada uno de los islotes presenta una prueba específica, y al presionar un botón, se eliminará un anillo de protección asociado al botón principal.
 
 
 ## 7. ARTE
