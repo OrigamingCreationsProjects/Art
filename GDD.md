@@ -10,12 +10,15 @@ Version 1.3: Completar apartados secundarios
 Version 1.3.1: Añadir apartado de guión y storyboard
 Version 1.3.2: Añadir apartado de arte 2D y 3D con concept art y vfx, iluminación y postproceso respectivamente
 Version 1.4. Añadir imágenes de los apartado 
+Versión 2.1: Cambiar imágenes 
 Versión 2.1.1: Cambiar imágenes de controles
 Versión 2.1.2: añadir arte final de las interfaces
 Versión 2.2: Completar el apartado de elementos de nivel
 Versiión 2.3.1: Añadir las imágenes del apartado de 2D
-Versiión 2.4: Añadir la seccion de ruta de niveles y completar el nivel 1 con imagenes
-Versiión 2.4.1: Añadir la seccion de ruta de niveles y completar el nivel 2 con imagenes
+Versiión 2.4: Añadir la seccion de ruta de niveles
+Versiión 2.4.1: Añadir la seccion de ruta de niveles y completar el nivel 1 con imagenes
+Versiión 2.4.2: Añadir la seccion de ruta de niveles y completar el nivel 2 con imagenes
+Versioón 2.4.3. Añadir y completar apartados de arte 3D con animaciones y modelos 
 
 ## 2. INTRODUCCIÓN
 El presente Game Desing Document (GDD) proporciona una visión integral de “Lullaby”. A lo largo del documento se van a ir desarrollando y explorando los detalles conceptuales que atañan al desarrollo, las características que lo definen. 
@@ -770,11 +773,68 @@ Las siguientes que aparecen corresponden a las expresiones faciales:
 
 ### Arte 3D
 A partir de los turn arounds realizados y siguiendo el concepto previamente establecido, se procede a la creación de los modelos de los personajes. Dependiendo del nivel de detalle deseado, se desarrolla un modelo de alta poligonización esculpido, el cual posteriormente se somete a la creación de su topología, o bien se lleva a cabo una modelación directa. 
+En el caso de los Fobos, se ha llevado a cabo un modelado directo, a pesar de tratarse de una criatura viscosa con formas curvas. Se logró optimizar eficientemente la cantidad de polígonos, evitando un exceso de estos. Este enfoque también se aplicó al modelado de los personajes George y Byron, los cuales fueron creados mediante una modelación directa.
+<p align="center">
+  <img src = "" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/George%20modelo.png" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Fobos%20modelo.png" width = "auto" height = "200">
+</p>
+
+Por otro lado, en el caso del personaje principal, Lulla, se diseñó un modelo con una alta poligonalización esculpido específicamente para representar de manera precisa la forma de la lana de oveja. Posteriormente, se creó la topología correspondiente, resultando en un modelo óptimo para el proyecto.
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Lulla%20Modelo.png" width = "auto" height = "250">
+</p>
+
 Elementos del mundo:
 - Montañas: A pesar de tener un aspecto onírico y una paleta de colores que no es el real, el mundo de plataformas es montañoso, inspirado en juegos como el Super Mario 64, o el Ori de la Nintendo Switch.
 - Árboles y vegetación: Este aspecto puede ser el más cambiante del mundo, habrá desde árboles con apariencia de piruleta que cuando caiga la noche serán simplemente los palos desgastados, hasta setas de proporciones enormes, y árboles con hojas moradas. Una de las decisiones que se tomaron para la Beta fue desligar la vegetación tradicional del mundo real y crear elementos de decoración como sustitución. 
 - Relación con animales: Lula, al haber sido criada en una zona campestre, ha tenido relación con distintos animales, por lo que, habrá elementos de estos, como nenúfares a modo de plataformas.
-  
+Relación con animales: Lula, al haber sido criada en una zona campestre, ha tenido relación con distintos animales, por lo que, habrá elementos de estos, como nenúfares a modo de plataformas. 
+Para diseñar los elementos del mundo, se ha buscado minimizar el número de polígonos al máximo, logrando un equilibrio entre la creación de objetos con formas más orgánicas y suavizadas, evitando la rigidez, y una reducción de polígonos suficiente para garantizar un rendimiento adecuado del juego.
+#### Plataformas principales 
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Plataforma%20principal%20modelo.png" width = "auto" height = "250">
+</p>
+
+#### Rampa
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Rampa%20Modelo.png" width = "auto" height = "200">
+</p>
+
+#### Pilares
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Pilar%20Modelo.png" width = "auto" height = "200">
+</p>
+
+#### Pinchos
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Plataforma%20Pinchos.png" width = "auto" height = "200">
+</p>
+
+#### Plataforma nube
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Plataforma%20nube.png" width = "auto" height = "200">
+</p>
+
+#### Objetos descriptivos
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Tambor%20modelo.png" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Caramelo%20modelo.png" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Plataforma%20hexagonal%20modelo.png" width = "auto" height = "200">
+</p>
+
+#### Checkpoint
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Lulla%20Modelo.png" width = "auto" height = "200">
+</p>
+
+#### Objeto de vida
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Vida%20modelo.png" width = "auto" height = "200">
+</p>
+### Animaciones
+Para llevar a cabo las animaciones, se emplearon distintos tipos de técnicas animativas. Dada la viscosidad y el movimiento irregular del Fobos, se optó por animar por vértices, logrando así transmitir una sensación viscosa. Por otro lado, los demás personajes fueron animados mediante sus respectivos esqueletos, para lo cual se llevó a cabo un riguroso trabajo de rigging y skinning.
+
 ### Arte técnico
 #### Shaders
 El juego sigue una estética cartoon, por lo que todos los elementos de la escena cuentan con materiales que son renderizados con shaders que simulan este estilo. 
