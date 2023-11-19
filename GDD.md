@@ -5,23 +5,41 @@
 
 ## 1. VERSIÓN
 Version 1.1. Determinar las primeros capítulos del GDD y empezar a completarlos
+
 Versión 1.2. Cambiar capitulos posterior al dos y completar 
+
 Version 1.3: Completar apartados secundarios 
+
 Version 1.3.1: Añadir apartado de guión y storyboard
+
 Version 1.3.2: Añadir apartado de arte 2D y 3D con concept art y vfx, iluminación y postproceso respectivamente
+
 Version 1.4. Añadir imágenes de los apartado 
+
 Versión 2.1: Cambiar imágenes 
+
 Versión 2.1.1: Cambiar imágenes de controles
+
 Versión 2.1.2: añadir arte final de las interfaces
+
 Versión 2.2: Completar el apartado de elementos de nivel
+
 Versiión 2.3.1: Añadir las imágenes del apartado de 2D
+
 Versiión 2.4: Añadir la seccion de ruta de niveles
-Versiión 2.4.1: Añadir la seccion de ruta de niveles y completar el nivel 1 con imagenes
-Versiión 2.4.2: Añadir la seccion de ruta de niveles y completar el nivel 2 con imagenes
+
+Versiión 2.4.1: Añadir la seccion de ruta de niveles y completar el nivel 1 con imágenes
+
+Versiión 2.4.2: Añadir la seccion de ruta de niveles y completar el nivel 2 con imágenes
+
 Versioón 2.4.3. Añadir y completar apartados de arte 3D con animaciones y modelos 
+
 Versioón 2.4.4. Maquetar modelo de negocio
+
 Versioón 2.5: Ficha de niveles
+
 Versioón 2.5.1. Añadir secciones y completarlas
+
 Versioón 2.5.2: Incluir imágenes
 
 ## 2. INTRODUCCIÓN
@@ -999,7 +1017,29 @@ Buy to Play: Pago único. Se debe adquirir el juego para poder jugarlo.
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/ModelCanvas.png" width = "auto" height = "250">
 </p>
 
-## 9. EQUIPO E INTEGRANTES
+## 9. 9.	ANÁLISIS MDA
+### Experiencia de juego 
+#### Fantasía
+La descripción de la estética principal de Lullaby resalta la ambientación en un mundo completamente fantástico. Desde el inicio de la partida, el jugador se sumerge en un entorno lleno de elementos que no existen en la vida real. La paleta de colores contribuye a transmitir una sensación onírica, y el control de una pequeña oveja bípeda añade un toque único. La narrativa se desarrolla con la tarea de superar obstáculos y luchar con una almohada como arma para encontrar la nana perdida.
+Las mecánicas de movimiento refuerzan la atmósfera fantástica, ya que la oveja se desplaza a dos patas, realiza saltos mortales y utiliza un airdash para alcanzar distancias mayores. La interacción con criaturas fantásticas desconocidas, venciéndolas con una almohada, añade un elemento de fantasía y creatividad a la experiencia de juego.
+#### Sensación 
+La sensación es una estética prominentemente presente en Lullaby, lograda a través de una banda sonora evocadora que despierta sentimientos alegres y emotivos. Se complementa con un apartado artístico que sumerge al jugador en un mundo onírico.
+Las mecánicas clave que contribuyen a esta estética incluyen el control de cámara en tercera persona, que proporciona una visión total y abierta del mundo, el toon shader diseñado para otorgar un aspecto adorable, un sistema de sonido dinámico que emite sonidos en respuesta a ciertas acciones, un sistema de partículas que genera efectos visuales al realizar acciones específicas, y un sistema de control de cámaras dinámicas que se activa al entrar en un diálogo o al iniciar una cinemática. Estas características se combinan para inmersar al jugador en una experiencia emotiva y visualmente cautivadora.
+#### Narrativo
+La narrativa tiene gran peso en Lullaby al querer transmitir emociones al jugador tales como la superación de la pérdida, y del cambio.  
+Algunas de las mecánicas que consiguen esta estética son el sistema de diálogo con emociones dinámicas en relación con los personajes, el estilo del texto en relación con lo que se quiere transmitir en ese momento, además de un sistema de cinemáticas para controlar la atención del jugador en ciertos momentos.
+#### Desafío 
+El desafío es una estética muy presente en Lullaby mediante el uso de puzles a lo largo del transcurso del juego que retan al jugador a usar su ingenio para superarlos y avanzar en la historia.  
+Las mecánicas que consiguen esto son el uso de botones para accionar ciertos mecanismos, el sistema de combate para conseguir objetivos necesarios en el avance del juego etc. Además, el sistema de plataformas y obstáculos, repartidos a lo largo del mundo, ponen a prueba las habilidades mecánicas del jugador constantemente.
+#### Descubrimiento 
+En Lullaby el jugador está en un constante descubrimiento porque se le van mostrando diferentes mecánicas que puede utilizar a lo largo del juego, enseñándoselas poco a poco y dejando tiempo para que las asiente y practique antes de enseñar la siguiente. Además, también puede ir descubriendo enemigos nuevos, escenarios completamente diferentes y personajes con los que interactuar. 
+Para ampliar, en cuanto a la dinámica del escenario, que es diferente a medida que el jugador avanza, hace que este ponga en práctica las mecánicas enseñadas y que se atreva a descubrir otros caminos y otras formas de ir superando el nivel.
+#### Coleccionismo
+La incorporación de objetos coleccionables en Lullaby permite al jugador embarcarse en la búsqueda y recopilación de estos elementos para completar la colección. Esta mecánica añade un elemento adicional de exploración y desafío, motivando a los jugadores a interactuar más profundamente con el mundo del juego para alcanzar el objetivo de obtener todos los objetos coleccionables.
+La mecánica que transmite esta estética es la presencia de un álbum en el que aparecerán los objetos recogidos tales como trozos de una foto o letras de canciones.
+ 
+
+## 10. EQUIPO E INTEGRANTES
 El equipo está formado por seis integrantes y una persona externa asociada al proyecto encargada de la música y los efectos de sonido. 
 Cada integrante interno cuenta con varios roles dentro del proyecto y se encarga de una parte del juego. 
 ### Alejandro Campbell Legarreta
