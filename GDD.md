@@ -1113,7 +1113,7 @@ Buy to Play: Pago único. Se debe adquirir el juego para poder jugarlo.
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/ModelCanvas.png" width = "auto" height = "250">
 </p>
 
-## 9. 9.	ANÁLISIS MDA
+## 9. ANÁLISIS MDA
 ### Experiencia de juego 
 #### Fantasía
 La descripción de la estética principal de Lullaby resalta la ambientación en un mundo completamente fantástico. Desde el inicio de la partida, el jugador se sumerge en un entorno lleno de elementos que no existen en la vida real. La paleta de colores contribuye a transmitir una sensación onírica, y el control de una pequeña oveja bípeda añade un toque único. La narrativa se desarrolla con la tarea de superar obstáculos y luchar con una almohada como arma para encontrar la nana perdida.
