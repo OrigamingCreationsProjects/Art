@@ -622,7 +622,7 @@ Elementos de los niveles:
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/double_wall.jpg" width = "auto" height = "250">
 </p>
 
-- Mermelada(muelles): Son unos cilindros con textura de mermelada, que lo que hacen es hacer un efecto trampolín al dejarte caer, pero al estar en el punto más alto se tiene la oportunidad de tener salto doble y mantener esa altura.
+- Tambores: Son unos cilindros con tambor y unas baquetas, que lo que hacen es hacer un efecto trampolín al dejarte caer, pero al estar en el punto más alto se tiene la oportunidad de tener salto doble y mantener esa altura
  <p align="center">
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/spring_platforms.jpg" width = "auto" height = "250">
 </p>
@@ -640,6 +640,7 @@ Elementos de los niveles:
 - Elementos decorativos: Habrá dados, y bastones de caramelo a modo de decoración en el mundo. Además, se utilizará como guía para que el jugador sepa por dónde dirigirse en caso de que se vea algo perdido.  Puede haber agrupaciones de estos o encontrártelos de forma individual como se mostrará a continuación. Los elementos del mundo son fantásticos y ayudan a decorar las escenas, otorgando la personalidad que se busca al juego. Algun ejemplo de ello es la imagen que se muestra a continuación.
 <p align="center">
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Decorative_element.png" width = "auto" height = "250">
 </p>
 
 #### Concepto de nivel 
@@ -655,48 +656,27 @@ Elementos de los niveles:
 ### Ficha de niveles
 #### Nivel 1
 Isla 1: Al ser el comienzo del juego, las pruebas de esta isla son las más sencillas. Primero unos escalones enseñan al jugador a utilizar el salto normal. A continuación, se debe saltar de columna haciendo uso del salto doble, que también se enseña en esta zona. Finalmente, se llega a un punto de guardado y a las plataformas móviles que te llevarán a la siguiente parte del tutorial y a la siguiente zona del mundo.
-<p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla_1.jpeg" width = "auto" height = "250">
-</p>
 
 Isla 2: El primer reto de esta isla son las 3 plataformas móviles sobre las que se debe saltar para llegar. Después el jugador encuentra por primera vez a George y Byron con los que podrá iniciar diálogos. Posteriormente, desciende desde la parte superior de la isla realizando saltos sobre pilares, y finalmente se introduce la mecánica del salto pared. 
 La segunda mitad de la isla también presenta retos, ya que para ascender es necesario realizar múltiples saltos sobre pilares y saltos en pared hasta llegar arriba.
-<p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla2_1.jpeg" width = "auto" height = "200">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla2_2.jpeg" width = "auto" height = "200">
-</p>
 
 Isla 3: Esta isla se focaliza en la mecánica del dash, demandando que el jugador realice uno incluso para llegar a esta zona de la isla. Además, para poder atravesarla, se deben ejecutar una serie de saltos con dash de un pilar a otro. En caso de caída, el jugador deberá evadir a los enemigos en la parte inferior y regresar subiendo la rampa.
-<p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla3.jpeg" width = "auto" height = "250">
-</p>
 
 Isla 4: Esta isla es más grande que las anteriores, y en consecuencia, también tiene más retos. El jugador empieza esta isla con el encuentro nuevamente de George y Byron, quienes proporcionan al jugador una almohada para introducir la mecánica de combate. Inmediatamente después, se presenta un combate obligatorio con los fobos, incitando al jugador a experimentar directamente la mecánica de combate.
-<p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla4_1.jpeg" width = "auto" height = "250">
-</p>
 Al concluir la pelea el jugador deberá realizar una serie de saltos sobre plataformas móviles, así como saltos en pared, para ascender al siguiente nivel de altura de la isla. En esta nueva área, se presenta un obstáculo con pinchos, un elemento que se utilizará de ahora en adelante. Para superarlo el jugador deberá descubrir la ruta más optima para de saltos, tanto para evitar los pinchos como para lidiar con las plataformas móviles. 
-<p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Isla4_2.jpeg" width = "auto" height = "250">
-</p>
 Finalmente, después de esta zona intensa de plataformas, el jugador deberá enfrentar a más fobos para conseguir así acceso al botón que abre el camino a seguir.
 
 Isla 5: En esta sección del nivel, es imprescindible activar tres botones para obtener acceso al que se desplazará hacia la siguiente zona marcada en amarillo. Cada uno de los islotes presenta una prueba específica, y al presionar un botón, se eliminará un anillo de protección asociado al botón principal.
-<p align="center">
-<img src = "" width = "auto" height = "200">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/isla5_1.jpg" width = "auto" height = "200">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/isla5_2.jpg" width = "auto" height = "200">
+ <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Level_1.png" width = "auto" height = "250">
 </p>
 
 #### Nivel 2
-Para el nivel 2 se han respetado las distancias mencionadas para el primer nivel, a excepción de zonas más complejas para seguir con la curva de progresión. Estas zonas se detallarán más adelante; inicialmente, se describirá el recorrido del nivel mediante imágenes ilustradas. Las flechas amarillas señalan la ruta principal que debería seguir el jugador, y en caso de bifurcaciones, se especificarán en otro color.
-- Parte 1: El jugador se encuentra con varios enfrentamientos y plataformas por delante, siguiendo un esquema curvo. Más adelante, se ramifica en tres partes el camino posible; en los extremos, se ubican enemigos en esas plataformas. Aunque, a nivel de habilidad, estas opciones sean más accesibles, tienen un valor añadido. Una vez superada esta sección, se activa un botón para avanzar a la siguiente etapa.
-- <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/level2_part1.jpg" width = "auto" height = "250">
-</p>
--	Parte 2: Avanzando por este camino, el jugador se encuentra con la necesidad de pulsar dos botones para continuar. Esto le permitirá acceder a la zona del puzle, similar al primer nivel, que implica moverse por diferentes secciones para accionar un botón y regresar al punto de origen. Los caminos de ida en estas secciones están señalizados con el color rojo, mientras que el verde indica el camino de vuelta.
-<p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/level2_part2.jpg" width = "auto" height = "250">
+Para el nivel 2 se han respetado las distancias mencionadas para el primer nivel, a excepción de zonas más complejas para seguir con la curva de progresión. Se mencionarán más adelante, en primera instancia se mencionará el recorrido del nivel con imágenes ilustrativas. Las flechas en color amarillo indican el camino principal del jugador, en caso de bifurcaciones se especificarán otros colores.
+- Parte 1: El jugador tiene varios enfrentamientos y plataformas por delante. Y se ha seguido un esquema en curva. Posteriormente, se ramifica en tres partes el posible camino, en los de los extremos hay enemigos situados en esas plataformas, lo que, a pesar de que a nivel de habilidad sean más fáciles tiene un valor añadido. Una vez se supera esta parte se toca un botón para pasar a la siguiente.
+-	Parte 2: Una vez se avanza por este camino el jugador debe pulsar dos botones para continuar. De esta manera se podrá acceder a la zona del puzle. Dicho puzle, al igual que en el primer nivel, conlleva moverse por distintas secciones para accionar un botón y volver al punto de origen.  Los caminos de ida en esos caminos están señalizados con el color rojo, y el verde para la vuelta.
+ <p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Level_2.png" width = "auto" height = "250">
 </p>
 
 ### Ficha de niveles
@@ -778,7 +758,11 @@ En cuento a los personajes y enemigos, el proceso consiste en que las formas de 
 Los elementos del mundo se han diseñado siguiendo una base cuadrada para optimizar el rendimiento del juego. Es por ello que se ha hecho una hoja de elementos principales del mundo: las plataformas principales, los pilares, los checkpoints, las puertas, los pinchos, etc. La manera de dar personalidad al entorno ha sido mediante las texturas, ya que la impasibilidad de realizar objetos de geometría compleja limitaba mucho la libertad artística.
 <p align="center">
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Environments/Elements/Element_world_coconcept.jpeg" width = "auto" height = "250">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Environments/Elements/concept_Assets.jpg" width = "auto" height = "250">
 </p>
+
+Muchos de estos elementos no se han añadido.
+
 #### Elemento de vida
 El desarrollo del objeto de vida se ha llevado a cabo con un enfoque narrativo, dotándolo de significado en lugar de basarse únicamente en consideraciones estéticas. Se crearon dos variantes con una correlación entre ellos, y se fueron evaluando ajustando hasta crear la opción 3, que se estableció como la definitiva. Este proceso se llevó a cabo para mantener la singularidad. 
 <p align="center">
@@ -797,67 +781,179 @@ Se comenzó con la implementación de colores de las plataformas principales ya 
 Una vez establecido los colores del entorno, se desarrollaron las texturas de los elementos con variaciones de colores.  
 
 ##### Plataforma principal
-Partiendo del número 13 y 30 se han creado las siguientes texturas para el suelo y la pared:
+Partiendo del número 13 y 30 se han creado las siguientes texturas para el suelo y la pared. Además, se han creado dos texturas para el suelo en dos tonos cada una de ellas y dos tipos de texturas para el suelo con cuatro variaciones de color cada una de ellas.
+La decisión de ello fue añadir viveza al mundo y con ello se saturaron los colores de la paleta incluyendo algún que otro tono que no estaba incluido.
+las siguientes son las paredes:
  <p align="center">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Platform/main_platform_floor_asymmetrical_texture_satuated.jpg" width = "auto" height = "200">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Platform/main_platform_floor_asymmetrical_texture_satuated_2.jpg" width = "auto" height = "200">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Platform/Plafform_wall_texture_asymmetrical_2.jpg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_platform%20wall_purple_type1.jpg" width = "auto" height = "90">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_platform%20wall_purple_type2.jpg" width = "auto" height = "90">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_platform_wall_red_type1.jpg" width = "auto" height = "90">
+    <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_platform%20wall_red_type2.jpg" width = "auto" height = "90">
+</p>
+Las sigueintes son los suelos
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_platform_floor_blue_type1.jpg" width = "auto" height = "90">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_plaftorm_floor_blue_type2.jpg" width = "auto" height = "90">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_platform_floor_green1_type1.jpg" width = "auto" height = "90">
+    <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_plaftorm_floor_green_type2.jpg" width = "auto" height = "90">
+   <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_platform_floor_purple_type1.jpg" width = "auto" height = "90">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_plaftorm_floor_purple_type2.jpg" width = "auto" height = "90">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_platform_floor_yellow1_type1.jpg" width = "auto" height = "90">
+    <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Platform/main_plaftorm_floor_yellow_type2.jpg" width = "auto" height = "90">
 </p>
 
 ##### Pilares
 Partiendo del número 20 se ha creado la siguiente textura: 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Pillar/wall_pillar.jpg" width = "auto" height = "200">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Jumping_pillar/jumping_pillar_purple.jpg" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Jumping_pillar/jumping_pillar_purple_orange.jpg" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Jumping_pillar/jumping_pillar_purple_pink.jpg" width = "auto" height = "150">
 </p>
 
 ##### Puerta  
 Al tener que respetar un peso de colores en el juego, los elementos principales que no son plataformas se han diseñado para resaltar las zonas del juego. Como las puertas deben ser un elemento que debe llamar la atención al jugador y debe destacar entre los muros, se han desarrollado con colores complementarios al morado. 
 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Door/door_texture_1.jpg" width = "auto" height = "200">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Door/door_texture_2.jpg" width = "auto" height = "200">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Door/door_texture_3.jpg" width = "auto" height = "200">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Door/texture_door.PNG" width = "auto" height = "200">
 </p>
 
 ##### Dados 
 Los dados son una plataforma importante en la jugabilidad. Para ello se han combinado dos colores secundarios de la paleta (el azul y el amarillo) con la misma finalidad que el objeto anterior, llamar la atención del jugador. 
 En este caso, se han sacado las UVs del modelo 3D para crear la textura.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Dice/DadoUv_cube.png" width = "auto" height = "200">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Dice/DiceUv.png" width = "auto" height = "200">
 </p>
 
 ##### Railes  
 La idea de los raíles era hacer una textura que recordase a un bastón de caramelo. Como el color rojo se ha reservado para ‘peligro’, se han hecho varias opciones de color. Con ambos se ha mantenido el contraste de color y se ha empleado el morado (con base azul y base roja respectivamente). 
 <p align="center">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Rails/rail_texture.jpg" width = "auto" height = "200">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Rails/rail_texture_2.jpg" width = "auto" height = "200">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Rails/rail_texture_3.jpg" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Rails/rail_texture.jpg" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Rails/rail_texture_2.jpg" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Rails/rail_texture_3.jpg" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Rails/rail_texture_4.jpg" width = "auto" height = "150">
 </p>
+
 ##### Pinchos 
 Para los pinchos se ha creado una textura de cono de helado usando las UVs del modelo 3D. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Spikes/spikes_texture.jpg" width = "auto" height = "200">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Spikes/ConoUV.png" width = "auto" height = "200">
 </p>
-##### Botón  
+
+##### Botón
 Para los botones, el diseño original era representarlos mediane una geometría de botón. Sin embargo, debido a las restricciones de polígonos y con el objetivo de optimizar el rendimiento del juego, se ha optado por emplear una textura que simula los agujeros como el reborde de un botón. 
 <p align="center">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Button/button_texture.jpg" width = "auto" height = "200">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Button/DefbuttonTextureAmpliation.png" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Button/button.png" width = "auto" height = "200">
+</p>
+
+##### Tambores
+Para los tambores se sacaron las Uvs del modelo para poder pintar sobre ellas. Se utilizaron colores que se añadieron dentro de la paleta para darle viveza.
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Jumping_platform/Drum_texture.PNG" width = "auto" height = "200">
+</p>
+
+##### Vallas
+Los colores variaron porque fue el elemento de decoración que más tarde se incluye. Es por eso, que se tenían que cuadrar la tonalidad y se eligieron tres colores finales para añadir en Unity a la versión final de luego. 
+Finalmente se escogió el amarillo porque contrastaba muy bien y combinaba con los pilares y los bastones de caramelo.
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Fence/Fence_orange.PNG" width = "auto" height = "150">
+   <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Fence/Fence_pink.PNG" width = "auto" height = "150">
+   <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Fence/fence_brown.PNG" width = "auto" height = "150">
+</p>
+
+##### Libros
+Se hicieron dos tipos de tamaños y varios tipos de texturas para dale personalidad al mundo ya que han sido de los pocos elementos de decoración que se han terminado incluyendo en la versión Gold. Es por ello por lo que queríamos otorgar riqueza y lo hicimos a través de la combinación de colores y diseños de las texturas.
+Las siguientes es de los libros cerrados:
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Books/book_close_1.PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Books/book_close_2.PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Books/book_close_3.PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Books/book_close_4.PNG" width = "auto" height = "150">
+</p>
+Las siguientes es de los libros abiertos:
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Books/book_open_1.PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Books/book_open_2.PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Books/book_open_3.PNG" width = "auto" height = "150">
+</p>
+
+##### Cojines
+Con los cojines, que son como los libros objeto de decoración, pasó lo mismo. Así que se hicieron dos tamaños distintos y 4 texturas diferentes para seguir aportando personalidad al mundo.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Cushion/Cushion_1.PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Cushion/Cushion_2.PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Cushion/Cushion_3.PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Cushion/Cushion_4.PNG" width = "auto" height = "150">
+</p>
+
+##### Bastón de caramelo 
+Es nuestro elemento de guía y por lo tanto debía tener colores que llamaran la atención al jugador. Se hizo la textura sacando las UVs.
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Candy/Candy_texture_orange.png" width = "auto" height = "200">
+</p>
+
+##### CheckPoint
+Para el checkpoint se varió la textura (ya que también lo hizo el modelo) y se añadieron sombras en la parte superior y elementos gráficos y líneas en la parte de la base.
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Control_point/checkpoint_texture.PNG" width = "auto" height = "200">
+</p>
+
+##### Arco
+Como al comienzo se estableció un peso de colores y el morado debía tener más protagonismo para los arcos se empleó únicamente variaciones de este. Sobre todo, para poder mantener esa armonía que se ha venido buscando a lo largo de todo el desarrollo. Aun así, se desarrolló la textura en varios colores más para tener un comodín.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Arch/Arch_blue.PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Arch/Arch_purple.PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Arch/Arch_red.PNG" width = "auto" height = "150">
+</p>
+
+Champiñones 
+Al igual que con cojines y los libros, al ser elementos de decoración se sacaron las UVs y se hicieron varios diseños de texturas para incluir en los diferentes niveles. Además, se modelaron tres tipos de champiñones diferentes.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Mushroom/mashroom_flat/circles_small_orange_texture(flat).PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Mushroom/mashroom_flat/pink_star_texture(flat).PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Mushroom/mashroom_flat/red_circles_texture(flat).PNG" width = "auto" height = "150">
+</p>
+
+##### Lámparas
+Son elementos que se desarrollaron para el nivel de noche y hicieron texturas más oscuras siguiendo la estética del HDRI. Al incluirse dos tamaños se diseñó una textura en dos colores diferentes.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Trees/lamp_1%20(1).PNG" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Trees/lamp_2.PNG" width = "auto" height = "150">
 </p>
 
 ##### Lulla 
 Para crear las texturas de Lulla, se extrajeron las coordenadas UV del personaje y se procedió a pintar sobre ellas. Para conseguir una mayor expresividad del personaje, se diseñadores expresiones faciales específicas para Lulla. 
 <p align="center">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Lulla's%20Face/Body%26Cap_WithEyes.png" width = "auto" height = "200">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Lulla's%20Face/Body%26Cap.png" width = "auto" height = "200">
 </p>
 Las siguientes que aparecen corresponden a las expresiones faciales:
 <p align="center">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Lulla's%20Face/EyeLids_Angry.png" width = "auto" height = "100">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Lulla's%20Face/EyeLids_Happy.png" width = "auto" height = "100">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Lulla's%20Face/EyeLids_Angry.png" width = "auto" height = "100">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Lulla's%20Face/EyeLids_Happy.png" width = "auto" height = "100">
 </p>
 <p align="center">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Lulla's%20Face/EyeLids_Neutral.png" width = "auto" height = "100">
-  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Lulla's%20Face/EyeLids_Sad.png" width = "auto" height = "100">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Lulla's%20Face/EyeLids_Neutral.png" width = "auto" height = "100">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Lulla's%20Face/EyeLids_Sad.png" width = "auto" height = "100">
+</p>
+
+##### George
+Para crear las texturas de George, se extrajeron las coordenadas UV del personaje y se procedió a pintar sobre ellas. Para conseguir una mayor expresividad del personaje, se diseñadores expresiones faciales específicas para George.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/George's%20Texture/Texture_George_body.png" width = "auto" height = "150">
+</p>
+Las siguientes que aparecen corresponden a las expresiones faciales:
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/George's%20Face/EyelidsAll.png" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/George's%20Face/MouthAll.png" width = "auto" height = "150">
+</p>
+
+##### Byron
+Para crear las texturas de Byron, se extrajeron las coordenadas UV del personaje y se procedió a pintar sobre ellas. Para conseguir una mayor expresividad del personaje, se diseñadores expresiones faciales específicas para Byron.
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Byron%C2%B4s%20Texture/Texture_change_byron.png" width = "auto" height = "150">
+</p>
+Las siguientes que aparecen corresponden a las expresiones faciales:
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Textures/Gold/Byron's%20Face/EyelidsAll.png" width = "auto" height = "150">
 </p>
 
 ### Arte 3D
@@ -1037,9 +1133,141 @@ Para ampliar, en cuanto a la dinámica del escenario, que es diferente a medida 
 #### Coleccionismo
 La incorporación de objetos coleccionables en Lullaby permite al jugador embarcarse en la búsqueda y recopilación de estos elementos para completar la colección. Esta mecánica añade un elemento adicional de exploración y desafío, motivando a los jugadores a interactuar más profundamente con el mundo del juego para alcanzar el objetivo de obtener todos los objetos coleccionables.
 La mecánica que transmite esta estética es la presencia de un álbum en el que aparecerán los objetos recogidos tales como trozos de una foto o letras de canciones.
- 
 
-## 10. EQUIPO E INTEGRANTES
+ ## 10. POSTMORTEM
+### ¿Qué ha ido bien?  
+Es importante descubrir o discernir que actividades o elecciones han sido las correctas. Si no somos capaces de llevar a cabo esta acción de forma correcta, no podremos asegurar la misma decisión en el próximo videojuego.
+  
+### Flujo de correcciones  
+A lo largo del proyecto, el rumbo va virando para intentar encontrar el rumbo adecuado y “llegar a tierra” en el menor tiempo posible y con el mayor número de viveros en la bodega del barco. Tener en consideración que acciones o tareas fueron acertadas, las cuales fueron corregidas de forma exitosa y por el contrario qué decisiones fueron erróneas y produjeron malestar en el grupo y resintieron el producto final.  
+
+### Feedback o retroalimentación externa  
+Esta sección quiere poner en valor las opiniones externas al grupo de trabajo. Normalmente, cuando el videojuego o proyecto no está lo suficientemente maduro es aconsejable realizar una pequeña encuesta de valoración del juego. En este momento del proyecto es interesante de obtener esa retroalimentación de gente cercana al equipo y que no sea claramente una competencia en un futuro cercano. Por ejemplo, familiares, amigos o incluso compañeros de trabajo ajenos al proyecto actual pueden ser un buen ejemplo. Cabe destacar que las críticas no son malas, siempre y cuando, estas sean constructivas.  
+
+### ¿Qué se podría haber mejorado?  
+Es evidente que nada es perfecto en esta vida. Por este motivo es necesario encontrar soluciones a los problemas surgidos. ¿Qué quiere decir esto? No vale de nada decir que algo ha salido mal, si no tenemos una posible solución. Es crucial que seamos auto crítico con nosotros mismos y con nuestro equipo, pero también debemos de ser lo suficientemente maduros para encajar los golpes del camino y buscar soluciones. 
+
+Se basa en dos fases. La primera consta de realizar las dos preguntas de forma individual, es decir, ¿Qué cosas han ido bien? ¿Qué cosas habría que mejorar? La idea es dejar por escrito (el papel todo lo aguanta...) todo lo que pensemos. No vale el decir ya lo he pensado. ¿Por qué no vale? Porque ahora mismo el proyecto o videojuego lo tienes muy presente y reconoces los aciertos y errores de forma fácil y sencilla. Sin embargo, cuando el tiempo vaya pasando no te acordaras de todos los detalles, mientras que si lo tienes escrito esto no te pasará, porque todo estará detallado en tu documento.  
+La segunda parte se trata de ponerlo en común con el resto del equipo y realizar un documento final que resuma de forma, lo más pormenorizada posible, todos los comentarios y pensamientos de los integrantes del equipo. No hace falta poner nombres, puedes hacer un documento anónimo y poner el nombre del rol que has llevado en ese proyecto, por ejemplo: desarrollador1, artista2, etc. Finalmente, el equipo tendrá un documento robusto que podrá ser consultado en un futuro corto-largo plazo, donde se detallaran qué cosas pueden ayudar al equipo a, nuevamente, alcanzar el éxito. 
+### Integrantes
+
+#### Alex 
+**Rol: Lead Programmer, Lead Designer, Gameplay Designer, Creative Director.**
+**¿Qué ha ido bien?**
+Creo que una de las cosas que mejor hemos hecho ha sido la división de tareas y el reparto de roles. Aunque algunas personas puedan ayudar a otras en sus áreas, las tareas se han repartido en base a los puntos fuertes de cada integrante y eso ha hecho que la calidad de los productos de cada uno haya sido lo mejor posible. 
+Otro aspecto muy importante para resaltar ha sido que la calidad del trabajo ha superado las expectativas que teníamos del proyecto al comenzarlo. 
+Por mi parte, considero que la programación es muy robusta, se ha conseguido un videojuego que se asienta sobre un código sólido y modulable, abierto a futuras modificaciones y ampliaciones, lo cual será provechoso de cara a la versión Gold. 
+El diseño de las mecánicas ha resultado en un conjunto de estas muy divertido y orgánico para el usuario, incluso para los propios desarrolladores. 
+En cuanto a la comunicación, un aspecto a alabar ha sido la facilidad con la que desde programación se ha pedido a arte los assets con las especificaciones justas y necesarias para no tener que estar modificándolos y adaptándolos continuamente. 
+
+**Flujo de correcciones**
+Una de las cosas que ha ido mal y que no quisiera repetir en futuros proyectos es la manera de manejar al equipo que he tenido, ya que en ocasiones debido al estrés del desarrollo he podido dirigirme a ellos de forma brusca y sonar más duro de lo que en realidad quería. 
+También he sido muy cabezota con algunas de las ideas que tenía y que no quería cambiar, lo que ha resultado en que no he permitido que mis compañeros tuvieran toda la libertad de la que deberían haber dispuesto desde el principio. Sin embargo, este aspecto ha cambiado a lo largo del desarrollo y poco a poco he abierto la mente a ideas que en un principio habría descartado. 
+Otro aspecto en el que he rectificado ha sido la comunicación a tiempo. Hemos conseguido transmitir la información en el momento justo y poder adaptarnos a lo que el resto había hecho. 
+Retroalimentación externa 
+La gente cercana ha alabado en especial la calidad del proyecto para el tiempo del que disponíamos y la cantidad de personas que éramos. También han dicho que el juego era muy divertido de jugar y que te incitaba a continuar jugando más rato o a pasártelo más veces poniéndote retos tú mismo. 
+Sin embargo, algunas de las críticas que nos han realizado sobre programación y mecánicas han sido orientadas hacia la falta de información a la hora de saber qué consecuencias tiene cada acción. 
+Otra crítica muy repetida ha sido la velocidad de Lulla a la hora de andar y correr, ya que decían que el juego se hacía lento. Esto se sumó a que el control de correr en mando era muy tedioso de utilizar, por lo que preferían no correr y se hacía aún más lento. 
+
+**¿Qué se podría haber mejorado?**
+De cara a futuras entregas y proyectos tendríamos que mejorar la comunicación, ya que ha sido muy frecuente pero no era de calidad. Esto ha hecho que se perdiera información y que hubiera cosas que no llegaban a tiempo. 
+Otro aspecto para mejorar es el cumplir con los objetivos de tiempo asignados a las tareas, ya que prácticamente nadie ha llegado con todas las tareas que se propusieron para la Beta a tiempo o completas. 
+Por último, de mi parte, creo que habría sido mejor ir haciendo pequeñas builds para que mis compañeros probaran mecánicas y me dieran feedback a medida que las desarrollaba, y así no hubiera tenido que arrastrar errores o hacer que otros compañeros editaran sus partes cuando yo arreglaba las mías más tarde. 
+
+#### Álvaro
+**Rol: Level Designer, Script Writer, Community Manager, UI Assistant.** 
+**Qué ha ido bien**  
+La comunicación en equipo ha sido buena, las reuniones semanales contribuyeron a que estuviésemos al día a pesar de que ocasionasen inconvenientes también. La herramienta de Trello supuso una ayuda respecto a la organización del equipo y a ver qué faltaba por hacer.  
+
+**Flujo de correcciones** 
+Tras entregar la versión Beta de Lullaby me di cuenta de que debería haber sido más proactivo respecto a la comunicación con el equipo, con el fin de que se testeasen los niveles antes, ya que por retrasos de comunicación en este aspecto se tuvieron que cambiar partes del nivel que estaban terminadas desde hacía ya varias semanas. Por lo que se podría resumir en menos cantidad de comunicación pero que fuese más efectiva, comunicarse directamente con quien tenía un modelo terminado para sustituirlo en el grayboxing, entre otras cosas. También, al salirme de mi zona de confort y tener que adaptarme a nuevas herramientas y mecánicas fui muy optimista con la organización de tiempos, además de que dependía del visto bueno de muchos miembros para avanzar. 
+
+**Retroalimentación externa**  
+Mis compañeros coinciden en que las flaquezas que mencioné fueron ciertas, pero a su vez me animaron a preguntar siempre que sea necesario para que en vez de tardar más tiempo en averiguar cómo funciona algo que se pudiera resolver más rápidamente. 
+
+**Qué se podría haber mejorado**  
+Comunicación efectiva: A veces por la cantidad de mensajes era complicado ver si había alguno para ti, lo que hacía que no estuviésemos coordinados, lo que entorpeció el trabajo la última semana de desarrollo de la beta. Además de este punto desenbocan el resto de los problemas, directa o indirectamente.  
+SOLUCIÓN: De cara a la versión gold iniciar el proceso de sustitución de los modelos que quedan antes, y comunicarnos con los encargados de las tareas cuando sepamos que es una tarea dependiente de otra.  
+
+#### Betu
+**Rol: Level Designer, Script Writer, Character Designer**  
+**¿Qué ha ido bien?**
+-La organización en Trello, puesto que a pesar de que algunos de los miembros no estábamos acostumbrados, al entrar en el flujo de trabajo hace las cosas más sencillas y permite tener monitoreado el trabajo de cada uno, proporcionando una herramienta para el seguimiento del desarrollo global del proyecto. 
+-Las reuniones semanales, que nos han permitido revisar el trabajo global de manera regular, dividir la producción en tareas semanales. 
+-El compromiso y la constancia del equipo, con todos los miembros dando su mayor esfuerzo para intentar sacar el mejor producto posible. 
+
+**Flujo de correcciones** 
+En el caso específico del grayboxing, siento que hubo fallos en el flujo de correcciones puesto que los niveles, a pesar de estar muy avanzados, se enseñaron al resto del equipo muy tarde. Esto dificultó y apresuró la corrección del nivel, lo que a su vez se tradujo en un aspecto poco pulido en muchos lugares en pos de conseguir un producto funcional. Todo esto se hubiese solucionado de antemano si hubiese pedido más feedback a medida que realizaba el nivel, y en resumidas cuentas el problema radicó en la falta de comunicación. 
+
+**Feedback externo** 
+A pesar de que la gente disfrutó del juego y la retroalimentación fue en su mayoría positiva, muchas de las entradas de los bugs report estaban relacionadas a las flaquezas del nivel mencionadas anteriormente. Esto, al contrario de desanimar, funcionó para mí de cara a la Gold como un punto de vista distinto desde el que abordar el diseño de nivel y la integración de elementos artísticos en el mismo.
+
+**¿Qué se podría haber mejorado?** 
+La comunicación entre ramas de trabajo, especialmente la de arte-diseño de nivel, ha fallado de cara a la beta, ya que en este sprint tanto las malas prácticas a la hora de crear prefabs y la integración del arte han provocado problemas y retrasos que han afectado a las dos ramas de trabajo. 
+Además, haciendo aún hincapié en la comunicación entre miembros del equipo, la experiencia hubiese sido más disfrutable si el feedback que sí hubo de las otras partes fuese traído de una manera más calmada y pacífica, ya que, en muchas ocasiones, no apetecía pedir una opinión pensando en que sería una negativa rotunda, especialmente en el caso de ideas propias. 
+Fuera de esto, también debí haber dedicado más tiempo en organizar mis tareas de forma adecuada en el Trello, pues si bien lo utilizaba, no lo hacía aprovechando al máximo lo que ofrece.  
+SOLUCIÓN: De cara a la Gold probar las texturas y modelos en el nivel en cuanto están hechos, y probar el nivel a medida que se van haciendo cambios, comunicando el progreso a los demás miembros del equipo y logrando así perder menos tiempo en errores que podrían haberse evitado.
+
+#### Gema
+**Rol: Environment Artist, Assets Artist, Environment Lightning and Texturizer** 
+**¿Qué ha ido bien?**
+- Los elementos y plataformas que se iban a utilizar han gustado en general tanto a los integrantes del grupo como a las personas externas que han jugado el juego. Se han hecho comentarios acerca de la personalidad que había adquirido el mundo y lo bien integrado que estaban los elementos iniciales 
+- Las reuniones semanales nos han ayudado a alcanzar objetivos y a mantener un ritmo de trabajo. Además, nos ha permitido hacer un seguimiento de trabajo de cada uno de los integrantes.  
+- La constancia y el esfuerzo que le han puesto todos. La ayuda de todos sobre todos, el tener miembros en el equipo multidisciplinares hizo que el ayudar a un compañero fuese rápido y mantuvo el ritmo de trabajo. 
+ 
+**Flujo de correcciones** 
+Creo que, aunque los colores del mundo estuvieron mandándose para comprobar el tono, el hecho de no probarlo en el mundo con los diseñadores de niveles y probar una combinación de colores adecuada provocó que, al final, solo hubiese un color en el mundo.  
+
+**Feedback externo** 
+Aunque el color monocromático de la beta ha sido un error, a las personas en general le ha gustado la ambientación y el cuidado de las texturas.  
+Aunque siempre había alguien dispuesto ayudar se ha estado de acuerdo en general que la restricción artística y creativa que ha supuesto el proyecto ha afectado en gran medida a los bloqueos y los parones de arte. Aun así se ha solventado con la mayor rapidez posible y siempre se ha animado a mantener una decisión competente dirigida por la persona que tenía ese rol principal
+  
+**¿Qué se podría haber mejorado?**
+Podría haberme duplicado el proyecto yo misma para poder probar las texturas poco a poco y hacer las pruebas de color en el mundo directamente.  
+De cada a la Gold mejorar no solo la coloración del mundo son también incluir más variedad de texturas al mundo para darle más personalidad. 
+Creo que también podría haber tenido más comunicación con mis compañeros que sirven de enlace a mi trabajo directamente. Es decir, supervisar que llegaran bien las Uvs de las texturas o que se importaban en Unity correctamente.  
+Mejorar la gama cromática de la paleta ya que, en general, todos los colores tienen poco brillo y saturación. 
+El haber sido la encargada de una red social durante la Beta tampoco ha sido sencilla porque, aunque teníamos material para empezar se fue retrasando hasta casi el final de la fase. 
+SOLUCIÓN: De cara a la siguiente entrega adoptar más el rol de supervisión de arte para poder encajar con más facilidad las piezas y no retrasar el trabajo de los programadores.  
+Cambiar los colores de la paleta facilitará que el proyecto obtenga la sensación de viveza que se había perdido en la Beta. 
+
+#### Mónica
+**Rol: 3D artist and animation** 
+**¿Qué ha ido bien?**
+Los modelos del mundo creados fueron bien recibidos a pesar de la ausencia de decoración. En general, la comunicación con el resto del equipo fue efectiva, especialmente gracias a las reuniones semanales y la herramienta Trello.  
+
+**Flujo de correcciones** 
+Considerando las exportaciones de Blender a Unity, habría sido necesario realizar pruebas de todos los modelos en Unity antes de cargarlos como definitivos en Github. Esto habría permitido ahorrar tiempo a los otros compañeros y corregir oportunamente posibles problemas.  
+Retroalimentación externa 
+Por lo general todo fueron buenas críticas, a nivel funcional el juego tenía pocos bugs y estéticamente si se echó en falta decoración que se añadirá para la gold. 
+
+**¿Qué se podría haber mejorado?**
+Como mejoras se ha aprendido que hay que exportar con la escala correcta y aplicar las trasformaciones antes de hacer el skinning de los personajes. Por lo general la comunicación ha sido correcta, pero si se ha tenido que mejorar comunicación entre ramas en ocasiones.  
+Así mismo el tiempo jugó mucho en nuestra contra puesto que no ajustamos bien las tareas acordes a este y esto provocó retrasos y agobios. 
+SOLUCIÓN  
+Como solución para la siguiente entrega ajustar los tiempos de las tareas, que sean tiempos asequibles, probar los modelos en unity antes de pasarlos como definitivos y aumentar la comunicación con el resto de los integrantes sobre todo con la parte de level desing.  
+
+#### Alicia
+**Rol: UI Designer, UI Artist, Tecnical Artist, Project Coordinator, Programmer Assistant**
+**¿Qué ha ido bien?**
+Toda la parte de interfaces ha gustado en general a la gente. Ha sido buena idea seguir un mismo concepto a lo largo de las interfaces y la UI, ya que consigue integrar las pantallas y que no saquen al jugador de la inmersión en el videojuego. 
+En esta entrega de la versión Beta he funcionado también como nexo de unión entre arte y programación, lo cual ha mejorado la comunicación entre las dos partes. Esto ha sido beneficioso para dejar claro qué especificaciones necesitaba una parte y cómo la otra podía ajustar su trabajo para no tener que empezar de nuevo.
+ 
+**Flujo de correcciones** 
+Creo que, en cuanto a interfaces de usuario, todo el flujo de correcciones se realizó de forma adecuada. Se realizaron pruebas internas y se pidió consejo al resto de integrantes una vez ya había un diseño boceteado de las pantallas, se realizaron los cambios que se consideraron oportunos y se pasó al diseño final, dejando algunos elementos a elegir entre varias opciones ya diseñadas al resto del grupo. Con esto se montaron las pantallas finales y se integraron en el juego. 
+En la parte de shaders y VFX, en esta entrega se llegó con muy poca cantidad de trabajo en este ámbito, por lo que no se pudo hacer un gran flujo de correcciones. Sin embargo, algunos de los efectos tenían ligeros fallos, por lo que se editaron sobre la marcha según iban surgiendo, lo cual no es muy eficiente. 
+
+**Feedback externo** 
+La mayoría de las personas que probaron el juego cercanas al grupo, pero ajenas, dijeron que las interfaces estaban bien, salvo algún bug relacionado con las resoluciones o ciertos navegadores específicos. 
+Algunas quejas sobre mi área de trabajo fueron el escalado de las texturas, el cual se podría haber resuelto con un shader triplanar, y la falta de sombras arrojadas en el mundo. Otras quejas fueron sobre la falta de algunas pantallas como los créditos, y sobre la ausencia de efectos especiales que dieran vida al juego. 
+
+**¿Qué se podría haber mejorado?** 
+De cara a la entrega de la fase Beta de Lullaby creo que debería haber aprendido a medir mejor los tiempos de mis tareas y no subestimar cuánto me llevaría completarlas al 100%. 
+También creo que el hecho de haber estado intentando ayudar y supervisando a otros compañeros para que las cosas fluyesen entre todas las áreas de trabajo ha hecho que dejase mis propias tareas de lado algunas veces. Esto, sumado a que no he querido delegar partes de mis actividades para poder ayudar yo a otros ha hecho que mi carga de trabajo aumente y me estresara más de la cuenta. 
+SOLUCIÓN: De cara a próximas entregas me gustaría ponerme límites de tiempo más realistas y saber desde el primer momento si tengo rol de organización de equipo, para así adaptar mis tareas consecuentemente. 
+A rasgo general para todos: Fechas con valores largos, que sean realistas. Avisar con tiempo si no se va a llegar con algo y saber delegar 
+
+## 11. EQUIPO E INTEGRANTES
 El equipo está formado por seis integrantes y una persona externa asociada al proyecto encargada de la música y los efectos de sonido. 
 Cada integrante interno cuenta con varios roles dentro del proyecto y se encarga de una parte del juego. 
 ### Alejandro Campbell Legarreta
