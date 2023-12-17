@@ -1111,6 +1111,48 @@ Las principales inspiraciones para la música y sonidos del juego han sido Hollo
 ### Objetivo
 La finalidad de este modelo de negocio es hacer de este proyecto uno rentable, que produzca los ingresos suficientes para mantenerse en desarrollo. En base a esta aspiración, se han hecho análisis tanto del público objetivo como del propio videojuego buscando un producto disfrutable, información que se ve reflejada en el plan de monetización y en una campaña de marketing constante y creativa.  
 Todo lo mencionado se realiza teniendo en mente un tiempo de vida comercial de mínimo 2 años, tiempo que permitiría al equipo conocer a su comunidad formar una relación de retroalimentación positiva en el crecimiento de esta y de Lullaby.  
+
+### Mapa de empatía
+#### ¿Qué piensa y siente? 
+Piensa en los videojuegos como un ocio y algo que disfruta. Le gusta jugar a ellos en su tiempo libre y le encanta probar juegos creados por pequeños estudios. 
+#### ¿Qué oye? 
+Ve muchas redes sociales y sigue a los estudios de videojuegos que le gustan, pendiente de nuevos títulos y de recomendaciones de nuevos estudios emergentes. También escucha las recomendaciones de sus amigos y de los diferentes creadores de contenido de las plataformas de streaming. 
+#### ¿Qué ve? 
+Su entorno cercano también disfruta de los videojuegos y se recomiendan títulos entre ellos. También quedan para jugar y se prestan videojuegos. Ve anuncios de videojuegos en el móvil y a gente cercana y desconocidos disfrutar y hablar de los nuevos lanzamientos. 
+#### ¿Qué dice y hace? 
+Es una persona muy abierta en cuanto a hablar de sus gustos. Le hace feliz hablar con sus amigos sobre nuevos videojuegos que ha visto por redes sociales, y atraer a nuevos jugadores de su círculo de amigos y familiares. Entra en las plataformas digitales de juegos para ver ofertas y nuevos títulos, así como se acerca a tiendas físicas a ver novedades. 
+#### Esfuerzos / Miedos
+Tiene miedo de invertir demasiado dinero en un juego sin saber si le va a gustar. Trata de estar al día con los gameplays y trailers de los juegos que le atraen, pero no se decide a comprarlos fácilmente. 
+#### Resultados / Beneficios 
+Adquiriría un juego de un pequeño estudio y apoyaría a desarrolladores independientes. Compraría un juego con personalidad y creado con cariño. Descubriría un nuevo estudio de videojuegos al que seguir y apoyar.
+
+### Monetización 
+Buy to Play: Pago único. Se debe adquirir el juego para poder jugarlo.
+Donaciones y financiación: Los jugadores y usuarios que deseen seguir apoyando el desarrollo pueden aportar donaciones con ese fin en plataformas como Kickstarter. Además, es relevante también la financiación por parte de programas y plataformas de ayuda a pequeños desarrolladores como lo es el PlayStation Talents.
+Portabilidad a otras plataformas: Lullaby se ha diseñado teniendo también en mente el control mediante mandos, con controles adaptados para PlayStation, Xbox y Nintendo Switch. Esto se ha desarrollado con la idea de expandir el mercado a consolas, idea que de tener éxito permitirá un nuevo público y por lo tanto un aumento de la comunidad y los ingresos.
+Establecimiento de la marca: Este proyecto también funciona como una herramienta para el crecimiento de Origaming, permitiendo al equipo un nuevo nivel de inmersión en el mercado de los videojuegos y, al igual que sus predecesores, estableciendo la empresa como unos desarrolladores capaces con un portafolio que lo acredita.
+
+### Marketing 
+1-	Autopromoción: Se utilizarán las redes sociales oficiales del estudio para publicitar los productos. Esta promoción es constante en todas las redes (Twitter, Instagram, Tik Tok…), manteniendo al público actualizado con el desarrollo, a la vez que variada en cuanto a su contenido. Por ejemplo: 
+-	Teaser: Al comienzo de la producción se realizó un pequeño vídeo promocional de Lullaby que tiene como protagonistas a los personajes de Doing Time, el anterior proyecto del estudio.
+-	Trailer: El vídeo promocional oficial del juego, que muestra pequeños fragmentos de jugabilidad y mecánicas.
+-	Píldoras informativas: Una serie de vídeos cortos donde los miembros del proyecto comentan todo tipo de aspectos del desarrollo.
+-	Historias y publicaciones: La creación de contenido constante para informar de avances en el desarrollo, nuevas actualizaciones, y futuras ideas, así como mostras curiosidades de Lullaby.
+-	Concursos y sorteos: Una serie de pequeños incentivos como pegatinas o figuras que invitan a los seguidores a compartir y dar exposición a la cuenta oficial del estudio para participar.
+-	Dinámicas creativas: Todo tipo de pequeñas interacciones con la comunidad donde, por ejemplo, tanto el equipo del juego como los fans publican sus dibujos de la protagonista en un post.
+Todas estas técnicas buscan crear una experiencia fresca que atraiga al público y lo incite a interactuar con la comunidad del juego, buscando como meta final el suficiente interés para que lo compre.
+
+2-	Word of Mouth (de boca a boca): que se use como método de marketing indirecto. Sería una forma de promoción el juego sin que el propio estudio controle la manera en que se habla del juego.  
+El apartado de autopromoción va ligado a este de manera indirecta, pues las múltiples dinámicas y el constante contenido ayuda a crear una comunidad más fiel e incita así al público a hablar del juego con sus círculos cercanos. 
+
+3-	 Asistencia a eventos: Origaming es un equipo que se destaca por su participación en todo tipo de eventos y jams, lo que de cara a Lullaby permite presentar este nuevo proyecto en entornos llenos de personas interesadas, ofreciendo a los curiosos la oportunidad de probarlo y dando voz al producto. Ejemplos de estos eventos son el Madrid Games Week o la Game Jam de Colonia.
+
+### Modelo Canvas
+<p align="center">
+<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/ModelCanvas.png" width = "auto" height = "250">
+</p>
+
+### Plan de marketing a 2 años
 A continuación, se detalla un posible plan de marketing diseñado para los próximos dos años, con el objetivo principal de publicar el juego Lullaby a finales de 2025. 
 Objetivos Principales. 
 -	Conseguir generar atención y expectativas por "Lullaby" en el mercado de los videojuegos, en especial en el nicho de los juegos indie españoles. 
@@ -1159,46 +1201,6 @@ Evaluación y Futuro.
 -	Mantener la comunidad informada sobre futuros desarrollos y proyectos del estudio. 
 -	Portar el juego a otras plataformas para ampliar la base de jugadores del videojuego. 
 Este plan se basa en la construcción de una comunidad activa y comprometida, aprovechando las fortalezas narrativas y de juego de "Lullaby". Además, el plan se ha diseñado de manera flexible para poder adaptarlo a las situaciones que se presenten en los próximos 24 meses.
-
-### Mapa de empatía
-#### ¿Qué piensa y siente? 
-Piensa en los videojuegos como un ocio y algo que disfruta. Le gusta jugar a ellos en su tiempo libre y le encanta probar juegos creados por pequeños estudios. 
-#### ¿Qué oye? 
-Ve muchas redes sociales y sigue a los estudios de videojuegos que le gustan, pendiente de nuevos títulos y de recomendaciones de nuevos estudios emergentes. También escucha las recomendaciones de sus amigos y de los diferentes creadores de contenido de las plataformas de streaming. 
-#### ¿Qué ve? 
-Su entorno cercano también disfruta de los videojuegos y se recomiendan títulos entre ellos. También quedan para jugar y se prestan videojuegos. Ve anuncios de videojuegos en el móvil y a gente cercana y desconocidos disfrutar y hablar de los nuevos lanzamientos. 
-#### ¿Qué dice y hace? 
-Es una persona muy abierta en cuanto a hablar de sus gustos. Le hace feliz hablar con sus amigos sobre nuevos videojuegos que ha visto por redes sociales, y atraer a nuevos jugadores de su círculo de amigos y familiares. Entra en las plataformas digitales de juegos para ver ofertas y nuevos títulos, así como se acerca a tiendas físicas a ver novedades. 
-#### Esfuerzos / Miedos
-Tiene miedo de invertir demasiado dinero en un juego sin saber si le va a gustar. Trata de estar al día con los gameplays y trailers de los juegos que le atraen, pero no se decide a comprarlos fácilmente. 
-#### Resultados / Beneficios 
-Adquiriría un juego de un pequeño estudio y apoyaría a desarrolladores independientes. Compraría un juego con personalidad y creado con cariño. Descubriría un nuevo estudio de videojuegos al que seguir y apoyar.
-
-### Monetización 
-Buy to Play: Pago único. Se debe adquirir el juego para poder jugarlo.
-Donaciones y financiación: Los jugadores y usuarios que deseen seguir apoyando el desarrollo pueden aportar donaciones con ese fin en plataformas como Kickstarter. Además, es relevante también la financiación por parte de programas y plataformas de ayuda a pequeños desarrolladores como lo es el PlayStation Talents.
-Portabilidad a otras plataformas: Lullaby se ha diseñado teniendo también en mente el control mediante mandos, con controles adaptados para PlayStation, Xbox y Nintendo Switch. Esto se ha desarrollado con la idea de expandir el mercado a consolas, idea que de tener éxito permitirá un nuevo público y por lo tanto un aumento de la comunidad y los ingresos.
-Establecimiento de la marca: Este proyecto también funciona como una herramienta para el crecimiento de Origaming, permitiendo al equipo un nuevo nivel de inmersión en el mercado de los videojuegos y, al igual que sus predecesores, estableciendo la empresa como unos desarrolladores capaces con un portafolio que lo acredita.
-
-### Marketing 
-1-	Autopromoción: Se utilizarán las redes sociales oficiales del estudio para publicitar los productos. Esta promoción es constante en todas las redes (Twitter, Instagram, Tik Tok…), manteniendo al público actualizado con el desarrollo, a la vez que variada en cuanto a su contenido. Por ejemplo: 
--	Teaser: Al comienzo de la producción se realizó un pequeño vídeo promocional de Lullaby que tiene como protagonistas a los personajes de Doing Time, el anterior proyecto del estudio.
--	Trailer: El vídeo promocional oficial del juego, que muestra pequeños fragmentos de jugabilidad y mecánicas.
--	Píldoras informativas: Una serie de vídeos cortos donde los miembros del proyecto comentan todo tipo de aspectos del desarrollo.
--	Historias y publicaciones: La creación de contenido constante para informar de avances en el desarrollo, nuevas actualizaciones, y futuras ideas, así como mostras curiosidades de Lullaby.
--	Concursos y sorteos: Una serie de pequeños incentivos como pegatinas o figuras que invitan a los seguidores a compartir y dar exposición a la cuenta oficial del estudio para participar.
--	Dinámicas creativas: Todo tipo de pequeñas interacciones con la comunidad donde, por ejemplo, tanto el equipo del juego como los fans publican sus dibujos de la protagonista en un post.
-Todas estas técnicas buscan crear una experiencia fresca que atraiga al público y lo incite a interactuar con la comunidad del juego, buscando como meta final el suficiente interés para que lo compre.
-
-2-	Word of Mouth (de boca a boca): que se use como método de marketing indirecto. Sería una forma de promoción el juego sin que el propio estudio controle la manera en que se habla del juego.  
-El apartado de autopromoción va ligado a este de manera indirecta, pues las múltiples dinámicas y el constante contenido ayuda a crear una comunidad más fiel e incita así al público a hablar del juego con sus círculos cercanos. 
-
-3-	 Asistencia a eventos: Origaming es un equipo que se destaca por su participación en todo tipo de eventos y jams, lo que de cara a Lullaby permite presentar este nuevo proyecto en entornos llenos de personas interesadas, ofreciendo a los curiosos la oportunidad de probarlo y dando voz al producto. Ejemplos de estos eventos son el Madrid Games Week o la Game Jam de Colonia.
-
-### Modelo Canvas
-<p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/ModelCanvas.png" width = "auto" height = "250">
-</p>
 
 ## 9. ANÁLISIS MDA
 ### Experiencia de juego 
