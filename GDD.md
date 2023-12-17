@@ -16,6 +16,7 @@ Version 1.3.2: Añadir apartado de arte 2D y 3D con concept art y vfx, iluminaci
 
 Version 1.4. Añadir imágenes de los apartado 
 
+GDD versión 2.0:
 Versión 2.1: Cambiar imágenes 
 
 Versión 2.1.1: Cambiar imágenes de controles
@@ -41,6 +42,13 @@ Versioón 2.5: Ficha de niveles
 Versioón 2.5.1. Añadir secciones y completarlas
 
 Versioón 2.5.2: Incluir imágenes
+
+GDD versión 3.0:
+Versión 3.1: Añadir objetivo en plan de marketing 
+
+Versión 3.1.1: Modificación de la monetización y de la autopromoción 
+
+Versión 3.2: Añadir imagenes de la gold a las interfaces
 
 ## 2. INTRODUCCIÓN
 El presente Game Desing Document (GDD) proporciona una visión integral de “Lullaby”. A lo largo del documento se van a ir desarrollando y explorando los detalles conceptuales que atañan al desarrollo, las características que lo definen. 
@@ -340,7 +348,7 @@ Como protagonista, Lulla es el móvil que pone en marcha los sucesos del juego. 
 En cuanto a Lulla como personaje, las características que destacan son su inocencia, su determinación y la tristeza.
 #### Métricas del jugador 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/PlayerMetricsTable.png" width = "auto" height = "450">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/PlayerMetricsTable.png" width = "auto" height = "450">
 </p>
 
 #### Habilidades del juagdor 
@@ -361,7 +369,7 @@ Habrá tres enemigos, dos “genéricos” y un boss, como se ha mencionado ante
 - Ovejas Dolly: Clones de la oveja Dolly, cuya vida y comportamiento es más complejo que la de sus compañeros Fobos. El objetivo de estos enemigos es hacer los combates más interesantes y delimitar áreas donde pueda haber coleccionables o zonas explorables. Podrían aparecer también en zonas de plataformas, pero de forma más inusual.  
 Todos los valores son orientativos y aproximados, después de realizar cálculos y establecer el máximo de enemigos de cada tipo a la vez y el daño del jugador por ataque se establecerán los valores finales.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/EnemiesTable.png" width = "auto" height = "150">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/EnemiesTable.png" width = "auto" height = "150">
 </p>
 
 #### Jefes
@@ -384,28 +392,28 @@ Características:
 El juego cuenta con 3 tipos de controles diferentes, entre ellos se encuentran teclado y ratón, móvil y gamepad (PlayStation, Nintendo, Xbox o cualquiera genérico). Además, los indicadores contextuales del juego se adaptan en función del tipo de control que se está usando. 
 ##### PlayStation
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/PS_controls.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/PS_controls.png" width = "auto" height = "250">
 </p>
 
 ##### XBOX
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/XBox_controls.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/XBox_controls.png" width = "auto" height = "250">
 </p>
 
 ##### Dispositivos móviles
 En dispositivos móviles los controles estarán superpuestos en la interfaz, con un joystick para el movimiento, 4 botones para las acciones principales, un botón para la pausa en la esquina superior derecha y para mover la cámara basta con deslizar el dedo en la mitad derecha de la pantalla. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/movile_controls.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/movile_controls.png" width = "auto" height = "250">
 </p>
 
 ##### Switch
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/Switch_controls.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/Switch_controls.png" width = "auto" height = "250">
 </p>
 
 ##### PC
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/PC_controls.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/PC_controls.png" width = "auto" height = "250">
 </p>
 
 #### Cámaras
@@ -423,7 +431,8 @@ Esta sencillez se caracteriza por una barra de sueño situada en la esquina supe
 La interfaz de juego debe ser sencilla y despejada para facilitar el mayor rango de visión posible para el jugador.  
 Por ello, el jugador solo dispondrá de la barra de sueño (o vida) en la esquina superior izquierda. Esta barra tiene una animación simulando el líquido de una lámpara de lava, con los colores morados y azules de la paleta, y cuenta con un reborde de un color que lo resalte del escenario 3D. También tendrá un icono que será el mismo de los elementos 3D que se sitúan por el escenario y que al recogerlos recargan esta barra. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/HUD/HUDSketch2.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/HUD/HUDSketch2.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/HUD/HUD_Interfaces.png" width = "auto" height = "250">
 </p>
 La información contextual que aparece para interactuar con los elementos de la escena puede situarse en el inferior de la pantalla centrada, o puede integrarse dentro del mundo 3D en forma de “bocadillos” cerca o encima del objeto interactivo. 
 La opción más atractiva visualmente y que mejor encaja con la estética que se quiere conseguir es la segunda, además de aumentar la cohesión entre el 2D y el 3D del juego. Es por ello que cuando el jugador se acerca a un elemento interactivo aparece un pequeño “bark”  o burbuja encima del elemento con un icono del botón a pulsar para interactuar con él. 
@@ -437,13 +446,14 @@ Si el usuario está jugando al juego desde un dispositivo móvil se superpone a 
 - Cruz de botones A/B/X/Y. Se sitúan en la parte inferior derecha de la pantalla y tienen las mismas acciones asociadas que los botones de un mando físico.
 - Botón de pausa. Se sitúa en la parte superior derecha y permite al usuario pausar el juego.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/HUD/HUDSketch3.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/HUD/HUDSketch3.jpg" width = "auto" height = "250">
 </p>
 
 ### Diálogos
 Los diálogos siguen el estilo de los del juego Animal Crossing, situando a Lulla en un lado de la pantalla y al NPC en el otro lado. Para ello cuando se interactúe con un personaje y se abra la interfaz de diálogo, previamente habrá un movimiento de cámara para situar a los personajes en esta posición. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Dialogs/DialogInterfaceSketch1.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Dialogs/DialogInterfaceSketch1.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Dialogs/Dialogue_Interface.png" width = "auto" height = "250">
 </p>
 
 La interfaz de diálogo consiste en una nube donde aparece la conversación que está teniendo lugar. Sobre esta nube se sitúa una pequeña etiqueta con el nombre del personaje que está hablando en la parte superior izquierda. A su vez, en la parte inferior derecha se encuentra el botón o la tecla asignada a continuar con el diálogo. 
@@ -453,7 +463,8 @@ Los tutoriales son in-game y aparecen al acercarse a la parte delantera de un ob
 Cuando el jugador entra en la zona designada, aparece sobre el cartel una pequeña ventana integrada en el mundo 3D que muestra el tutorial a aprender. 
 La ventana tiene forma de nube y los tutoriales están dibujados como si fueran bocetos y en ellos se muestra el botón a pulsar para realizar esa acción a aprender. En la parte superior de la ventana se sitúa el título del tutorial.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Tutorials/TutorialInterfaceSketch2.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Tutorials/TutorialInterfaceSketch2.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Tutorials/Tutorial_Interface.png" width = "auto" height = "250">
 </p>
 
 Para salir del tutorial el jugador debe alejarse y salir del rango del cartel, y esta burbuja se cierra. De esta forma no se interrumpe el movimiento del jugador ni se vuelve intrusivo para él. 
@@ -461,7 +472,7 @@ Para salir del tutorial el jugador debe alejarse y salir del rango del cartel, y
 ###  Diagramas de flujo de interfaces
 En el siguiente diagrama podemos observar cómo interaccionan las diferentes interfaces entre sí y cómo se pasa de una a otra. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/FlowOfScreen.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/FlowOfScreen.png" width = "auto" height = "250">
 </p>
 
 ### Pantalla de inicio 
@@ -469,7 +480,7 @@ La pantalla de inicio es la pantalla principal del juego desde la que el usuario
 Es por ello que debe ser una pantalla que capture la esencia del juego, pero sin desvelar la trama y los secretos del mismo. 
 Es por ello que se han barajado varias posibles opciones de pantalla de inicio, todas con su propuesta de disposición, de botones y de gráficos de fondo. En ambos casos, el logo y el título permanecen inalterados, ya que es una parte importante de la pantalla de inicio y debe ocupar gran parte de la pantalla y estar centrado en ella. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Main%20Screen/MainScreenSketch2.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Main%20Screen/MainScreenSketch2.jpg" width = "auto" height = "250">
 </p>
 
 El diseño final de la pantalla de inicio tiene a Lulla dormida plácidamente, con un cielo estrellado sobre ella. La luna es el logo del juego y al seleccionar un botón de la lista de opciones, este se decora con una estrella a cada lado y se subraya. 
@@ -482,20 +493,21 @@ La pantalla de inicio cuenta con los siguientes botones:
 Después de contar con un boceto inicial, durante la creación de la pantalla definitiva de barajaron varias opciones y se reorganizaron los elementos. Se situaron las opciones de la interfaz en el centro para lograr una disposición más coherente y visualmente más equilibrada. 
 Resultado de pantalla: 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Main%20Screen/Main_menu.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Main%20Screen/Main_menu.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Main%20Screen/Night_MainSCreen.png" width = "auto" height = "250">
 </p>
 
 ### Pantalla de carga
 Esta pantalla aparece cuando se acede a una nueva partida, informando al jugador de que se están cargando los recursos del juego. 
 Para proporcionar información constante al jugador de que el juego sigue cargando y no se ha quedado colgado hay una animación que se repite en bucle. De esta forma también conseguimos que la pantalla no sea estática y no aburra al jugador.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Loading/LoadingScreenSketch3.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Loading/LoadingScreenSketch3.jpg" width = "auto" height = "250">
 </p>
 
 El estilo final de la pantalla será un fondo de un cielo nocturno con una gran luna llena y unas nubes que la acompañan. En la parte inferior de la pantalla aparecerá el texto “Cargando...” y la animación de las estrellas girando. 
 Resultado de pantalla: 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Loading/00_Example.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Loading/00_Example.png" width = "auto" height = "250">
 </p>
 
 ### Pantalla de pausa
@@ -504,7 +516,7 @@ La pausa es una pantalla que se superpone al juego, por lo que se verá en todo 
 Se superpone la barra de sueño descrita en la interfaz de juego para que el usuario sepa en todo momento la “vida” de la que dispone. 
 De la misma forma, encontramos una lista de botones con los que el usuario puede interactuar. El estilo visual de estos sigue el descrito para los botones de la pantalla de inicio. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Pause/PauseScreenSketch2.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Pause/PauseScreenSketch2.jpg" width = "auto" height = "250">
 </p>
 
 - Continuar. Des-pausa el juego.
@@ -514,7 +526,7 @@ De la misma forma, encontramos una lista de botones con los que el usuario puede
 La estética que esta pantalla trata de simular es la de que el juego pausado es un reflejo en la superficie de la luna que está en el cielo nocturno y que está ligeramente tapada por una nube. 
 Resultado de pantalla:
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Pause/00_Example.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Pause/Pause_Interface.png" width = "auto" height = "250">
 </p>
 
 ### Patalla de opciones
@@ -527,7 +539,8 @@ Las características que el jugador puede personalizar son las siguientes.
 - Idioma (solo si se accede desde el menú principal). Botones para seleccionar el idioma del juego.
 - Activar/Desactivar controles de móvil. Una casilla de verificación para activar y desactivar la interfaz de los controles para dispositivos móviles.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Options/OptionsScreenSketch3.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Options/OptionsScreenSketch3.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Options/00_Example.png" width = "auto" height = "250">
 </p>
 
 La pantalla sigue la estética descrita anteriormente, con un fondo haciendo referencia al cielo y las opciones sobre una nube con forma rectangular.
@@ -536,7 +549,7 @@ La pantalla sigue la estética descrita anteriormente, con un fondo haciendo ref
 Esta pantalla muestra los diferentes mapeos de controles dependiendo del dispositivo de entrada que el usuario quiera usar.  
 Para cada control se muestra un diagrama del mismo junto con las acciones asignadas a cada accionador. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/ControlsScreenSketch1.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Controlls/ControlsScreenSketch1.jpg" width = "auto" height = "250">
 </p>
 
 Dentro de la pantalla de controles el usuario puede navegar por las diferentes pestañas creadas para cada posible dispositivo de entrada. En total hay cinco pestañas: 
@@ -548,7 +561,7 @@ Dentro de la pantalla de controles el usuario puede navegar por las diferentes p
 La estética de esta pantalla sigue la línea de un cielo como fondo y nubes como los botones para cambiar entre pestañas. Además, para marcar la pestaña seleccionada, la nube de ese control está aumentada, desplazada hacia abajo y decorada con estrellas y una luna.
 Resultado de pantalla:
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/Interface_controls.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Definitive%20Art/Screens%20and%20Interfaces/Controlls/Interface_controls.png" width = "auto" height = "250">
 </p>
 
 ### Pantalla de usuario 
@@ -557,20 +570,25 @@ Esta pantalla consigue que, a la hora de recoger datos para las métricas de pen
 Además, le recuerda al usuario que si está usando un móvil puede activar los controles táctiles. 
 Una vez el jugador ha introducido un nombre y ha personalizado los controles, comienza el juego pulsando la tecla que aparece al lado de “continuar” en la esquina inferior derecha. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Nikname/NiknameScreenSketch3.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Nikname/NiknameScreenSketch3.jpg" width = "auto" height = "250">
+</p>
+AL final esta pantalla no se ha desarrollado y en su lugar se ha optado por una en la que hay que indicar el género y la edad.
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Nikname/Genre.png" width = "auto" height = "250">
 </p>
 
 ### Pantalla de selección de idioma
 Esta pantalla aparece antes que cualquier otra cuando se inicia el juego. En ella aparecen botones con forma de banderas representando los diferentes idiomas en los que está el juego. 
 Para avanzar, el usuario debe escoger el idioma de su preferencia y el juego se traducirá automáticamente a este. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Language/LanguageScreenSketch1.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Language/LanguageScreenSketch1.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/Screens%20and%20Interfaces/Language/Language_Interface.png" width = "auto" height = "250">
 </p>
 
 ### Diagrama de flujo entre pantallas
 En el siguiente diagrama podemos observar cómo interaccionan las diferentes Pantallas entre sí y cómo se pasa de una a otra. 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/FlowOfScreen.png" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/FlowOfScreen.png" width = "auto" height = "250">
 </p>
 
 ## 6. NIVELES
@@ -583,13 +601,13 @@ Se ha decidido dividir en mitades los niveles para que el jugador pueda ver los 
 
 Elementos de los niveles: 
 - Bloques de salto básico: Es un bloque de altura determinada para que el jugador salte una única vez. Habrá zonas amplias diseñadas para permitir al jugador la posibilidad de explorar el mundo a pesar de tener un camino principal establecido. De esta manera, se proporcionan rutas alternativas para que el jugador no se sienta limitado y pueda investigar o experimentar cierta sensación de libertad en el mundo En esta imagen se intenta representar lo dicho anteriormente; el jugador puede ente plataformas con distinto nivel de altura o puede optar por el camino de altura inferior para llegar a la siguiente plataforma.
-  <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/basic_jumping_platform.jpg" width = "auto" height = "250">
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/basic_jumping_platform.jpg" width = "auto" height = "250">
 </p>
 
 - Bloques y columnas de doble salto: Los bloques y las columnas de doble salto son elementos del mundo que se presentarán para introducir el concepto del doble salto, que adquirirá una mayor complejidad en etapas posteriores del juego. Al igual que en el apartado anterior, se ofrecerán múltiples opciones de camino dentro del recorrido que el jugador debe seguir. En la imagen proporcionada, se ilustra lo mencionado, permitiendo al jugador saltar entre las columnas o explorar la parte trasera de la imagen para intentar abordar las columnas desde una perspectiva diferente.
-  <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Double_jump_blocks_and_columns.jpg" width = "auto" height = "250">
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Double_jump_blocks_and_columns.jpg" width = "auto" height = "250">
 </p>
 
 - Plataformas móviles: Son plataformas situadas en el aire que ejecutarán diferentes movimientos, incluyendo desplazamientos verticales en el eje y en ambas direcciones, así como movimientos horizontales en los ejes x, y, z. Estos darán lugar a la creación de diversos patrones, los cuales serán definidos en detalle a continuación.
@@ -603,33 +621,33 @@ Elementos de los niveles:
 </p>
 
 - Plataformas caíbles: Plataformas que se caen si el jugador está encima durante un tiempo determinado. El tiempo variará dependiendo del nivel en el que se esté.
- <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Dropable_platforms.jpg" width = "auto" height = "250">
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Dropable_platforms.jpg" width = "auto" height = "250">
 </p>
 
 - Botones: Se incorporarán botones en ciertas áreas del juego para activar plataformas móviles que facilitarán la progresión a través de secciones que de otra manera serían intransitables. La imagen que se muestra ejemplifica una situación como la descrita anteriormente. La zona resaltada en rojo representa un área de peligro para el jugador. Como se puede apreciar en la imagen, al presionar el botón, la plataforma se desplazará hacia la ubicación del jugador, permitiéndole cruzar esa zona. Una vez que la plataforma móvil llegue al extremo opuesto, realizará un recorrido de regreso. Aunque, más adelante en la progresión del juego pueden tener solo un sentido de movimiento.
- <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/buttons.jpg" width = "auto" height = "250">
+<p align="center">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/buttons.jpg" width = "auto" height = "250">
 </p>
 
 - Pinchos:  Los pinchos serán un elemento peligroso en el entorno del juego y reducirán la vida del jugador al entrar en contacto con ellos. Se han diseñado con el propósito de evitar que, si el jugador comete un error y cae en un obstáculo, no sufra una derrota instantánea, especialmente en secciones donde caer al vacío puede ser una amenaza constante. Esto se hace para prevenir la frustración del jugador al minimizar las pausas en el juego y mantener un ritmo fluido en la jugabilidad. Además, los pinchos servirán para marcar el camino a seguir, lo cual es esencial para la orientación del jugador. Estos elementos se combinarán con paredes, plataformas y otros elementos en etapas posteriores del juego. A continuación, se mostrará un prototipo de los pinchos.
  <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/spikes.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/spikes.jpg" width = "auto" height = "250">
 </p>
 
 - Doble pared: Las "dobles paredes" consisten en dos paredes cercanas y una plataforma en la parte superior. Para acceder a la plataforma superior, se requiere el uso de esta mecánica. Por lo general, en la parte inferior de las dobles paredes, habrá elementos peligrosos como pinchos u otros obstáculos dañinos.
  <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/double_wall.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/double_wall.jpg" width = "auto" height = "250">
 </p>
 
 - Tambores: Son unos cilindros con tambor y unas baquetas, que lo que hacen es hacer un efecto trampolín al dejarte caer, pero al estar en el punto más alto se tiene la oportunidad de tener salto doble y mantener esa altura
  <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/spring_platforms.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/spring_platforms.jpg" width = "auto" height = "250">
 </p>
 
 - Chekpoints: Cada ciertos obstáculos o enfrentamientos, se pondrán chekpoints para agilizar la experiencia del jugador. Aquí un ejemplo:
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/checkpoints_elements.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/checkpoints_elements.jpg" width = "auto" height = "250">
 </p>
 
 - Raíles: Son el método de desplazamiento más rápido dentro del mundo, con el cual, el jugador se desliza. Se intercalarán con obstáculos que tenga que saltar y esquivar. Además, existen desvíos en el mundo para obtener vida adicional, o en un futuro posibles coleccionables. Xon el fin de que el jugador no tenga que repetir zonas, se proporcionará un raíl que le lleve de vuelta al camino principal.
@@ -639,18 +657,18 @@ Elementos de los niveles:
 
 - Elementos decorativos: Habrá dados, y bastones de caramelo a modo de decoración en el mundo. Además, se utilizará como guía para que el jugador sepa por dónde dirigirse en caso de que se vea algo perdido.  Puede haber agrupaciones de estos o encontrártelos de forma individual como se mostrará a continuación. Los elementos del mundo son fantásticos y ayudan a decorar las escenas, otorgando la personalidad que se busca al juego. Algun ejemplo de ello es la imagen que se muestra a continuación.
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
   <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/Decorative_element.png" width = "auto" height = "250">
 </p>
 
 #### Concepto de nivel 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
 </p>
 
 ### Esquema de progresión del juego 
 <p align="center">
-<img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
+  <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/decorative_elements.jpg" width = "auto" height = "250">
 </p>
 
 ### Ficha de niveles
@@ -1088,6 +1106,10 @@ Las principales inspiraciones para la música y sonidos del juego han sido Hollo
 
 
 ## 8. MODELO DE NEGOCIO 
+### Objetivo
+La finalidad de este modelo de negocio es hacer de este proyecto uno rentable, que produzca los ingresos suficientes para mantenerse en desarrollo. En base a esta aspiración, se han hecho análisis tanto del público objetivo como del propio videojuego buscando un producto disfrutable, información que se ve reflejada en el plan de monetización y en una campaña de marketing constante y creativa.  
+Todo lo mencionado se realiza teniendo en mente un tiempo de vida comercial de mínimo 2 años, tiempo que permitiría al equipo conocer a su comunidad formar una relación de retroalimentación positiva en el crecimiento de esta y de Lullaby.  
+
 ### Mapa de empatía
 #### ¿Qué piensa y siente? 
 Piensa en los videojuegos como un ocio y algo que disfruta. Le gusta jugar a ellos en su tiempo libre y le encanta probar juegos creados por pequeños estudios. 
@@ -1103,11 +1125,26 @@ Tiene miedo de invertir demasiado dinero en un juego sin saber si le va a gustar
 Adquiriría un juego de un pequeño estudio y apoyaría a desarrolladores independientes. Compraría un juego con personalidad y creado con cariño. Descubriría un nuevo estudio de videojuegos al que seguir y apoyar.
 
 ### Monetización 
-Buy to Play: Pago único. Se debe adquirir el juego para poder jugarlo. 
+Buy to Play: Pago único. Se debe adquirir el juego para poder jugarlo.
+Donaciones y financiación: Los jugadores y usuarios que deseen seguir apoyando el desarrollo pueden aportar donaciones con ese fin en plataformas como Kickstarter. Además, es relevante también la financiación por parte de programas y plataformas de ayuda a pequeños desarrolladores como lo es el PlayStation Talents.
+Portabilidad a otras plataformas: Lullaby se ha diseñado teniendo también en mente el control mediante mandos, con controles adaptados para PlayStation, Xbox y Nintendo Switch. Esto se ha desarrollado con la idea de expandir el mercado a consolas, idea que de tener éxito permitirá un nuevo público y por lo tanto un aumento de la comunidad y los ingresos.
+Establecimiento de la marca: Este proyecto también funciona como una herramienta para el crecimiento de Origaming, permitiendo al equipo un nuevo nivel de inmersión en el mercado de los videojuegos y, al igual que sus predecesores, estableciendo la empresa como unos desarrolladores capaces con un portafolio que lo acredita.
 
 ### Marketing 
-1- Autopromoción: Se utilizarían las redes sociales oficiales del estudio para publicitar los productos 
-2- Word of Mouth (de boca a boca): que se use como método de marketing indirecto. Sería una forma de promoción el juego sin que el propio estudio controle la manera en que se habla del juego.  
+1-	Autopromoción: Se utilizarán las redes sociales oficiales del estudio para publicitar los productos. Esta promoción es constante en todas las redes (Twitter, Instagram, Tik Tok…), manteniendo al público actualizado con el desarrollo, a la vez que variada en cuanto a su contenido. Por ejemplo: 
+-	Teaser: Al comienzo de la producción se realizó un pequeño vídeo promocional de Lullaby que tiene como protagonistas a los personajes de Doing Time, el anterior proyecto del estudio.
+-	Trailer: El vídeo promocional oficial del juego, que muestra pequeños fragmentos de jugabilidad y mecánicas.
+-	Píldoras informativas: Una serie de vídeos cortos donde los miembros del proyecto comentan todo tipo de aspectos del desarrollo.
+-	Historias y publicaciones: La creación de contenido constante para informar de avances en el desarrollo, nuevas actualizaciones, y futuras ideas, así como mostras curiosidades de Lullaby.
+-	Concursos y sorteos: Una serie de pequeños incentivos como pegatinas o figuras que invitan a los seguidores a compartir y dar exposición a la cuenta oficial del estudio para participar.
+-	Dinámicas creativas: Todo tipo de pequeñas interacciones con la comunidad donde, por ejemplo, tanto el equipo del juego como los fans publican sus dibujos de la protagonista en un post.
+Todas estas técnicas buscan crear una experiencia fresca que atraiga al público y lo incite a interactuar con la comunidad del juego, buscando como meta final el suficiente interés para que lo compre.
+
+2-	Word of Mouth (de boca a boca): que se use como método de marketing indirecto. Sería una forma de promoción el juego sin que el propio estudio controle la manera en que se habla del juego.  
+El apartado de autopromoción va ligado a este de manera indirecta, pues las múltiples dinámicas y el constante contenido ayuda a crear una comunidad más fiel e incita así al público a hablar del juego con sus círculos cercanos. 
+
+3-	 Asistencia a eventos: Origaming es un equipo que se destaca por su participación en todo tipo de eventos y jams, lo que de cara a Lullaby permite presentar este nuevo proyecto en entornos llenos de personas interesadas, ofreciendo a los curiosos la oportunidad de probarlo y dando voz al producto. Ejemplos de estos eventos son el Madrid Games Week o la Game Jam de Colonia.
+
 ### Modelo Canvas
 <p align="center">
 <img src = "https://github.com/OrigamingCreationsProjects/Art/blob/main/Sketches/GDD_images/ModelCanvas.png" width = "auto" height = "250">
