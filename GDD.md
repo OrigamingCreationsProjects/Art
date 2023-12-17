@@ -50,6 +50,8 @@ Versión 3.1.1: Modificación de la monetización y de la autopromoción
 
 Versión 3.2: Añadir imagenes de la gold a las interfaces
 
+Versión 3.3: Añadido el plan de marketin y publicidad a 2 años
+
 ## 2. INTRODUCCIÓN
 El presente Game Desing Document (GDD) proporciona una visión integral de “Lullaby”. A lo largo del documento se van a ir desarrollando y explorando los detalles conceptuales que atañan al desarrollo, las características que lo definen. 
 Se especificará el propósito y el aspecto visual que define la inmersión del videojuego.  
@@ -1109,6 +1111,54 @@ Las principales inspiraciones para la música y sonidos del juego han sido Hollo
 ### Objetivo
 La finalidad de este modelo de negocio es hacer de este proyecto uno rentable, que produzca los ingresos suficientes para mantenerse en desarrollo. En base a esta aspiración, se han hecho análisis tanto del público objetivo como del propio videojuego buscando un producto disfrutable, información que se ve reflejada en el plan de monetización y en una campaña de marketing constante y creativa.  
 Todo lo mencionado se realiza teniendo en mente un tiempo de vida comercial de mínimo 2 años, tiempo que permitiría al equipo conocer a su comunidad formar una relación de retroalimentación positiva en el crecimiento de esta y de Lullaby.  
+A continuación, se detalla un posible plan de marketing diseñado para los próximos dos años, con el objetivo principal de publicar el juego Lullaby a finales de 2025. 
+Objetivos Principales. 
+-	Conseguir generar atención y expectativas por "Lullaby" en el mercado de los videojuegos, en especial en el nicho de los juegos indie españoles. 
+-	Aumentar la base de seguidores en redes sociales y la participación de la comunidad en los eventos organizados por el estudio. 
+-	Obtener financiación para el desarrollo del juego a través de diversas fuentes, ya sean públicas o privadas. 
+#### Fase 1: Primer año (Meses 1-12) - Desarrollo y Generación de Conciencia
+Desarrollo Continuo.
+-	Publicar actualizaciones mensuales en redes sociales sobre el progreso del juego, destacando elementos únicos y emocionantes. Así se acerca el producto al potencial cliente desde una perspectiva distinta y más cercana.
+-	Invitar a la comunidad a participar en encuestas y decisiones relacionadas con el desarrollo del juego. Así el usuario se siente parte del proceso y se involucra en él, generando una relación con el producto final y el equipo mucho más estrecha. 
+Generación de Contenido. 
+-	Crear un diario del desarrollo en el sitio web del juego para compartir historias detrás del desarrollo, arte conceptual y avances, teniendo todo el proceso recogido en punto central al que los clientes e inversores pueden acceder en cualquier momento. 
+-	Publicar trailers y teasers breves en redes sociales para mantener el interés del público y tener activa a la comunidad. 
+Presencia en Eventos. 
+-	Participar en ferias de videojuegos y eventos locales, nacionales e internacionales para mostrar el juego a potenciales inversores y jugadores, así como para recibir retroalimentación previa al lanzamiento oficial. 
+-	Organizar sesiones de juego exclusivas para la prensa y creadores de contenido., generando expectativas y aumentando la base de clientes potenciales.
+Campañas de Financiación. 
+-	Iniciar campañas de crowdfunding (Kickstarter, Indiegogo) para atraer fondos adicionales a la par que se desarrolla el juego. 
+-	Ofrecer recompensas exclusivas a los patrocinadores, como acceso anticipado, contenido exclusivo y menciones en los créditos. 
+-	Ofrecer funcionalidades especiales al llegar a ciertos objetivos de dinero en la campaña.
+#### Fase 2: Segundo año (Meses 13-24) - Construcción de Comunidad y Financiación 
+Expansión de Contenido. 
+-	Lanzar actualizaciones regulares del juego (nuevos niveles, personajes, mecánicas) para mantener el interés de la comunidad, en forma de versiones de prueba. 
+-	Permitir a la comunidad probar y dar retroalimentación sobre las nuevas características a través de estas versiones beta, ya sean abiertas al público o cerradas. 
+Compromiso en Redes Sociales. 
+-	Realizar eventos regulares en redes sociales, como concursos de fan art, preguntas y respuestas con el equipo y transmisiones en vivo. 
+-	Colaborar con influencers y creadores de contenido para ampliar el alcance del estudio y dar a conocer el juego a nueva gente. 
+Campañas de Financiación Continuas. 
+-	Buscar oportunidades de subvenciones y becas para desarrolladores de juegos indie, tanto a nivel estatal como de la Unión Europea. 
+-	Mantener la participación en campañas de crowdfunding según sea necesario para financiar nuevos desarrollos y expansión del juego. 
+Preparativos para el Lanzamiento. 
+-	Crear una página oficial en distintas plataformas de distribución de videojuegos y comenzar a recopilar listas de deseos. 
+-	Ofrecer demos exclusivas a la prensa y a los creadores de contenido antes del lanzamiento.
+#### Fase 3: Meses Finales (Meses 25-24) - Lanzamiento y Post-lanzamiento 
+Lanzamiento Oficial. 
+-	Anunciar la fecha de lanzamiento y organizar eventos de lanzamiento en redes sociales con el fin de mantener la expectación en el público previa al lanzamiento oficial. 
+-	Colaborar con plataformas de distribución para destacar "Lullaby" en sus listas destacadas. 
+Soporte Post-lanzamiento. 
+-	Proporcionar actualizaciones regulares con nuevo contenido y correcciones de errores. 
+-	Establecer una línea directa de comunicación con la comunidad para recopilar comentarios y sugerencias, así como posibles errores y bugs de las versiones. 
+Campañas de Marketing Post-lanzamiento. 
+-	Lanzar campañas de marketing digital con contenido destacado del juego, reseñas positivas y testimonios de la comunidad. 
+-	Ofrecer descuentos y promociones especiales para atraer nuevos jugadores después del lanzamiento. 
+-	Crear concursos y sorteos en redes sociales que inciten a la comunidad a participar para conseguir copias digitales y descuentos. 
+Evaluación y Futuro. 
+-	Analizar el rendimiento del juego, recopilar comentarios y prepararse para futuras expansiones o proyectos. 
+-	Mantener la comunidad informada sobre futuros desarrollos y proyectos del estudio. 
+-	Portar el juego a otras plataformas para ampliar la base de jugadores del videojuego. 
+Este plan se basa en la construcción de una comunidad activa y comprometida, aprovechando las fortalezas narrativas y de juego de "Lullaby". Además, el plan se ha diseñado de manera flexible para poder adaptarlo a las situaciones que se presenten en los próximos 24 meses.
 
 ### Mapa de empatía
 #### ¿Qué piensa y siente? 
